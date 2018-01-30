@@ -1,0 +1,5689 @@
+{
+  "grupo": [
+    {
+      "tags": [
+        "Virtualização"
+      ],
+      "desc": "Grupo Técnico sobre Virtualização https://telegram.me/joinchat/CeNhBT8CbscmECsitO6Ghg",
+      "link": "https://telegram.me/joinchat/CeNhBT8CbscmECsitO6Ghg"
+    },
+    {
+      "tags": [
+        "PowerShell"
+      ],
+      "desc": "Grupo de estudo de Powershell - Guido Oliveira https://telegram.me/joinchat/AUC_0D6cHKTQC-5tROnAIg",
+      "link": "https://telegram.me/joinchat/AUC_0D6cHKTQC-5tROnAIg"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Grupo de usuários e administradores do sistema Slackware Linux https://telegram.me/slackshowbr",
+      "link": "https://telegram.me/slackshowbr"
+    },
+    {
+      "tags": [
+        "Hacking",
+        "Programação",
+        "Segurança"
+      ],
+      "desc": "Um grupo pra quem quer falar de Hacking, programação e TI em geral https://telegram.me/protocolo_hacker",
+      "link": "https://telegram.me/protocolo_hacker"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Brasil Linux O melhor grupo LINUX do Telegram, que temos como base o S.O. GNU/Linux, que vai de usuários iniciantes / avançados! 🇧🇷:penguin: https://telegram.me/BrasilLinux",
+      "link": "https://telegram.me/BrasilLinux"
+    },
+    {
+      "tags": [
+        "Profissional"
+      ],
+      "desc": "Um grupo descontraido para falar de devops, infra ágil, cloud, carreira, vagas, eventos e assuntos para os nossos webinar. https://telegram.me/papodesysadmin",
+      "link": "https://telegram.me/papodesysadmin"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Grupo destinado ao compartilhamento de screenshot e temas para linux Canal parceiro https://telegram.me/screenshotlinux",
+      "link": "https://telegram.me/screenshotlinux"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Grupo sobre linux e seus sabores. https://telegram.me/joinchat/BjFLXT5558_1u9RYnE_N3A",
+      "link": "https://telegram.me/joinchat/BjFLXT5558_1u9RYnE_N3A"
+    },
+    {
+      "tags": [
+        "PowerShell"
+      ],
+      "desc": "Grupo para discussões de Powershell telegram.me/powershellbr",
+      "link": "telegram.me/powershellbr"
+    },
+    {
+      "tags": [
+        "Backup"
+      ],
+      "desc": "Grupo sobre os softwares de backup Bacula e Bareos telegram.me/baculabr",
+      "link": "telegram.me/baculabr"
+    },
+    {
+      "tags": [
+        "TI"
+      ],
+      "desc": "Grupo focado em compartilhar conhecimentos e tirar dúvidas sobre computação https://telegram.me/joinchat/CMresDujEqv96BJe0sucbA",
+      "link": "https://telegram.me/joinchat/CMresDujEqv96BJe0sucbA"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Grupo de usuários e administradores GNU/Linux de Sergipe https://www.telegram.me/linux_se",
+      "link": "https://www.telegram.me/linux_se"
+    },
+    {
+      "tags": [
+        "Segurança"
+      ],
+      "desc": "Grupo para discussão de Segurança da Informação e Computação do SecurityCast https://telegram.me/joinchat/BDqbczxbem7-c5AWUu4GZA",
+      "link": "https://telegram.me/joinchat/BDqbczxbem7-c5AWUu4GZA"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Grupo destinado a assustos relacionados à Linguagem C https://telegram.me/C_user",
+      "link": "https://telegram.me/C_user"
+    },
+    {
+      "tags": [
+        "Segurança"
+      ],
+      "desc": "Grupo sobre segurança em TI. Segurança – Rafael Bernardes https://telegram.me/joinchat/CeNhBT-gn2lIiiz9INuzkQ",
+      "link": "https://telegram.me/joinchat/CeNhBT-gn2lIiiz9INuzkQ"
+    },
+    {
+      "tags": [
+        "Windows"
+      ],
+      "desc": "Um grupo sobre Windows Client https://telegram.me/joinchat/D_jXgkA4il622vyLq9OBFQ",
+      "link": "https://telegram.me/joinchat/D_jXgkA4il622vyLq9OBFQ"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Um grupo sobre desenvolvimento com o Framework Adianti https://telegram.me/adiantiframework",
+      "link": "https://telegram.me/adiantiframework"
+    },
+    {
+      "tags": [
+        "Energia"
+      ],
+      "desc": "Um grupo sobre energia solar https://telegram.me/joinchat/BzHtDz8r1WGuy4g6Qo3cuw",
+      "link": "https://telegram.me/joinchat/BzHtDz8r1WGuy4g6Qo3cuw"
+    },
+    {
+      "tags": [
+        "linux"
+      ],
+      "desc": "Um grupo sobre a distro brasileira Duzeru Linux telegram.me/duzerulinux",
+      "link": "telegram.me/duzerulinux"
+    },
+    {
+      "tags": [
+        "TI"
+      ],
+      "desc": "Informática Total - Um grupo sobre informática https://telegram.me/joinchat/A6uPqjvAA_iILYbp8PHESQ Canal: https://telegram.me/joinchat/A6uPqj4i2dSPYDLd-fdZ_Q",
+      "link": "https://telegram.me/joinchat/A6uPqjvAA_iILYbp8PHESQhttps://telegram.me/joinchat/A6uPqj4i2dSPYDLd-fdZ_Q"
+    },
+    {
+      "tags": [
+        "Redes"
+      ],
+      "desc": "Um grupo sobre NxFilter telegram.me/nxfilterbr",
+      "link": "telegram.me/nxfilterbr"
+    },
+    {
+      "tags": [
+        "TI"
+      ],
+      "desc": "Um grupo destinado à discussão dos produtos da Ubiquit Networks https://telegram.me/ubiquitbr",
+      "link": "https://telegram.me/ubiquitbr"
+    },
+    {
+      "tags": [
+        "Redes"
+      ],
+      "desc": "Um grupo sobre PfSense telegram.me/pfsensebr",
+      "link": "telegram.me/pfsensebr"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Um grupo sobre AviX, uma remasterização do Ubuntu, que visa facilitar a criação de conteúdo multimídia em ambiente Linux, para isso trás ferramentas de áudio, vídeo e imagem. https://telegram.me/AviXLinux",
+      "link": "https://telegram.me/AviXLinux"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Grupo para você que está dando os primeiros passos no Linux. telegram.me/estudantelinux",
+      "link": "telegram.me/estudantelinux"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Um grupo para falar de Linux e da distribuição PC LinuxOS https://telegram.me/joinchat/CYQg4UEgD93MnBZzd1Cyzw",
+      "link": "https://telegram.me/joinchat/CYQg4UEgD93MnBZzd1Cyzw"
+    },
+    {
+      "tags": [
+        "Redes"
+      ],
+      "desc": "Grupo voltado pra soluções de roteamento utilizando Mikrotik. https://telegram.me/mikrotikbr",
+      "link": "https://telegram.me/mikrotikbr"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Grupo oficial do AngularJs Brasil https://telegram.me/angularjsbrasil",
+      "link": "https://telegram.me/angularjsbrasil"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Fullstack Developers Brasil: Grupo de discussão sobre desenvolvimento web https://telegram.me/fullstackdevelopers",
+      "link": "https://telegram.me/fullstackdevelopers"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Grupo Oficial do Grupo Node.js Brasil https://telegram.me/NodejsBR",
+      "link": "https://telegram.me/NodejsBR"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Grupo sobre Frontend do Brasil https://telegram.me/frontendbrasil",
+      "link": "https://telegram.me/frontendbrasil"
+    },
+    {
+      "tags": [
+        "Design"
+      ],
+      "desc": "Design da Depressão: Um grupo sobre design, produção audiovisual e gráfica. https://telegram.me/joinchat/Bt793z4GQ5XLwwaShVR14A",
+      "link": "https://telegram.me/joinchat/Bt793z4GQ5XLwwaShVR14A"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "Grupo destinado a qualquer assunto relacionado a criptomoedas: Bitcoin, Altcoins e Blockchain. https://telegram.me/Criptomoedas",
+      "link": "https://telegram.me/Criptomoedas"
+    },
+    {
+      "tags": [
+        "Geral",
+        "MoedaVirtual"
+      ],
+      "desc": "Grupo sobre Bitcoin e qualquer coisa relacionada a Blockchain. https://telegram.me/btcbr",
+      "link": "https://telegram.me/btcbr"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Um grupo sobre Java e assuntos diversos. https://telegram.me/javadevs",
+      "link": "https://telegram.me/javadevs"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "O grupo Go BR é um grupo voltado ao aprendizado, discussão e notícias sobre a linguagem de programação GO. https://telegram.me/go_br",
+      "link": "https://telegram.me/go_br"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Manjaro Brasil https://telegram.me/joinchat/CckomT_VWn5QJFjGdeWDNQ",
+      "link": "https://telegram.me/joinchat/CckomT_VWn5QJFjGdeWDNQ"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "DevOps Br Grupo para discutir e compartilhar informações e cases sobe a Cultura DevOps. telegram.me/devopsbr",
+      "link": "telegram.me/devopsbr"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Ruby on Rio Um grupo de Ruby no Rio de Janeiro https://telegram.me/joinchat/BHHBuj9mw2_r7L3qKdxnCA",
+      "link": "https://telegram.me/joinchat/BHHBuj9mw2_r7L3qKdxnCA"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Um grupo da comunidade Python do Rio de Janeiro https://telegram.me/PythonRio",
+      "link": "https://telegram.me/PythonRio"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Python https://telegram.me/pythonbr",
+      "link": "https://telegram.me/pythonbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Suporte"
+      ],
+      "desc": "Grupo de amantes software livre do Rio de Janeiro https://telegram.me/SoftLivreRJ",
+      "link": "https://telegram.me/SoftLivreRJ"
+    },
+    {
+      "tags": [
+        "Python"
+      ],
+      "desc": "🇬🇧 Um grupo para dúvidas, perguntas e discussões sobre a biblioteca python-telegram-bot e para alguma extensão, bots do Telegram em geral. Off-topic group: https://telegram.me/pythontelegrambottalk https://telegram.me/pythontelegrambotgroup",
+      "link": "https://telegram.me/pythontelegrambottalkhttps://telegram.me/pythontelegrambotgroup"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Grupo Brasileiro para amantes de Slim Framework e criação de APIs RESTful https://telegram.me/joinchat/CV2U9kCv6NgMSnmU9WDu1w",
+      "link": "https://telegram.me/joinchat/CV2U9kCv6NgMSnmU9WDu1w"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Grupy-DF: Grupo dos membros da comunidade Python do Distrito Federal https://telegram.me/grupydf",
+      "link": "https://telegram.me/grupydf"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Grupo de discussões sobre .NET, ASP.NET, .NET, Mono, .NET Core, Xamarin, etc. http://telegram.me/dotnetbr",
+      "link": "http://telegram.me/dotnetbr"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Grupo brasileiro sobre o XFCE, o desktop leve, rápido e prático telegram.me/xfcebrasil",
+      "link": "telegram.me/xfcebrasil"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Grupo destinado à suporte e trocas de expêriencias sobre o openSUSE telegram.me/openSUSE",
+      "link": "telegram.me/openSUSE"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Grupo da Comunidade GNU/Linux Sempreupdate, ligado ao site sempreupdate.org cujo o foco é fomentar o uso do GNU/Linux. Já são mais de 750 pessoas no grupo, compartilhando conhecimento e claro, ajudando aos mais variados usuários das distribuições. https://telegram.me/joinchat/AbDu9jv9mMuEmOyk-wvIGw",
+      "link": "https://telegram.me/joinchat/AbDu9jv9mMuEmOyk-wvIGw"
+    },
+    {
+      "tags": [
+        "Virtualização"
+      ],
+      "desc": "Grupo sobre OpenStack: um software de código aberto capaz de gerenciar componentes de múltiplas infraestruturas virtualizadas. https://telegram.me/openstackbr",
+      "link": "https://telegram.me/openstackbr"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "Um grupo sobre OPENSIPS: uma implementação de software livre do protocolo de iniciação de sessão (SIP) para voz sobre IP (VoIP), usado pra comunicação via voz, texto e vídeo. telegram.me/opensipsbrasil",
+      "link": "telegram.me/opensipsbrasil"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Ciência"
+      ],
+      "desc": "Grupo sobre SciPy https://telegram.me/joinchat/CKvynj6m4PHvHHUzUAsKEA",
+      "link": "https://telegram.me/joinchat/CKvynj6m4PHvHHUzUAsKEA"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Telegram"
+      ],
+      "desc": ":us::us: Um grupo gringo sobre desenvolvimento de Bots para Telegram :us::us: telegram.me/BotDevelopment",
+      "link": "telegram.me/BotDevelopment"
+    },
+    {
+      "tags": [
+        "Robótica",
+        "Hardware"
+      ],
+      "desc": "Grupo para falar de invenções caseiras (relacionadas à robótica, tecnologia ou eletrônica ) que você ou seu parente fez. telegram.me/invencoescaseirasGP",
+      "link": "telegram.me/invencoescaseirasGP"
+    },
+    {
+      "tags": [
+        "MoedaVirtual"
+      ],
+      "desc": "Um grupo sobre Bitcoin telegram.me/brasilbitcoin",
+      "link": "telegram.me/brasilbitcoin"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Grupo para troca de experiências sobre Linux, sem uma distro específica. https://telegram.me/sos_linux",
+      "link": "https://telegram.me/sos_linux"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Linux Brasil: um grupo sobre Linux https://telegram.me/linux_brasil",
+      "link": "https://telegram.me/linux_brasil"
+    },
+    {
+      "tags": [
+        "SoftwareLivre",
+        "Linux"
+      ],
+      "desc": "Um grupo de Software Livre no Telegram https://telegram.me/GrupoSL",
+      "link": "https://telegram.me/GrupoSL"
+    },
+    {
+      "tags": [
+        "Redes",
+        "DeepWeb"
+      ],
+      "desc": "Grupo de estudos e bate-papo sobre DeepWeb https://telegram.me/grupodeepwebbrasil",
+      "link": "https://telegram.me/grupodeepwebbrasil"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Grupo destinado ao Manjaro Linux, uma das melhores distros baseadas no Arch Linux da atualidade. https://telegram.me/joinchat/B4RGBD2qt5Q51BwVGQetHQ",
+      "link": "https://telegram.me/joinchat/B4RGBD2qt5Q51BwVGQetHQ"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Telegram"
+      ],
+      "desc": "Um grupo de discussão sobre desenvolvimento de robôs para Telegram. https://telegram.me/DesenvolvimentoDeRobos",
+      "link": "https://telegram.me/DesenvolvimentoDeRobos"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "ZimBrasil: Um grupo sobre Zimbra https://telegram.me/zimBrasil",
+      "link": "https://telegram.me/zimBrasil"
+    },
+    {
+      "tags": [
+        "Design"
+      ],
+      "desc": ":us::us: Um grupo gringo sobre Design Gráfico e Arte Digital :us::us: https://telegram.me/joinchat/A1Zotj7dCUhFWoSqscYNtw",
+      "link": "https://telegram.me/joinchat/A1Zotj7dCUhFWoSqscYNtw"
+    },
+    {
+      "tags": [
+        "Linux",
+        "Grupo"
+      ],
+      "desc": "oficial da distro Kubuntu :us: :us: https://telegram.me/kubuntu_support",
+      "link": "https://telegram.me/kubuntu_support"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Notícias Tecnológicas, GNU, Linux, livros. telegram.me/terminalgnulinux GRUPO: https://telegram.me/joinchat/BFjXgT3HNhOI3vvjjTFHCw",
+      "link": "telegram.me/terminalgnulinuxhttps://telegram.me/joinchat/BFjXgT3HNhOI3vvjjTFHCw"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": ":us::us: Um grupo gringo sobre Programação :us::us: telegram.me/theprogrammingartgroup",
+      "link": "telegram.me/theprogrammingartgroup"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": ":es::es: Um grupo em espanhol sobre a distro Linux Gentoo :es::es: telegram.me/gentoo_es",
+      "link": "telegram.me/gentoo_es"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Um grupo de usuários Brasileiros sobre Linux Gentoo https://telegram.me/gentoobr",
+      "link": "https://telegram.me/gentoobr"
+    },
+    {
+      "tags": [
+        "Segurança",
+        "Grupo"
+      ],
+      "desc": "https://telegram.me/RootSec_Treinamentos",
+      "link": "https://telegram.me/RootSec_Treinamentos"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": ":es::es: Um grupo em espanhol sobre Arch Linux :es::es: https://telegram.me/ArchlinuxLatinoamerica",
+      "link": "https://telegram.me/ArchlinuxLatinoamerica"
+    },
+    {
+      "tags": [
+        "MoedaVirtual"
+      ],
+      "desc": "Um grupo sobre MarteXcoin: única moeda com algoritmo X13 com PoW e PoS simultaneamente telegram.me/martexcoin",
+      "link": "telegram.me/martexcoin"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "Grupo só sobre compartilhamento e duvidas do ACBR / NFE / NFCe etc ... https://telegram.me/joinchat/CEMxwEDWs0wJL9X10nwqww",
+      "link": "https://telegram.me/joinchat/CEMxwEDWs0wJL9X10nwqww"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Grupo de discussão sobre PHP em Geral https://telegram.me/phpbrasil",
+      "link": "https://telegram.me/phpbrasil"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "Grupo voltado à discussão sobre a plataforma Magento, networking entre profissionais e entusiastas no ramo de ecommerce https://telegram.me/magentobr",
+      "link": "https://telegram.me/magentobr"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "Um grupo de usuários sobre Puppet https://telegram.me/puppetbr",
+      "link": "https://telegram.me/puppetbr"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Grupo de discução e aprendizado da ferramenta VueJS. telegram.me/vuejsbrasil",
+      "link": "telegram.me/vuejsbrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Kali Linux Brasil https://telegram.me/kalibrasil",
+      "link": "https://telegram.me/kalibrasil"
+    },
+    {
+      "tags": [
+        "Segurança"
+      ],
+      "desc": "Grupo segurança da informação para todos estudantes e profissionais da área que queiram se qualificar. https://telegram.me/joinchat/CMresD3WPNYgujOxhpVYkA",
+      "link": "https://telegram.me/joinchat/CMresD3WPNYgujOxhpVYkA"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "Grupo Sistemas de informação para todos estudantes e profissionais do ramo de T.I https://telegram.me/joinchat/CMresD9DHyW6v5adSFVVMg",
+      "link": "https://telegram.me/joinchat/CMresD9DHyW6v5adSFVVMg"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Linux Aprendendo https://telegram.me/linuxaprendendo",
+      "link": "https://telegram.me/linuxaprendendo"
+    },
+    {
+      "tags": [
+        "Eletrônica"
+      ],
+      "desc": "Um grupo sobre eletrônica https://telegram.me/joinchat/Bsxrrj7fj_gwrFZAEPziTQ",
+      "link": "https://telegram.me/joinchat/Bsxrrj7fj_gwrFZAEPziTQ"
+    },
+    {
+      "tags": [
+        "Geral",
+        "Empregos"
+      ],
+      "desc": "Um grupo com oportunidades de emprego de vários consultores de TI e headhunters de todo o Brasil https://telegram.me/oportunidades_de_ti",
+      "link": "https://telegram.me/oportunidades_de_ti"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Grupo de IONIC 2 no Brasil https://telegram.me/ionic2br",
+      "link": "https://telegram.me/ionic2br"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Web"
+      ],
+      "desc": ":es::es: Grupo em espanhol sobre desenvolvimento Web :es::es: telegram.me/programarwebs",
+      "link": "telegram.me/programarwebs"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": ":us::us: Grupo gringo sobre a distro Linux Fedora :us::us: telegram.me/fedora",
+      "link": "telegram.me/fedora"
+    },
+    {
+      "tags": [
+        "Redes"
+      ],
+      "desc": "Grupo de Redes de computadores para todos profissionais e estudantes que querem se qualificar https://telegram.me/joinchat/CMresEBv-4-uOHF9Zcg3xA",
+      "link": "https://telegram.me/joinchat/CMresEBv-4-uOHF9Zcg3xA"
+    },
+    {
+      "tags": [
+        "Geral",
+        "Web"
+      ],
+      "desc": "Grupo da Mozilla Brasil telegram.me/mozillabr",
+      "link": "telegram.me/mozillabr"
+    },
+    {
+      "tags": [
+        "Gestão"
+      ],
+      "desc": "Um grupo sobre GLPI e Gestão de Serviços telegram.me/glpibr",
+      "link": "telegram.me/glpibr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Windows"
+      ],
+      "desc": "Windows 10 Brasil https://telegram.me/windows10brasil",
+      "link": "https://telegram.me/windows10brasil"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Linux Aprendendo Grupo Linux Aprendendo: telegram.me/linuxaprendendo Canal Notícias Linux: @linuxaprendendonews Repositório - Linux Aprendendo: @linuxaprendendorepositorio",
+      "link": "telegram.me/linuxaprendendo"
+    },
+    {
+      "tags": [
+        "TI",
+        "Web"
+      ],
+      "desc": "Grupo para compartilhar conhecimento e tirar dúvidas sobre produtos Amazon Web Services telegram.me/awsbrasil",
+      "link": "telegram.me/awsbrasil"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": ":us::us: Grupo gringo sobre a distro Arch Linux :us::us: https://telegram.me/archlinuxgroup",
+      "link": "https://telegram.me/archlinuxgroup"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI"
+      ],
+      "desc": "Mundo Sem Fio https://telegram.me/joinchat/AuXnYD97DtOvfo86xef85g",
+      "link": "https://telegram.me/joinchat/AuXnYD97DtOvfo86xef85g"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": ":us::us: KDE Neon :us::us: https://telegram.me/kdeneon",
+      "link": "https://telegram.me/kdeneon"
+    },
+    {
+      "tags": [
+        "BSD"
+      ],
+      "desc": "Este grupo é dedicado para usuários de sistemas com kernel BSD https://telegram.me/joinchat/ArXcYT3CMjmWIy8FgGl-MA",
+      "link": "https://telegram.me/joinchat/ArXcYT3CMjmWIy8FgGl-MA"
+    },
+    {
+      "tags": [
+        "Office",
+        "SoftwareLivre"
+      ],
+      "desc": "Grupo sobre LibreOffice https://telegram.me/libreofficebr",
+      "link": "https://telegram.me/libreofficebr"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Grupo sobre Linux no Telegram https://telegram.me/joinchat/CYyDAT0Jg_EVAEedD9qgsw",
+      "link": "https://telegram.me/joinchat/CYyDAT0Jg_EVAEedD9qgsw"
+    },
+    {
+      "tags": [
+        "Bitcoin",
+        "MoedaVirtual"
+      ],
+      "desc": ":us::us: Grupo gringo sobre Bitcoin e Bitcoin Core :us::us: telegram.me/BitcoinCore",
+      "link": "telegram.me/BitcoinCore"
+    },
+    {
+      "tags": [
+        "SAP",
+        "Empregos"
+      ],
+      "desc": "Grupo para divulgação de Vagas SAP telegram.me/jobs4sap",
+      "link": "telegram.me/jobs4sap"
+    },
+    {
+      "tags": [
+        "Geral",
+        "Segurança"
+      ],
+      "desc": "Grupo voltado para Tecnologia e Segurança da Informação https://telegram.me/grupotecnologiaesi",
+      "link": "https://telegram.me/grupotecnologiaesi"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Snake Coding: um grupo sobre Python e programação em geral. telegram.me/snakecoding",
+      "link": "telegram.me/snakecoding"
+    },
+    {
+      "tags": [
+        "Hacking"
+      ],
+      "desc": "Grupo de estudos sobre Hacking e Pentest telegram.me/hackinginfo",
+      "link": "telegram.me/hackinginfo"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": ":es::es: Grupo em espanhol sobre programação e tecnologia em geral :es::es: https://telegram.me/joinchat/B_A1Pj6MjQONv1_EP1EJQg",
+      "link": "https://telegram.me/joinchat/B_A1Pj6MjQONv1_EP1EJQg"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Tudo sobre Linux https://telegram.me/linuxers",
+      "link": "https://telegram.me/linuxers"
+    },
+    {
+      "tags": [
+        "Mac"
+      ],
+      "desc": "Grupo de usuários de Mac https://telegram.me/joinchat/AejjFT67s-ATqOO5Yt_E-w",
+      "link": "https://telegram.me/joinchat/AejjFT67s-ATqOO5Yt_E-w"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "Grupo sobre OpenCart https://telegram.me/opencartbrasil",
+      "link": "https://telegram.me/opencartbrasil"
+    },
+    {
+      "tags": [
+        "SoftwareLivre"
+      ],
+      "desc": ":us::us: Grupo gringo sobre Software Livre :us::us: https://telegram.me/joinchat/A1Zotj7_uxcPq5Tb6JWgdQ",
+      "link": "https://telegram.me/joinchat/A1Zotj7_uxcPq5Tb6JWgdQ"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": " _Pythoniacs https://telegram.me/pythoniacs",
+      "link": "https://telegram.me/pythoniacs"
+    },
+    {
+      "tags": [
+        "Hacking"
+      ],
+      "desc": "Grupo sobre Hacking telegram.me/KooLApse",
+      "link": "telegram.me/KooLApse"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": ":es::es: Grupo em espanhol sobre Python :es::es: telegram.me/pythones",
+      "link": "telegram.me/pythones"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": ":es::es: Grupo em espanhol sobre Linux :es::es: telegram.me/gnulinuxgrupo",
+      "link": "telegram.me/gnulinuxgrupo"
+    },
+    {
+      "tags": [
+        "Servers"
+      ],
+      "desc": "Grupo sobre Docker telegram.me/dockerbr",
+      "link": "telegram.me/dockerbr"
+    },
+    {
+      "tags": [
+        "Geral",
+        "Redes"
+      ],
+      "desc": "Grupo sobre Zimbra telegram.me/zimbrasil",
+      "link": "telegram.me/zimbrasil"
+    },
+    {
+      "tags": [
+        "TI"
+      ],
+      "desc": "Grupo sobre Dados Abertos telegram.me/dadosabertos",
+      "link": "telegram.me/dadosabertos"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "Seja Maker: grupo sobre a cultura Maker https://telegram.me/joinchat/DB0_gz8N7qEAyX08y4HO4A",
+      "link": "https://telegram.me/joinchat/DB0_gz8N7qEAyX08y4HO4A"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Oficina do Tux http://telegram.me/grupooficina",
+      "link": "http://telegram.me/grupooficina"
+    },
+    {
+      "tags": [
+        "Geral",
+        "Empregos"
+      ],
+      "desc": "Grupo sobre Home Office no Brasil https://telegram.me/joinchat/B5-ADEBaoz2kIKQnDLq9VA",
+      "link": "https://telegram.me/joinchat/B5-ADEBaoz2kIKQnDLq9VA"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": ":us::us: Grupo em inglês sobre Manjaro :us::us: telegram.me/manjaro",
+      "link": "telegram.me/manjaro"
+    },
+    {
+      "tags": [
+        "Android"
+      ],
+      "desc": "Grupo sobre Ressuction Remix, uma custom ROM Android https://telegram.me/joinchat/C_-hKz-x5rzf2EnbGEVSFA",
+      "link": "https://telegram.me/joinchat/C_-hKz-x5rzf2EnbGEVSFA"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": ":es::es: Grupo em espanhol sobre Programação :es::es: telegram.me/general_programacion",
+      "link": "telegram.me/general_programacion"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Grupo sobre Expressões Regulares telegram.me/expressoesregulares",
+      "link": "telegram.me/expressoesregulares"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Grupo de Usuários de PHP da cidade do Rio de Janeiro, onde além de debater sobre tecnologia os integrantes debatem e organizam eventos que auxiliam o desenvolvimento do ecossistema PHP http://telegram.me/phprio",
+      "link": "http://telegram.me/phprio"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Bem vindos ao grupo de programação C e C++ Brasil. https://telegram.me/cppbrazil",
+      "link": "https://telegram.me/cppbrazil"
+    },
+    {
+      "tags": [
+        "Robótica"
+      ],
+      "desc": ":it::it: Grupo italiano sobre Arduino :it::it: telegram.me/arduinoitalia",
+      "link": "telegram.me/arduinoitalia"
+    },
+    {
+      "tags": [
+        "Segurança",
+        "SoftwareLivre"
+      ],
+      "desc": "Grupo do evento \"Encripta Tudo Unicamp\". Aqui discutimos assuntos como software livre, privacidade e criptografia. telegram.me/encriptatudo",
+      "link": "telegram.me/encriptatudo"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Grupo sobre Elementary OS telegram.me/elementarybr",
+      "link": "telegram.me/elementarybr"
+    },
+    {
+      "tags": [
+        "Hardware"
+      ],
+      "desc": ":us::us: Grupo gringo sobre Hardware Livre :us::us: telegram.me/freehardware",
+      "link": "telegram.me/freehardware"
+    },
+    {
+      "tags": [
+        "Oracle"
+      ],
+      "desc": "Oracle Maniacs: grupo sobre Oracle telegram.me/oraclemaniacs",
+      "link": "telegram.me/oraclemaniacs"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Grupo sobre a linguagem de programação C telegram.me/devcodebr_c",
+      "link": "telegram.me/devcodebr_c"
+    },
+    {
+      "tags": [
+        "Geral",
+        "Empregos"
+      ],
+      "desc": "Grupo com vagas de TI em todo o Brasil telegram.me/vagastibr",
+      "link": "telegram.me/vagastibr"
+    },
+    {
+      "tags": [
+        "TI"
+      ],
+      "desc": "Problemas e soluções em informática (Computadores). Grupo focado no assunto. Canal: telegram.me/informaticatotal Grupo: https://telegram.me/joinchat/A6uPqjvAA_iILYbp8PHESQ",
+      "link": "telegram.me/informaticatotalhttps://telegram.me/joinchat/A6uPqjvAA_iILYbp8PHESQ"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Software"
+      ],
+      "desc": "Grupo de usuários VIM do Brasil telegram.me/vimbr",
+      "link": "telegram.me/vimbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Criptografia",
+        "Segurança"
+      ],
+      "desc": "Crypto & InfoSec https://telegram.me/Criptografia",
+      "link": "https://telegram.me/Criptografia"
+    },
+    {
+      "tags": [
+        "Empregos",
+        "TI"
+      ],
+      "desc": "Grupo voltado ao networking dos profissionais de TI em Pernambuco, com anúncios de vagas de emprego e desenvolvimento pessoal. https://telegram.me/itjobspe",
+      "link": "https://telegram.me/itjobspe"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Snake Coding: grupo sobre Python telegram.me/snakecoding",
+      "link": "telegram.me/snakecoding"
+    },
+    {
+      "tags": [
+        "BSD"
+      ],
+      "desc": "Grupo sobre FreeBSD https://telegram.me/joinchat/CYyDAQdfCM7eViX0q56zfw",
+      "link": "https://telegram.me/joinchat/CYyDAQdfCM7eViX0q56zfw"
+    },
+    {
+      "tags": [
+        "Hardware",
+        "Software"
+      ],
+      "desc": "Grupo sobre Hardware e Software telegram.me/joinchat/DJehWghhl70HXXd0bwRiew",
+      "link": "telegram.me/joinchat/DJehWghhl70HXXd0bwRiew"
+    },
+    {
+      "tags": [
+        "TI"
+      ],
+      "desc": "Grupo sobre Business Intelligence https://telegram.me/businessintelligencebr",
+      "link": "https://telegram.me/businessintelligencebr"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "Grupo sobre CTF telegram.me/ctfh4k",
+      "link": "telegram.me/ctfh4k"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": ":it::it: Grupo italiano sobre programação :it::it: telegram.me/theprogrammingartgruppo",
+      "link": "telegram.me/theprogrammingartgruppo"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "OpenSource",
+        "Office"
+      ],
+      "desc": " :us::us: Comunidade LibreOffice Oficial :us::us: https://telegram.me/libreofficecommunity",
+      "link": "https://telegram.me/libreofficecommunity"
+    },
+    {
+      "tags": [
+        "Hardware",
+        "Software",
+        "Geral",
+        "TI"
+      ],
+      "desc": "Um grupo para falar de tecnologia em geral, com foco em assuntos técnicos, montagem e manutenção de computadores e resolução de dúvidas. telegram.me/tecnicos_informatica",
+      "link": "telegram.me/tecnicos_informatica"
+    },
+    {
+      "tags": [
+        "Redes",
+        "Cisco"
+      ],
+      "desc": "Grupo voltado a Redes, mas com foco principal em certificações e tecnologias Cisco telegram.me/NetworkersBR",
+      "link": "telegram.me/NetworkersBR"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": ":us::us: Grupo gringo sobre programação :us::us: telegram.me/letstalkprogramming",
+      "link": "telegram.me/letstalkprogramming"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Grupo sobre a distribuição Slackware telegram.me/slackshowbr",
+      "link": "telegram.me/slackshowbr"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Grupo de usuários da linguagem de programação Dart telegram.me/dartbrasil",
+      "link": "telegram.me/dartbrasil"
+    },
+    {
+      "tags": [
+        "Windows"
+      ],
+      "desc": "Grupo sobre Windows https://telegram.me/GaleraWindows",
+      "link": "https://telegram.me/GaleraWindows"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": ":es::es: Grupo em espanhol sobre a distribuição Linux Debian :es::es: telegram.me/debian_esp",
+      "link": "telegram.me/debian_esp"
+    },
+    {
+      "tags": [
+        "Segurança"
+      ],
+      "desc": "Grupo sobre segurança da informação telegram.me/joinchat/CeNhBT-gn2lIiiz9INuzkQ",
+      "link": "telegram.me/joinchat/CeNhBT-gn2lIiiz9INuzkQ"
+    },
+    {
+      "tags": [
+        "Linux",
+        "Programação"
+      ],
+      "desc": "Grupo sobre Emacs telegram.me/emacsbr",
+      "link": "telegram.me/emacsbr"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": ":us::us: Grupo em inglês sobre Linux :us::us: telegram.me/linux_group",
+      "link": "telegram.me/linux_group"
+    },
+    {
+      "tags": [
+        "Robótica",
+        "Eletrônica"
+      ],
+      "desc": "Grupo sobre Arduino, Raspberry Pi e eletrônica https://telegram.me/joinchat/BQwnFTxx069EQRiYyIiLJw",
+      "link": "https://telegram.me/joinchat/BQwnFTxx069EQRiYyIiLJw"
+    },
+    {
+      "tags": [
+        "Android"
+      ],
+      "desc": "Grupo sobre Android https://telegram.me/joinchat/A6uPqjv-WzZWNju6p3Z59w",
+      "link": "https://telegram.me/joinchat/A6uPqjv-WzZWNju6p3Z59w"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Grupo sobre a linguagem Python https://telegram.me/joinchat/EDnFMEARGokIXj6rDcdAAg",
+      "link": "https://telegram.me/joinchat/EDnFMEARGokIXj6rDcdAAg"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Mobile"
+      ],
+      "desc": ":es::es: Grupo em espanhol sobre programação em Java para Android :es::es: telegram.me/programacionjavaandroid",
+      "link": "telegram.me/programacionjavaandroid"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Linux Aprendendo Grupo Linux Aprendendo: telegram.me/linuxaprendendo Canal Notícias Linux: @linuxaprendendonews Repositório - Linux Aprendendo: @linuxaprendendorepositorio",
+      "link": "telegram.me/linuxaprendendo"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": ":us::us: Grupo em inglês sobre Python :us::us: telegram.me/joinchat/DP9KNUF73nvJR4GC26Lb6w",
+      "link": "telegram.me/joinchat/DP9KNUF73nvJR4GC26Lb6w"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Grupo sobre programação telegram.me/joinchat/CIEmlD5kc0XSxTKf4gbGLw",
+      "link": "telegram.me/joinchat/CIEmlD5kc0XSxTKf4gbGLw"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Grupo sobre Linux, originário do canal @beinglinux telegram.me/joinchat/Cc61oUCSY2KRte_r7QzqMw",
+      "link": "telegram.me/joinchat/Cc61oUCSY2KRte_r7QzqMw"
+    },
+    {
+      "tags": [
+        "Hacking"
+      ],
+      "desc": "Grupo voltado para Metasploit, Msfvenom, Veil Evasion, todo conteúdo relacionado a backdoor AND Evasão. telegram.me/m3t43pl01t",
+      "link": "telegram.me/m3t43pl01t"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Regional"
+      ],
+      "desc": "Grupo de Python da Paraíba. https://telegram.me/joinchat/Dsec6z9F-g2hYhetSz0OQQ",
+      "link": "https://telegram.me/joinchat/Dsec6z9F-g2hYhetSz0OQQ"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Regional"
+      ],
+      "desc": "Grupo de programadores GO do Rio de Janeiro telegram.me/joinchat/BCOBsj6vVeV62WJXeajheA",
+      "link": "telegram.me/joinchat/BCOBsj6vVeV62WJXeajheA"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": ":es::es: Grupo em espanhol sobre C e C++ :es::es: telegram.me/programacionc",
+      "link": "telegram.me/programacionc"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Grupo destinado a assustos relacionados à Linguagem C https://telegram.me/C_user",
+      "link": "https://telegram.me/C_user"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Brasil Linux O maior grupo LINUX do Telegram, que temos como base o S.O. GNU/Linux, que vai de usuários iniciantes / avançados! 🇧🇷:penguin: https://telegram.me/BrasilLinux",
+      "link": "https://telegram.me/BrasilLinux"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Grupo Lazarus - CodeTyphon (Free Pascal) https://telegram.me/joinchat/DtwgRkDYQdc8psKA1AXEoQ",
+      "link": "https://telegram.me/joinchat/DtwgRkDYQdc8psKA1AXEoQ"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "Cpanel Br: grupo de utilizadores dessa ferramenta https://telegram.me/cpanel_br",
+      "link": "https://telegram.me/cpanel_br"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Office",
+        "SoftwareLivre"
+      ],
+      "desc": "LibreOfficeBR https://telegram.me/libreofficebr",
+      "link": "https://telegram.me/libreofficebr"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": ":us::us: Grupo em inglês sobre a distribuição Linux Parrot :us::us: https://telegram.me/joinchat/AerigkC4pztMc7Hus7vRZg",
+      "link": "https://telegram.me/joinchat/AerigkC4pztMc7Hus7vRZg"
+    },
+    {
+      "tags": [
+        "Web"
+      ],
+      "desc": "VoIP Brasil: Grupo para discussão sobre telefonia IP. Elastix, FreePBX, SNEP, Asterisk,Trixbox e afins. telegram.me/brvoip",
+      "link": "telegram.me/brvoip"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Esse é um grupo para tirar duvidas de quem quer instalar e tentar usar o Linux. Debates sobre distros, assuntos no geral relacionado a o mundo open source. https://telegram.me/BemvindoaMatrix",
+      "link": "https://telegram.me/BemvindoaMatrix"
+    },
+    {
+      "tags": [
+        "Hardware",
+        "Software",
+        "Geral",
+        "TI"
+      ],
+      "desc": "Técnicos em Informática: um grupo para falar de tecnologia em geral, com foco em assuntos técnicos, montagem e manutenção de computadores e resolução de dúvidas. telegram.me/tecnicos_informatica",
+      "link": "telegram.me/tecnicos_informatica"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Regional"
+      ],
+      "desc": "Grupy-GO: Grupo de usuários Python de Goiás https://telegram.me/grupygo",
+      "link": "https://telegram.me/grupygo"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Grupo brasileiro de discussões sobre o framework web2py. https://telegram.me/joinchat/BjJfXQkbgEsnJ1L0mHI-BQ",
+      "link": "https://telegram.me/joinchat/BjJfXQkbgEsnJ1L0mHI-BQ"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "Grupo para Divulgação de grupos e canais de T.I https://telegram.me/joinchat/DtwgRkELV51FvFsKOx4aqA",
+      "link": "https://telegram.me/joinchat/DtwgRkELV51FvFsKOx4aqA"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Server",
+        "Web"
+      ],
+      "desc": ":us::us: Grupo em inglês sobre SQL Server :us::us: https://telegram.me/joinchat/EGkc2D_uDE8eXnoDUYlH0g",
+      "link": "https://telegram.me/joinchat/EGkc2D_uDE8eXnoDUYlH0g"
+    },
+    {
+      "tags": [
+        "Web",
+        "Cloud"
+      ],
+      "desc": ":us::us: CloudNLoad Meetup: grupo gringo para compartilhamento de informações, dicas e vagas sobre Cloud Computing :us::us: https://telegram.me/joinchat/C7XS5D_UcyDjW4GoMO1jLg",
+      "link": "https://telegram.me/joinchat/C7XS5D_UcyDjW4GoMO1jLg"
+    },
+    {
+      "tags": [
+        "Cloud"
+      ],
+      "desc": ":us::us: Grupo gringo sobre OpenStack :us::us: https://telegram.me/joinchat/DejbkwqBpe5V9abLl5OfrA",
+      "link": "https://telegram.me/joinchat/DejbkwqBpe5V9abLl5OfrA"
+    },
+    {
+      "tags": [
+        "Oracle"
+      ],
+      "desc": "Oracle Maniacs: Grupo para discussão de produtos, serviços e tecnologias Oracle em geral telegram.me/OracleManiacs",
+      "link": "telegram.me/OracleManiacs"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Gentoo Brasil: Grupo de usuários brasileiros da (meta)distribuição Gentoo Linux telegram.me/GentooBR",
+      "link": "telegram.me/GentooBR"
+    },
+    {
+      "tags": [
+        "Office"
+      ],
+      "desc": "Grupo sobre Excel e VBA https://telegram.me/excelbr",
+      "link": "https://telegram.me/excelbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": " Linux buddies :us::us: https://telegram.me/tuxbuddies",
+      "link": "https://telegram.me/tuxbuddies"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "PotiLivre"
+      ],
+      "desc": "Comunidade de Usuários de Software Livre do Rio Grande do Norte https://telegram.me/potilivre",
+      "link": "https://telegram.me/potilivre"
+    },
+    {
+      "tags": [
+        "Lista"
+      ],
+      "desc": "de grupos off topic com a galera de TI https://telegram.me/joinchat/DtwgRkEyNwbQji94GlqdiQ -> Off Topic dos grupos Sharing telegram.me/theofftopicingart - > :us::us: Off Topic do Art of Programming telegram.me/offtopic1 -> Off Topic do GoPheLia",
+      "link": "https://telegram.me/joinchat/DtwgRkEyNwbQji94GlqdiQtelegram.me/theofftopicingarttelegram.me/offtopic1"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": ":us::us: Grupo gringo sobre VeltOS, uma distribuição Linux baseada em Arch :us::us: telegram.me/VeltOS",
+      "link": "telegram.me/VeltOS"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": ":us::us: JavaScript Party: Grupo em inglês sobre Javascript :us::us: telegram.me/JavaScriptGroup",
+      "link": "telegram.me/JavaScriptGroup"
+    },
+    {
+      "tags": [
+        "Segurança"
+      ],
+      "desc": "Grupo sobre segurança da informação telegram.me/joinchat/CeNhBT-gn2lIiiz9INuzkQ",
+      "link": "telegram.me/joinchat/CeNhBT-gn2lIiiz9INuzkQ"
+    },
+    {
+      "tags": [
+        "Geral",
+        "TI"
+      ],
+      "desc": "Tecnologia da Informação: Grupo com objetivo em trocar ideias, dicas, tirar dúvidas e experiências. https://telegram.me/TecInfOrg",
+      "link": "https://telegram.me/TecInfOrg"
+    },
+    {
+      "tags": [
+        "Redes"
+      ],
+      "desc": "Grupo de Redes de computadores para todos profissionais e estudantes que querem se qualificar https://telegram.me/joinchat/CMresEBv-4-uOHF9Zcg3xA",
+      "link": "https://telegram.me/joinchat/CMresEBv-4-uOHF9Zcg3xA"
+    },
+    {
+      "tags": [
+        "SoftwareLivre",
+        "Office"
+      ],
+      "desc": ":it::it: Grupo italiano sobre LibreOffice :it::it: https://telegram.me/libreoffice_it",
+      "link": "https://telegram.me/libreoffice_it"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Grupo para discussão dos conceitos de Programação Funcional, principalmente para tirar dúvidas dos iniciantes. telegram.me/ProgramacaoFuncionalBrasil",
+      "link": "telegram.me/ProgramacaoFuncionalBrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "MIUI"
+      ],
+      "desc": "MIUI Brasil https://telegram.me/joinchat/DXF-PT9UNo53WKdaRL9EPw",
+      "link": "https://telegram.me/joinchat/DXF-PT9UNo53WKdaRL9EPw"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Design"
+      ],
+      "desc": "Design da Depressão https://telegram.me/joinchat/Bt793z4GQ5XLwwaShVR14A",
+      "link": "https://telegram.me/joinchat/Bt793z4GQ5XLwwaShVR14A"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Redes",
+        "Server"
+      ],
+      "desc": "Citrix XenServer telegram.me/XenServer",
+      "link": "telegram.me/XenServer"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "Grupo Sistemas de informação para todos estudantes e profissionais do ramo de T.I https://telegram.me/joinchat/CMresD9DHyW6v5adSFVVMg",
+      "link": "https://telegram.me/joinchat/CMresD9DHyW6v5adSFVVMg"
+    },
+    {
+      "tags": [
+        "Segurança"
+      ],
+      "desc": "Grupo segurança da informação para todos estudantes e profissionais da área que queiram se qualificar. https://telegram.me/joinchat/CMresD3WPNYgujOxhpVYkA",
+      "link": "https://telegram.me/joinchat/CMresD3WPNYgujOxhpVYkA"
+    },
+    {
+      "tags": [
+        "Web",
+        "Programação",
+        "Grupo"
+      ],
+      "desc": "iMasters Devs: Grupo onde amante de todas as tecnologias de desenvolvimento web compartilham conhecimentos e fazem a zoeira ser completa https://telegram.me/imastersdevs",
+      "link": "https://telegram.me/imastersdevs"
+    },
+    {
+      "tags": [
+        "Vagas",
+        "Grupo"
+      ],
+      "desc": "Jobs4 - IT Consultant Group: Grupo voltado a Vagas de IT em Geral https://telegram.me/Jobs4IT",
+      "link": "https://telegram.me/Jobs4IT"
+    },
+    {
+      "tags": [
+        "Geral",
+        "Empregos"
+      ],
+      "desc": "Um grupo com oportunidades de emprego de vários consultores de TI e headhunters de todo o Brasil https://telegram.me/oportunidades_de_ti",
+      "link": "https://telegram.me/oportunidades_de_ti"
+    },
+    {
+      "tags": [
+        "Linux",
+        "Grupo"
+      ],
+      "desc": "🗣 Faça parte de nosso grupo: :penguin: terminal@gnulinux:~# :penguin: https://telegram.me/joinchat/BFjXgT3HNhN0Ixn_nGdypw",
+      "link": "https://telegram.me/joinchat/BFjXgT3HNhN0Ixn_nGdypw"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Tecnologia"
+      ],
+      "desc": "Tech Conectados https://telegram.me/grupotechconectados",
+      "link": "https://telegram.me/grupotechconectados"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Web",
+        "Grupo"
+      ],
+      "desc": "Silex Brasil: Grupo de usuários do framework PHP Silex telegram.me/SilexBrasil",
+      "link": "telegram.me/SilexBrasil"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Web",
+        "Grupo"
+      ],
+      "desc": "Symfony Brasil: Grupo de usuários do framework PHP Symfony https://telegram.me/SymfonyBrasil",
+      "link": "https://telegram.me/SymfonyBrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Vagrant"
+      ],
+      "desc": "vagrant-users-br https://telegram.me/vagrantbr",
+      "link": "https://telegram.me/vagrantbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "C user https://telegram.me/C_user",
+      "link": "https://telegram.me/C_user"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Grupo"
+      ],
+      "desc": "Chef Brasil telegram.me/ChefBR",
+      "link": "telegram.me/ChefBR"
+    },
+    {
+      "tags": [
+        "Web",
+        "Programação",
+        "Grupo"
+      ],
+      "desc": "Grupo focado em discussão e apoio a desenvolvedores Web telegram.me/webdevsbr",
+      "link": "telegram.me/webdevsbr"
+    },
+    {
+      "tags": [
+        "Linux",
+        "Grupo"
+      ],
+      "desc": "Arch Linux Brasil telegram.me/archlinuxbrasil",
+      "link": "telegram.me/archlinuxbrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Gestão"
+      ],
+      "desc": "OTRS Brasil https://telegram.me/otrsbrasil",
+      "link": "https://telegram.me/otrsbrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Grupo destinado a todos os que fazem o curso PHP do Zero, bem como a todos os estudantes e aficionados ao PHP em geral https://telegram.me/joinchat/A74jn0C_jldxFUjcVgVGgw",
+      "link": "https://telegram.me/joinchat/A74jn0C_jldxFUjcVgVGgw"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Linux Aprendendo Grupo Linux Aprendendo: telegram.me/linuxaprendendo Canal Notícias Linux: @linuxaprendendonews Repositório - Linux Aprendendo: @linuxaprendendorepositorio",
+      "link": "telegram.me/linuxaprendendo"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Infraestrutura"
+      ],
+      "desc": "Ansible Users Brasil telegram.me/AnsibleBR",
+      "link": "telegram.me/AnsibleBR"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Regional",
+        "Infraestrutura"
+      ],
+      "desc": "Infraestrutura RN: profissionais de Infraestrutura TI do Rio Grande do Norte https://telegram.me/infrarn",
+      "link": "https://telegram.me/infrarn"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "SoftwareLivre"
+      ],
+      "desc": "Software Livre #ultraGNU telegram.me/ultraGNU",
+      "link": "telegram.me/ultraGNU"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Laravel Brasil telegram.me/laravelbr",
+      "link": "telegram.me/laravelbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Hacking",
+        "Programação",
+        "Segurança"
+      ],
+      "desc": "CyberSec BR https://telegram.me/joinchat/DE9ViD9qrRODDdqqddIcHQ",
+      "link": "https://telegram.me/joinchat/DE9ViD9qrRODDdqqddIcHQ"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação",
+        "Linux"
+      ],
+      "desc": "DevCodeBr Linux/Python telegram.me/DevCodeBR_Linux",
+      "link": "telegram.me/DevCodeBR_Linux"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Hardware",
+        "Eletrônica"
+      ],
+      "desc": "Troca e venda de equipamentos relacionados à informática, eletrônica, robótica e automação. telegram.me/CompraVendaTrocaTI",
+      "link": "telegram.me/CompraVendaTrocaTI"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Geral"
+      ],
+      "desc": "Pentaho Brasil telegram.me/Pentaho",
+      "link": "telegram.me/Pentaho"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": ":us::us: R/Linux :us::us: https://telegram.me/joinchat/BlvnFT3YhdpVtdUjgUYMdw",
+      "link": "https://telegram.me/joinchat/BlvnFT3YhdpVtdUjgUYMdw"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Hardware"
+      ],
+      "desc": "Microcontroladores PIC https://telegram.me/joinchat/DU3_nED6t4e_yeDYwTWzcA",
+      "link": "https://telegram.me/joinchat/DU3_nED6t4e_yeDYwTWzcA"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Um grupo sobre a distro brasileira Duzeru Linux telegram.me/duzerulinux",
+      "link": "telegram.me/duzerulinux"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Visual Basic Brasil https://telegram.me/joinchat/BF24Mj_uvjTSoJXqhRhOfQ",
+      "link": "https://telegram.me/joinchat/BF24Mj_uvjTSoJXqhRhOfQ"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux",
+        "Games"
+      ],
+      "desc": "GamersLinuxBR https://telegram.me/GamersLinuxBR",
+      "link": "https://telegram.me/GamersLinuxBR"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Networking",
+        "Vagas",
+        "Regional"
+      ],
+      "desc": " Fortalecer o networking dos profissionais de TIC da região Nordeste disponibilizando vagas de emprego, dicas de carreira e empreendedorismo telegram.me/ITJobsNE",
+      "link": "telegram.me/ITJobsNE"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Segurança"
+      ],
+      "desc": "Grupo sobre segurança da informação telegram.me/joinchat/CeNhBT-gn2lIiiz9INuzkQ",
+      "link": "telegram.me/joinchat/CeNhBT-gn2lIiiz9INuzkQ"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "SoftwareLivre"
+      ],
+      "desc": "GNU Brasil: um recinto para discussões e trocas de ideias sobre GNU, abrangendo pessoas defensoras do SL, mas com diferentes visões quanto a isso telegram.me/GNUbr",
+      "link": "telegram.me/GNUbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI"
+      ],
+      "desc": "Técnicos em Informática https://telegram.me/tecnicos_informatica",
+      "link": "https://telegram.me/tecnicos_informatica"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Manjaro Brasil https://telegram.me/manjarobrasiloficial",
+      "link": "https://telegram.me/manjarobrasiloficial"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "C e C++ Brasil telegram.me/CCppBrasil",
+      "link": "telegram.me/CCppBrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Café com Menta https://telegram.me/lmbrasil",
+      "link": "https://telegram.me/lmbrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI"
+      ],
+      "desc": "Grafana Brasil telegram.me/GrafanaBR",
+      "link": "telegram.me/GrafanaBR"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Cloud"
+      ],
+      "desc": "Grupo de discussões sobre Google Cloud Plattform https://telegram.me/gcpbrasil",
+      "link": "https://telegram.me/gcpbrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação",
+        "Regional"
+      ],
+      "desc": "Grupy Campinas https://telegram.me/joinchat/BCCTWj_O8w9uJKNSoEuaVA",
+      "link": "https://telegram.me/joinchat/BCCTWj_O8w9uJKNSoEuaVA"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "NativeScript Brasil telegram.me/NativeScriptBR",
+      "link": "telegram.me/NativeScriptBR"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Segurança",
+        "Hacking"
+      ],
+      "desc": "CyberSEC Brasil telegram.me/Cybersecbr",
+      "link": "telegram.me/Cybersecbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI"
+      ],
+      "desc": "Ceph Brasil telegram.me/CephBR",
+      "link": "telegram.me/CephBR"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Geral"
+      ],
+      "desc": ":us::us: ActiveMQ telegram.me/ActiveMQ",
+      "link": "telegram.me/ActiveMQ"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Bots",
+        "Programação"
+      ],
+      "desc": ":us::us: Official group for discussions and inspiration around Lua Telegram Bots :us::us: telegram.me/LuaTelegramBot",
+      "link": "telegram.me/LuaTelegramBot"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Segurança",
+        "Hacking"
+      ],
+      "desc": "Grupo de Estudo e discussões sobre Segurança da Informação, Pentest, Hacking, CTFs... https://telegram.me/initsec",
+      "link": "https://telegram.me/initsec"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação",
+        "Regional"
+      ],
+      "desc": "PHP Goiás telegram.me/GOphp",
+      "link": "telegram.me/GOphp"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Tech"
+      ],
+      "desc": "Techzone https://telegram.me/joinchat/AXlYIj5C_Oz7HhauVH3dng",
+      "link": "https://telegram.me/joinchat/AXlYIj5C_Oz7HhauVH3dng"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação",
+        "Web"
+      ],
+      "desc": "Grupo de desenvolvedores Google de Aracaju telegram.me/GDGaracaju",
+      "link": "telegram.me/GDGaracaju"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "FreeBSD"
+      ],
+      "desc": "FreeBSD Brasil https://telegram.me/joinchat/CYyDAUFhgLG8UJfPJrjTUg",
+      "link": "https://telegram.me/joinchat/CYyDAUFhgLG8UJfPJrjTUg"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "BSD"
+      ],
+      "desc": "OpenBSD Brasil https://telegram.me/joinchat/BZzzR0D8aiucCJHXWboV_g",
+      "link": "https://telegram.me/joinchat/BZzzR0D8aiucCJHXWboV_g"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "SoftwareLivre",
+        "Regional"
+      ],
+      "desc": "Software Livre em Curitiba telegram.me/SoftwareLivre_Curitiba",
+      "link": "telegram.me/SoftwareLivre_Curitiba"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação",
+        "Regional"
+      ],
+      "desc": "Python User Group Sergipe telegram.me/pugSE",
+      "link": "telegram.me/pugSE"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação",
+        "Hacking",
+        "Linux"
+      ],
+      "desc": "Pirate Security: discussões, soluções e estudo visando Linux/Unix-like, Programação e Hacking. Link sem Off-topics: https://telegram.me/joinchat/DNeGeT_ZPzd17eQb8se8lA Link para Off-topics: https://telegram.me/joinchat/Cmq4S0F1MHKDQWyOmNLJXQ Nosso Github: http://github.com/JacquesFernandes/pirate-security",
+      "link": "https://telegram.me/joinchat/DNeGeT_ZPzd17eQb8se8lAhttps://telegram.me/joinchat/Cmq4S0F1MHKDQWyOmNLJXQ"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Geral"
+      ],
+      "desc": "ZSH Brasil telegram.me/ZSHbrasil",
+      "link": "telegram.me/ZSHbrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Segurança",
+        "Redes"
+      ],
+      "desc": "CheckPoint Brasil https://telegram.me/checkpointbr",
+      "link": "https://telegram.me/checkpointbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI"
+      ],
+      "desc": "Concursos de TI https://telegram.me/joinchat/AxrvtD-hPpvGMOOPtNW6-A",
+      "link": "https://telegram.me/joinchat/AxrvtD-hPpvGMOOPtNW6-A"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Redes"
+      ],
+      "desc": "Fortinet Brasil telegram.me/FortinetBR",
+      "link": "telegram.me/FortinetBR"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Fedora https://telegram.me/fedora",
+      "link": "https://telegram.me/fedora"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Fedora https://telegram.me/fedorabr",
+      "link": "https://telegram.me/fedorabr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Redes"
+      ],
+      "desc": "Grupo para conversas sobre redes em geral. telegram.me/redesTI",
+      "link": "telegram.me/redesTI"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI"
+      ],
+      "desc": "Empreendedorismo TI https://telegram.me/joinchat/AI7jrT4ZFk94UZco3ymVsQ",
+      "link": "https://telegram.me/joinchat/AI7jrT4ZFk94UZco3ymVsQ"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Segurança"
+      ],
+      "desc": "Enterprise Security https://telegram.me/enterprisesecurity",
+      "link": "https://telegram.me/enterprisesecurity"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Bem vindo à Matrix: Grupo para tirar duvidas sobre Linux https://telegram.me/BemVindoAMatrix",
+      "link": "https://telegram.me/BemVindoAMatrix"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux",
+        "Games"
+      ],
+      "desc": "GamersLinuxBR https://telegram.me/GamersLinuxBR",
+      "link": "https://telegram.me/GamersLinuxBR"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Firebase"
+      ],
+      "desc": "Firebase Brasil https://telegram.me/firebasebrasil",
+      "link": "https://telegram.me/firebasebrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Impressão3D",
+        "KDE"
+      ],
+      "desc": ":us: KDE Atelier :us: telegram.me/KDEatelier",
+      "link": "telegram.me/KDEatelier"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "BigData",
+        "Cloud"
+      ],
+      "desc": "Grupo focado em Big Data e Cloud Computing https://telegram.me/joinchat/A8N1x0CA1VX7yJf3IsvtRQ",
+      "link": "https://telegram.me/joinchat/A8N1x0CA1VX7yJf3IsvtRQ"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Ubuntu Budgie https://telegram.me/UBudgie",
+      "link": "https://telegram.me/UBudgie"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação",
+        "Regional"
+      ],
+      "desc": "Grupy-RN https://telegram.me/joinchat/C9598kD0Sw9BtRz_RXmF8w",
+      "link": "https://telegram.me/joinchat/C9598kD0Sw9BtRz_RXmF8w"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "PC Linux OS - Brasil https://telegram.me/forumpclosbr",
+      "link": "https://telegram.me/forumpclosbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux",
+        "Programação"
+      ],
+      "desc": "Emacs Brasil telegram.me/emacsBR",
+      "link": "telegram.me/emacsBR"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Bitcoin"
+      ],
+      "desc": "Grupo sobre Bitcoin e qualquer coisa relacionada a Blockchain. https://telegram.me/btcbr",
+      "link": "https://telegram.me/btcbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Budgie",
+        "Linux"
+      ],
+      "desc": "Budgie Desktop https://telegram.me/BudgieDesktop",
+      "link": "https://telegram.me/BudgieDesktop"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Web"
+      ],
+      "desc": "papodesysadmin https://telegram.me/papodesysadmin",
+      "link": "https://telegram.me/papodesysadmin"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Web",
+        "Programação"
+      ],
+      "desc": "AngularJS Brasil https://telegram.me/angularJSBrasil",
+      "link": "https://telegram.me/angularJSBrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "SQL"
+      ],
+      "desc": "SQLiteBR https://telegram.me/SQLiteBR",
+      "link": "https://telegram.me/SQLiteBR"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Amazon"
+      ],
+      "desc": "AWS Brasil https://telegram.me/awsbrasil",
+      "link": "https://telegram.me/awsbrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Gentoo Brasil https://telegram.me/gentoobr",
+      "link": "https://telegram.me/gentoobr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Android"
+      ],
+      "desc": "LineageOS Group :us: https://telegram.me/Lineageos_group",
+      "link": "https://telegram.me/Lineageos_group"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "XFCE Brasil t.me/xfcebrasil",
+      "link": "t.me/xfcebrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Redes",
+        "Segurança"
+      ],
+      "desc": "Endian Firewall Brasil telegram.me/Endian_Firewall",
+      "link": "telegram.me/Endian_Firewall"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Web",
+        "Regional"
+      ],
+      "desc": "Joomla Rio de Janeiro https://telegram.me/joomlariodejaneiro",
+      "link": "https://telegram.me/joomlariodejaneiro"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "BSD",
+        "Regional"
+      ],
+      "desc": "FreeBSD Users Group do Rio de Janeiro https://telegram.me/joinchat/B1OOlAUaPN4y3o13IlJn1w",
+      "link": "https://telegram.me/joinchat/B1OOlAUaPN4y3o13IlJn1w"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Kali Linux Brasil https://telegram.me/kalibrasil",
+      "link": "https://telegram.me/kalibrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Cloud"
+      ],
+      "desc": "Azure Brasil telegram.me/AzureBrasil",
+      "link": "telegram.me/AzureBrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Delphi Brasil https://telegram.me/DelphiBR",
+      "link": "https://telegram.me/DelphiBR"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Linux Mint Brasil telegram.me/LinuxMintBrasil",
+      "link": "telegram.me/LinuxMintBrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Euphoria Brasil telegram.me/EuphoriaBrasil",
+      "link": "telegram.me/EuphoriaBrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Mobile",
+        "Programação"
+      ],
+      "desc": "Papo sobre desenvolvimento mobile com React Native https://telegram.me/reactnativedrops",
+      "link": "https://telegram.me/reactnativedrops"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Android",
+        "Programação"
+      ],
+      "desc": "Grupo de desenvolvedores de apps para Android https://telegram.me/androiddropsbr",
+      "link": "https://telegram.me/androiddropsbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Segurança"
+      ],
+      "desc": "Crypto & InfoSec https://t.me/Criptografia",
+      "link": "https://t.me/Criptografia"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI"
+      ],
+      "desc": "GrayLog Brasil telegram.me/GrayLogBR",
+      "link": "telegram.me/GrayLogBR"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Server",
+        "Virtualização"
+      ],
+      "desc": "Proxmox Brasil telegram.me/ProxmoxBrasil",
+      "link": "telegram.me/ProxmoxBrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação",
+        "Web"
+      ],
+      "desc": ":us::us: Nairobi JS Telegram telegram.me/NairobiJS",
+      "link": "telegram.me/NairobiJS"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Privacidade",
+        "Segurança"
+      ],
+      "desc": "Privacidade em Foco https://telegram.me/joinchat/AAAAAEE9DIHxeL1u3i2mtg",
+      "link": "https://telegram.me/joinchat/AAAAAEE9DIHxeL1u3i2mtg"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Geral"
+      ],
+      "desc": "FreeSWITCH Brasil https://telegram.me/freeswitchbrasil",
+      "link": "https://telegram.me/freeswitchbrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Screenshots",
+        "Linux"
+      ],
+      "desc": "Linux Screens telegram.me/LinuxScreens",
+      "link": "telegram.me/LinuxScreens"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI"
+      ],
+      "desc": "Infraestrutura TI http://telegram.me/infraestruturati",
+      "link": "http://telegram.me/infraestruturati"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Mobile",
+        "Geral"
+      ],
+      "desc": "Tasker Brasil https://telegram.me/joinchat/AAAAAEGMnEKiG894lApAog",
+      "link": "https://telegram.me/joinchat/AAAAAEGMnEKiG894lApAog"
+    },
+    {
+      "tags": [
+        "Linux",
+        "Grupo"
+      ],
+      "desc": "🗣 Faça parte de nosso grupo: :penguin: terminal@gnulinux:~# :penguin: https://telegram.me/terminalgnulinux",
+      "link": "https://telegram.me/terminalgnulinux"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "KimTu Comunidade https://t.me/KimTu",
+      "link": "https://t.me/KimTu"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Texto"
+      ],
+      "desc": " ASCII Doc telegram.me/ASCIIdoc",
+      "link": "telegram.me/ASCIIdoc"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Arch Linux Brasil: destinado aos usuários da distribuição Arch Linux ou baseadas nela! http://telegram.me/archlinuxbr",
+      "link": "http://telegram.me/archlinuxbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI"
+      ],
+      "desc": "Consultoria de Carreira telegram.me/ConsultoriaDeCarreira",
+      "link": "telegram.me/ConsultoriaDeCarreira"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "SoftwareLivre"
+      ],
+      "desc": "ProjetoLivre https://t.me/projetolivre",
+      "link": "https://t.me/projetolivre"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Django Brasil https://t.me/djangobrasil",
+      "link": "https://t.me/djangobrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação",
+        "Telegram"
+      ],
+      "desc": "Grupo não-oficial de suporte ao Telebot e Telepot telegram.me/joinchat/AAAAAEJPkYhK4rPq898UiA",
+      "link": "telegram.me/joinchat/AAAAAEJPkYhK4rPq898UiA"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Regional",
+        "Geral"
+      ],
+      "desc": "Grupo de discussão do TeresinaHC. Site do grupo: http://teresinahc.org Canal: @teresinahc_news telegram.me/TeresinaHC",
+      "link": "telegram.me/TeresinaHC"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação",
+        "Regional"
+      ],
+      "desc": "Python User Group - Piauí telegram.me/PugPI",
+      "link": "telegram.me/PugPI"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Ubuntu Podcast (oficial) https://telegram.me/joinchat/AVKyxj5X3dPAsyF4Tu4vsA",
+      "link": "https://telegram.me/joinchat/AVKyxj5X3dPAsyF4Tu4vsA"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Hacking",
+        "Hacktivismo",
+        "Programação"
+      ],
+      "desc": "PR1V8 Society: o grupo on-topic only da PR1V8, sobre hacking, hacktivismo e programação. https://telegram.me/joinchat/AAAAAEBknKOfl42PhAKe5A",
+      "link": "https://telegram.me/joinchat/AAAAAEBknKOfl42PhAKe5A"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Grupo @linux_br Grupo de Linux em geral para toda a comunidade do Brasil, Sejam Bem Vindos telegram.me/linux_br",
+      "link": "telegram.me/linux_br"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Geral"
+      ],
+      "desc": ":us::us: Grupo em inglês sobre o sistema ReactOS telegram.me/ReactOS",
+      "link": "telegram.me/ReactOS"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "SoftwareLivre"
+      ],
+      "desc": "UltraOSI: Não seja um ultrafofo mas um UltraOSI. https://telegram.me/ultraOSI",
+      "link": "https://telegram.me/ultraOSI"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Hacking"
+      ],
+      "desc": "Pentest Brazil Group http://telegram.me/pentestbrazilgroup",
+      "link": "http://telegram.me/pentestbrazilgroup"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "PythonCoding Brazil telegram.me/PythonCodingBrazil",
+      "link": "telegram.me/PythonCodingBrazil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux",
+        "Gaming"
+      ],
+      "desc": "Linux Games Brasil https://telegram.me/linuxgamesbr",
+      "link": "https://telegram.me/linuxgamesbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação",
+        "Web"
+      ],
+      "desc": ":us::us: Angular Developers telegram.me/AngularDevelopers",
+      "link": "telegram.me/AngularDevelopers"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux",
+        "ShellScript"
+      ],
+      "desc": "Shell Script X Canal: @shellscriptx telegram.me/ShellScript_X",
+      "link": "telegram.me/ShellScript_X"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "API"
+      ],
+      "desc": "API Builders BR https://telegram.me/apiBuilders",
+      "link": "https://telegram.me/apiBuilders"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Web",
+        "Programação"
+      ],
+      "desc": "Polymer Brasil https://telegram.me/polymerbr",
+      "link": "https://telegram.me/polymerbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI"
+      ],
+      "desc": "Técnicos em Informática: um grupo com foco em assuntos técnicos, hardware, servidores e resolução de problemas em Windows e Linux. telegram.me/tecnicos_informatica",
+      "link": "telegram.me/tecnicos_informatica"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "EngenhariaReversa"
+      ],
+      "desc": "Engenharia Reversa e Análise de Malware Brasil telegram.me/MalwareReverseBR",
+      "link": "telegram.me/MalwareReverseBR"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Projetos Linux: O objetivo deste grupo é discutir tecnologias sociais e projetos distintos voltados ao Software Livre / Linux e formas eficientes de implantá-los. telegram.me/ProjetosLinux",
+      "link": "telegram.me/ProjetosLinux"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Ubuntu Brasil Oficial: O maior grupo GNU/Linux Ubuntu que vai desde usuários iniciantes a avançados. https://telegram.me/UbuntuBrasilOficial",
+      "link": "https://telegram.me/UbuntuBrasilOficial"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Geral"
+      ],
+      "desc": "TWM Brasil: Grupo destinado a troca de conhecimento a respeito dos Tilling Window Manager e pacotes relacionados ao seu uso. Se você gosta do i3, Xmonad e companhia, aqui é o seu lugar telegram.me/TWMbrasil",
+      "link": "telegram.me/TWMbrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Rust Lang Brasil https://telegram.me/rustlangbr",
+      "link": "https://telegram.me/rustlangbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "CakePHP Brasil https://t.me/cakephpbr",
+      "link": "https://t.me/cakephpbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI",
+        "Hacking"
+      ],
+      "desc": "Grupo sobre a certificação CEH, de Ethical Hacking https://telegram.me/joinchat/AAAAAECz-ZkzwHLBAmCxQg",
+      "link": "https://telegram.me/joinchat/AAAAAECz-ZkzwHLBAmCxQg"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Linux Mint Brasil https://t.me/LinuxMintBrasil",
+      "link": "https://t.me/LinuxMintBrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Apple"
+      ],
+      "desc": "Hackintosh BR https://t.me/hackintoshbr",
+      "link": "https://t.me/hackintoshbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Engenharia"
+      ],
+      "desc": "\"Grupo dedicado a discussões sobre todas as engenharias\" telegram.me/Engenharia",
+      "link": "telegram.me/Engenharia"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Flask https://t.me/pythonflask",
+      "link": "https://t.me/pythonflask"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "ShellScript",
+        "Linux"
+      ],
+      "desc": "Shell Script (#!/bin/bash): Grupo destinado somente a Shell Script! https://telegram.me/shellbr",
+      "link": "https://telegram.me/shellbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Ubuntu Budgie Brasil https://t.me/UbuntuBudgie",
+      "link": "https://t.me/UbuntuBudgie"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Design"
+      ],
+      "desc": "Blender Brasil https://telegram.me/joinchat/AAAAAEDT0ouVb18eL6-JjA",
+      "link": "https://telegram.me/joinchat/AAAAAEDT0ouVb18eL6-JjA"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Deepin GNU/Linux (oficial) https://t.me/deepin",
+      "link": "https://t.me/deepin"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Geral"
+      ],
+      "desc": "Fiberhome é uma fabricante de equipamentos de Telecom OLT, FTTH, DWDM, bastante conhecida no mercado de provedores e operadoras de telecomunicações. telegram.me/fiberhomebrasil",
+      "link": "telegram.me/fiberhomebrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Redes"
+      ],
+      "desc": "Grupo sobre redes https://telegram.me/joinchat/AAAAAEA9TUq7BVl2CJF-7w",
+      "link": "https://telegram.me/joinchat/AAAAAEA9TUq7BVl2CJF-7w"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Games"
+      ],
+      "desc": "Indie Games Developers https://t.me/joinchat/AAAAAEAZ7AP9UkyThlrPjw",
+      "link": "https://t.me/joinchat/AAAAAEAZ7AP9UkyThlrPjw"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI"
+      ],
+      "desc": "Help Desk TI https://telegram.me/helpdeskti",
+      "link": "https://telegram.me/helpdeskti"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Desktop"
+      ],
+      "desc": " Openbox Brasil https://t.me/OpenboxBrasil",
+      "link": "https://t.me/OpenboxBrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Forense"
+      ],
+      "desc": "Forense Brasil https://telegram.me/ForenseBrasil",
+      "link": "https://telegram.me/ForenseBrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": " Café com Mageia e Mandriva BR https://t.me/mageiadobrasil",
+      "link": "https://t.me/mageiadobrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Oracle"
+      ],
+      "desc": "Profissionais Oracle: Grupo destinado a discussões sobre os produtos Oracle, divulgação de vagas, certificação, carreira, dúvidas, etc telegram.me/OracleBR",
+      "link": "telegram.me/OracleBR"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Oracle"
+      ],
+      "desc": ":us::us: Oracle Professionals: grupo internacional destinado a profissionais de produtos Oracle. Nesse grupo só é permitido conversar em inglês. telegram.me/OraclePro",
+      "link": "telegram.me/OraclePro"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Segurança"
+      ],
+      "desc": "Cyber News: discussões e posts sobre segurança https://telegram.me/joinchat/AAAAAEJdcWUOJwkfCfH5Lg",
+      "link": "https://telegram.me/joinchat/AAAAAEJdcWUOJwkfCfH5Lg"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Wordpress"
+      ],
+      "desc": "WordPress Brasil telegram.me/wordpressbrasil",
+      "link": "telegram.me/wordpressbrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Desktop"
+      ],
+      "desc": "Tiling Window Manager https://t.me/TilingWindowManager",
+      "link": "https://t.me/TilingWindowManager"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux",
+        "Geral"
+      ],
+      "desc": "Grupo originado de um canal que tem como propósito o ensino gratuito sobre Tecnologia da Informação, Software Livre, GNU-Linux, Redes de Computadores, Segurança da Informação e muitos outros temas. Acesse: https://www.youtube.com/channel/UC2__0JEZv8etlrKLw2_oM7Q https://telegram.me/projetoroot",
+      "link": "https://telegram.me/projetoroot"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Linuxers https://telegram.me/joinchat/AAAAAEApZLgz5MflIcDSTA",
+      "link": "https://telegram.me/joinchat/AAAAAEApZLgz5MflIcDSTA"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Desenvolvimento"
+      ],
+      "desc": "Unity Developers Brazil https://t.me/UnityDevelopersBrazil",
+      "link": "https://t.me/UnityDevelopersBrazil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Bitcoin"
+      ],
+      "desc": "Dash Brasil https://t.me/dashbrasil",
+      "link": "https://t.me/dashbrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Antergos Brasil https://t.me/AntergosBrasil",
+      "link": "https://t.me/AntergosBrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Geral"
+      ],
+      "desc": "Elétrica Full https://t.me/eletricafull",
+      "link": "https://t.me/eletricafull"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Redes"
+      ],
+      "desc": "Cisco Redes: informações e notícias sobre Cisco https://t.me/ciscoredes",
+      "link": "https://t.me/ciscoredes"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Redes"
+      ],
+      "desc": "Grupo de discussão sobre tecnologias Cisco https://t.me/tecnologiaciscobr",
+      "link": "https://t.me/tecnologiaciscobr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Clojure Brasil https://telegram.me/clojurebrasil",
+      "link": "https://telegram.me/clojurebrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Cordova Developers telegram.me/devcordova",
+      "link": "telegram.me/devcordova"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI"
+      ],
+      "desc": "NagiOS Brasil: Grupo de usuários do sistema de Monitoração Nagios telegram.me/nagiosbr",
+      "link": "telegram.me/nagiosbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Lua Brasil https://t.me/luabrasil",
+      "link": "https://t.me/luabrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI",
+        "Segurança"
+      ],
+      "desc": "Grupo da comunidade de prática em segurança da informaçâo, que busca fomentar o aprendizado colaborativo em segurança da informação através de encontros onlines e presenciais, onde as pessoas compartilham conhecimento e trocam experiências. telegram.me/cpdsi",
+      "link": "telegram.me/cpdsi"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Grupo sobre Spring, um framework Java https://t.me/joinchat/AAAAAEK-iR-QceNISK7h6g",
+      "link": "https://t.me/joinchat/AAAAAEK-iR-QceNISK7h6g"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Maps"
+      ],
+      "desc": "Open Street Map Brasil http://telegram.me/OSMBrasil_Comunidade",
+      "link": "http://telegram.me/OSMBrasil_Comunidade"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI"
+      ],
+      "desc": "Técnicos em Informática: um grupo com foco em assuntos técnicos, hardware, servidores e resolução de problemas em Windows e Linux. telegram.me/tecnicos_informatica",
+      "link": "telegram.me/tecnicos_informatica"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Tecnologia"
+      ],
+      "desc": "Tech Conectados https://telegram.me/grupotechconectados",
+      "link": "https://telegram.me/grupotechconectados"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Tech",
+        "Geral"
+      ],
+      "desc": "PointGeek: Grupo focado em assuntos diversificados sobre a cultura pop/nerd e suas tecnologias. https://t.me/joinchat/AAAAAD5kc0VVzXsW8TWC3g",
+      "link": "https://t.me/joinchat/AAAAAD5kc0VVzXsW8TWC3g"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "KDE Brasil https://telegram.me/joinchat/BstFRj9eUM4B7fZE3yEnLQ",
+      "link": "https://telegram.me/joinchat/BstFRj9eUM4B7fZE3yEnLQ"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "TypeScript Brasil https://telegram.me/typescriptbr",
+      "link": "https://telegram.me/typescriptbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Geral",
+        "Eletrônica"
+      ],
+      "desc": "Grupo para divulgar e discutir sobre eletrônica, hobby, projetos DIY, modelismo e amadorismo. telegram.me/valvulados",
+      "link": "telegram.me/valvulados"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Parrot Security https://t.me/joinchat/AAAAAEGhBGaijBwY6vbqpw",
+      "link": "https://t.me/joinchat/AAAAAEGhBGaijBwY6vbqpw"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "EngenhariaReversa"
+      ],
+      "desc": "Engenharia Reversa e Análise de Malware Brasil telegram.me/MalwareReverseBR",
+      "link": "telegram.me/MalwareReverseBR"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Segurança"
+      ],
+      "desc": "XtremeSec https://t.me/XtremeSec",
+      "link": "https://t.me/XtremeSec"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Games",
+        "Programação"
+      ],
+      "desc": "Games Developers Brasil Grupo no Discord: https://discord.gg/PHaezMZ No Telegram: https://t.me/GameDevelopersBrasil",
+      "link": "https://t.me/GameDevelopersBrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "FreeBSD"
+      ],
+      "desc": "FUG-BR: Grupo de usuários FreeBSD do Brasil http://telegram.me/fug_br",
+      "link": "http://telegram.me/fug_br"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Segurança",
+        "Windows"
+      ],
+      "desc": "Windows Security: Um grupo destinado a discussões sobre segurança em ambientes Microsoft Windows telegram.me/Windows_Security",
+      "link": "telegram.me/Windows_Security"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Fedora Linux https://telegram.me/joinchat/ArXcYT5dA9zVNGgHngrDvg",
+      "link": "https://telegram.me/joinchat/ArXcYT5dA9zVNGgHngrDvg"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": ":us::us: Grupo gringo sobre Python https://telegram.me/joinchat/DP9KNUF73nvJR4GC26Lb6w",
+      "link": "https://telegram.me/joinchat/DP9KNUF73nvJR4GC26Lb6w"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": ":us::us: Grupo gringo sobre a linguagem Vala https://telegram.me/joinchat/DP9KNQdvfixfzEbErh_Z7w",
+      "link": "https://telegram.me/joinchat/DP9KNQdvfixfzEbErh_Z7w"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Geral"
+      ],
+      "desc": "Um grupo para que você possa compartilhar e adquirir conhecimento acerca das diversas áreas do saber. Aproveite e participe! telegram.me/ackbr",
+      "link": "telegram.me/ackbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Oficina do Tux http://telegram.me/grupooficina",
+      "link": "http://telegram.me/grupooficina"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "PowerShell"
+      ],
+      "desc": "Grupo para discussões de Powershell telegram.me/powershellbr",
+      "link": "telegram.me/powershellbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI"
+      ],
+      "desc": "Grupo focado em compartilhar conhecimentos e tirar dúvidas sobre computação https://telegram.me/joinchat/CMresDujEqv96BJe0sucbA",
+      "link": "https://telegram.me/joinchat/CMresDujEqv96BJe0sucbA"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Regional",
+        "Programação"
+      ],
+      "desc": "Um grupo da comunidade Python do Rio de Janeiro https://telegram.me/PythonRio",
+      "link": "https://telegram.me/PythonRio"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": ":us::us: Grupo gringo sobre a linguagem de programação R https://telegram.me/joinchat/DP9KNUEhSwWOzOVcvMn-tQ",
+      "link": "https://telegram.me/joinchat/DP9KNUEhSwWOzOVcvMn-tQ"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Grupo brasileiro sobre a linguagem R telegram.me/rbrasil",
+      "link": "telegram.me/rbrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Office"
+      ],
+      "desc": "Microsoft Office Brasil https://telegram.me/microsoftOfficeBrasil",
+      "link": "https://telegram.me/microsoftOfficeBrasil"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Grupo"
+      ],
+      "desc": "PyCoding: o maior grupo sobre Python do Telegram! telegram.me/pycoding",
+      "link": "telegram.me/pycoding"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Empregabilidade"
+      ],
+      "desc": "Consultoria de carreira https://t.me/consultoriadecarreira",
+      "link": "https://t.me/consultoriadecarreira"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Perl Brasil: Grupo com foco em Perl, discussões, dúvidas e dicas sobre essa linguagem, mas aberto a discussões não-técnicas sobre programação em geral. telegram.me/PerlBrasil",
+      "link": "telegram.me/PerlBrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Engine"
+      ],
+      "desc": "Grupo para a discussão e troca de conhecimentos entre usuários do motor de jogo (engine) Godot. telegram.me/godotbr",
+      "link": "telegram.me/godotbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Geral"
+      ],
+      "desc": "Hack 'n' Cast https://telegram.me/hackncast",
+      "link": "https://telegram.me/hackncast"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Python https://telegram.me/pythonbr",
+      "link": "https://telegram.me/pythonbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Matemática"
+      ],
+      "desc": "LaTeX BR telegram.me/latexbr",
+      "link": "telegram.me/latexbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Programeiros: Grupo destinado a desenvolvedores iniciantes ou experientes, sobre programação em geral. telegram.me/programeiros",
+      "link": "telegram.me/programeiros"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Assembly Brasil telegram.me/assemblybr",
+      "link": "telegram.me/assemblybr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Ecommerce"
+      ],
+      "desc": "Magento Brasil https://telegram.me/magentobr",
+      "link": "https://telegram.me/magentobr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Wordpress"
+      ],
+      "desc": "WordPress Brasil telegram.me/wordpressbrasil",
+      "link": "telegram.me/wordpressbrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Moedas"
+      ],
+      "desc": "IOTA Brasil https://t.me/IOTAbrasil",
+      "link": "https://t.me/IOTAbrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Geral"
+      ],
+      "desc": "Grupo de Juniper no Telegram para trocarmos ideias, dúvidas e etc sobre os produtos da Juniper. https://telegram.me/juniperbrasil",
+      "link": "https://telegram.me/juniperbrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Solus Project :us: https://telegram.me/solusproject",
+      "link": "https://telegram.me/solusproject"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Desktop",
+        "Linux"
+      ],
+      "desc": "Enjade Project https://t.me/enjadeproject",
+      "link": "https://t.me/enjadeproject"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Git/Github Brasil telegram.me/gitbr",
+      "link": "telegram.me/gitbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Geral"
+      ],
+      "desc": "System Info: Grupo voltado a adquirir conhecimentos de tecnologia em geral: programação, hacking, etc... https://t.me/joinchat/AAAAAEHIAQe39lKBh-oDbg",
+      "link": "https://t.me/joinchat/AAAAAEHIAQe39lKBh-oDbg"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Hacking",
+        "Segurança"
+      ],
+      "desc": "Ethical Hacking Students https://t.me/joinchat/AAAAAEA4BZie7ySICRMc1A",
+      "link": "https://t.me/joinchat/AAAAAEA4BZie7ySICRMc1A"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Gentoo FTW https://telegram.me/GentooFTW",
+      "link": "https://telegram.me/GentooFTW"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Design",
+        "Linux"
+      ],
+      "desc": "Design com Linux telegram.me/DesignComLinux",
+      "link": "telegram.me/DesignComLinux"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação",
+        "Bots"
+      ],
+      "desc": "Grupo de suporte a desenvolvedores de bots http://telegram.me/codec_ne",
+      "link": "http://telegram.me/codec_ne"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Tech"
+      ],
+      "desc": "Fique 100% atualizado com todas as novidades, lançamentos e inovações, com informações dos principais sites de tecnologia. telegram.me/GuiaTech",
+      "link": "telegram.me/GuiaTech"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Grupo voltado para usuários e iniciantes no sistema Void Linux telegram.me/voidlinuxbr",
+      "link": "telegram.me/voidlinuxbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Projetos Linux: O objetivo deste grupo é discutir tecnologias sociais e projetos distintos voltados ao Software Livre / Linux e formas eficientes de implantá-los. telegram.me/ProjetosLinux",
+      "link": "telegram.me/ProjetosLinux"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Virtualização"
+      ],
+      "desc": "Veeam Brasil https://telegram.me/joinchat/AAAAAEF8c65hWQPWeMIWPg",
+      "link": "https://telegram.me/joinchat/AAAAAEF8c65hWQPWeMIWPg"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI",
+        "Hacking"
+      ],
+      "desc": "Grupo sobre a certificação CEH, de Ethical Hacking https://telegram.me/joinchat/AAAAAECz-ZkzwHLBAmCxQg",
+      "link": "https://telegram.me/joinchat/AAAAAECz-ZkzwHLBAmCxQg"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Redes"
+      ],
+      "desc": "Wi-Fi para \"aprender e ensinar\". Aprendizado para Ataque e defesa em redes wireless. https://telegram.me/Wi_Fis",
+      "link": "https://telegram.me/Wi_Fis"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Hacktivismo"
+      ],
+      "desc": "Telecomix Brasil: um cluster descentralizado de internautas, ativistas, criptoanarquistas e robôs, que lutam para proteger a Internet e a liberdade de expressão. Ω Canal/Twitter: @TelecomixBrasil Ω IRC: https://telecomixii.org/brasil.html https://telegram.me/TelecomixBr",
+      "link": "https://telegram.me/TelecomixBr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação",
+        "Canal"
+      ],
+      "desc": "Grupo voltado ao aprendizado de programação, para iniciantes https://telegram.me/TTSClub : https://t.me/TTSChannel",
+      "link": "https://telegram.me/TTSClubhttps://t.me/TTSChannel"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação",
+        "Hacking",
+        "Linux"
+      ],
+      "desc": "Pirate Security: discussões, soluções e estudo visando Linux/Unix-like, Programação e Hacking. telegram.me/piratesec",
+      "link": "telegram.me/piratesec"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "C e C++ Brasil telegram.me/CCppBrasil",
+      "link": "telegram.me/CCppBrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Geral",
+        "Tech"
+      ],
+      "desc": "Tudo sobre Tecnologia da informação. https://t.me/joinchat/AAAAAEDrlhCpyIA95LizsA",
+      "link": "https://t.me/joinchat/AAAAAEDrlhCpyIA95LizsA"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "SabayonBRASIL https://t.me/SabayonBRASIL",
+      "link": "https://t.me/SabayonBRASIL"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação",
+        "Regional"
+      ],
+      "desc": "PHP Sergipe telegram.me/phpSE",
+      "link": "telegram.me/phpSE"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Tech"
+      ],
+      "desc": "Canal Tech Brasil telegram.me/CanalTechBR",
+      "link": "telegram.me/CanalTechBR"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Ubuntu Budgie Brasil https://t.me/UbuntuBudgie",
+      "link": "https://t.me/UbuntuBudgie"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Brasil Linux: O primeiro e grande grupo sobre LINUX do Telegram, que temos como base o S.O. GNU/Linux, que vai de usuários iniciantes / avançados! 🇧🇷:penguin: https://telegram.me/BrasilLinux",
+      "link": "https://telegram.me/BrasilLinux"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux",
+        "TI"
+      ],
+      "desc": "Grupo voltado para a certificação LPIC telegram.me/LPICsg",
+      "link": "telegram.me/LPICsg"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Redes"
+      ],
+      "desc": "Fortinet Brasil telegram.me/FortinetBR",
+      "link": "telegram.me/FortinetBR"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Geral"
+      ],
+      "desc": "Cpanel Br: grupo de utilizadores dessa ferramenta https://telegram.me/cpanel_br",
+      "link": "https://telegram.me/cpanel_br"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Forense"
+      ],
+      "desc": ":es::es: Grupo em espanhol sobre computação Forense telegram.me/forense",
+      "link": "telegram.me/forense"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "We Programming: conteúdos e materiais sobre programação telegram.me/WeProgramming",
+      "link": "telegram.me/WeProgramming"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Web",
+        "Programação"
+      ],
+      "desc": "Grupo focado em discussão e apoio a desenvolvedores Web telegram.me/webdevsbr",
+      "link": "telegram.me/webdevsbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "SoftwareLivre"
+      ],
+      "desc": "GNU Brasil: um recinto para discussões e trocas de ideias sobre GNU, abrangendo pessoas defensoras do SL, mas com diferentes visões quanto a isso telegram.me/GNUbr",
+      "link": "telegram.me/GNUbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Produção"
+      ],
+      "desc": "Video Libre https://t.me/videolibre",
+      "link": "https://t.me/videolibre"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Os Programadores: Grupo para incentivar o aprendizado de programação. Site: https://osprogramadores.com Grupo: telegram.me/OsProgramadores",
+      "link": "telegram.me/OsProgramadores"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Vala Brasil https://t.me/Vala_BR",
+      "link": "https://t.me/Vala_BR"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Criptomoedas"
+      ],
+      "desc": "Peercoin [EN] https://t.me/peercoin",
+      "link": "https://t.me/peercoin"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação",
+        "Hacking",
+        "Segurança"
+      ],
+      "desc": "Um grupo focado em disseminar conhecimentos sobre segurança da informação, programação, redes e pentests telegram.me/protocolo_hacker",
+      "link": "telegram.me/protocolo_hacker"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Segurança"
+      ],
+      "desc": "Grupo de discussões sobre o firewall Sophos UTM telegram.me/Sophos_UTM_SG_XG_BR",
+      "link": "telegram.me/Sophos_UTM_SG_XG_BR"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "OpenWrt Brasil https://telegram.me/openwrtbrasil",
+      "link": "https://telegram.me/openwrtbrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "MoedaVirtual"
+      ],
+      "desc": "Grupo sobre a plataforma de negociações financeiras Waves https://telegram.me/WavesBrasilOficial",
+      "link": "https://telegram.me/WavesBrasilOficial"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Assembly Brasil https://telegram.me/joinchat/AAAAAD_iKWKNh_SZ-lbc7g",
+      "link": "https://telegram.me/joinchat/AAAAAD_iKWKNh_SZ-lbc7g"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Kivy Brasil telegram.me/pykivy",
+      "link": "telegram.me/pykivy"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "PostgreSQL Brasil https://telegram.me/postgresqlbr",
+      "link": "https://telegram.me/postgresqlbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "BusinessIntelligence"
+      ],
+      "desc": "Power BI Brasil https://t.me/joinchat/AAAAAERkdzzuvcMvms9rnw",
+      "link": "https://t.me/joinchat/AAAAAERkdzzuvcMvms9rnw"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Segurança"
+      ],
+      "desc": "Trend Micro Brasil https://telegram.me/trendmicrobr",
+      "link": "https://telegram.me/trendmicrobr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Geral",
+        "Regional"
+      ],
+      "desc": "DevOps Ceará https://telegram.me/devopsce",
+      "link": "https://telegram.me/devopsce"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Grupo sobre Linux, e assuntos diversos https://telegram.me/joinchat/CYyDAT0Jg_EVAEedD9qgsw",
+      "link": "https://telegram.me/joinchat/CYyDAT0Jg_EVAEedD9qgsw"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI"
+      ],
+      "desc": "Consultoria de Carreira http://telegram.me/ConsultoriaDeCarreira",
+      "link": "http://telegram.me/ConsultoriaDeCarreira"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Pygrameiros https://telegram.me/joinchat/AAAAAEOnjcIiD2WH_TD8Vg",
+      "link": "https://telegram.me/joinchat/AAAAAEOnjcIiD2WH_TD8Vg"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI",
+        "Geral"
+      ],
+      "desc": "Grupo de desenvolvedores, designer, e de pessoas que trabalham com tecnologia, para bate papo descontraído sobre Tech telegram.me/nncTI",
+      "link": "telegram.me/nncTI"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Design"
+      ],
+      "desc": "Inkscape Brasil https://telegram.me/inkscape_group",
+      "link": "https://telegram.me/inkscape_group"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação",
+        "Gaming"
+      ],
+      "desc": "GameDev Brasil https://t.me/gamed3vbrasil",
+      "link": "https://t.me/gamed3vbrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": ":us::us: UBports Support Group https://telegram.me/ubports",
+      "link": "https://telegram.me/ubports"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Grupo sobre a nova linguagem de programação Nim https://telegram.me/nimbr",
+      "link": "https://telegram.me/nimbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Tech",
+        "Hardware",
+        "Geral"
+      ],
+      "desc": "PC Facts https://telegram.me/pcfactsgroup",
+      "link": "https://telegram.me/pcfactsgroup"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Impressão3D"
+      ],
+      "desc": "Modelagem e Impressão 3D OpenSource https://telegram.me/opensource3d",
+      "link": "https://telegram.me/opensource3d"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Web",
+        "Programação"
+      ],
+      "desc": "CSS Brasil https://telegram.me/cssbr",
+      "link": "https://telegram.me/cssbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação",
+        "Web"
+      ],
+      "desc": "HTML Brasil https://telegram.me/htmlbr",
+      "link": "https://telegram.me/htmlbr"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "BancoDeDados"
+      ],
+      "desc": "ArangoDB Brasil https://telegram.me/arangodbbrasil",
+      "link": "https://telegram.me/arangodbbrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Os Programadores: Grupo para incentivar o aprendizado de programação. Site: https://osprogramadores.com Grupo: telegram.me/OsProgramadores",
+      "link": "telegram.me/OsProgramadores"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Geral",
+        "TI"
+      ],
+      "desc": "ILDUNIX: Grupo voltado para tecnologia https://telegram.me/ildunix",
+      "link": "https://telegram.me/ildunix"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Ruby BR https://telegram.me/Ruby_BR",
+      "link": "https://telegram.me/Ruby_BR"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Vala Brasil https://telegram.me/Vala_BR",
+      "link": "https://telegram.me/Vala_BR"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Perl Brasil: Grupo com foco em Perl, discussões, dúvidas e dicas sobre essa linguagem, mas aberto a discussões não-técnicas sobre programação em geral. telegram.me/PerlBrasil",
+      "link": "telegram.me/PerlBrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI"
+      ],
+      "desc": "Técnicos em Informática: um grupo com foco em assuntos técnicos, hardware, servidores e resolução de problemas em Windows e Linux. telegram.me/tecnicos_informatica",
+      "link": "telegram.me/tecnicos_informatica"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Linux"
+      ],
+      "desc": "Linux BR Group https://telegram.me/linuxbrgroup",
+      "link": "https://telegram.me/linuxbrgroup"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI"
+      ],
+      "desc": "SysAdmin Linux https://telegram.me/SysAdminLinux",
+      "link": "https://telegram.me/SysAdminLinux"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação",
+        "Regional"
+      ],
+      "desc": "CaiPyRa Grupo https://telegram.me/caipyra",
+      "link": "https://telegram.me/caipyra"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Impressão3D"
+      ],
+      "desc": "Impressão 3D Brasil https://telegram.me/impressora3dbrasil",
+      "link": "https://telegram.me/impressora3dbrasil"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Geral"
+      ],
+      "desc": "Drone Racers https://telegram.me/DroneRacers",
+      "link": "https://telegram.me/DroneRacers"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Impressão3D"
+      ],
+      "desc": "Impressão 3D Brasil telegram.me/impressao3d",
+      "link": "telegram.me/impressao3d"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Geral"
+      ],
+      "desc": "Pixel Art https://telegram.me/Pixelando",
+      "link": "https://telegram.me/Pixelando"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Geral"
+      ],
+      "desc": "Grupo dedicado a falar sobre ciência e tecnologia telegram.me/inovacao_tecnologica Canal: @inovacaotecnologica",
+      "link": "telegram.me/inovacao_tecnologica"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação"
+      ],
+      "desc": "Coder X Coder https://telegram.me/joinchat/AAAAAELSSvYcUAR1qaZwWQ",
+      "link": "https://telegram.me/joinchat/AAAAAELSSvYcUAR1qaZwWQ"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Vagas"
+      ],
+      "desc": "Vagas TI https://telegram.me/joinchat/BlYHxkNrik2qFv7Y2aqw-A",
+      "link": "https://telegram.me/joinchat/BlYHxkNrik2qFv7Y2aqw-A"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Windows"
+      ],
+      "desc": "Brasil Windows https://telegram.me/joinchat/D_jXgkF6mAcDEswJ4TZ8Lw",
+      "link": "https://telegram.me/joinchat/D_jXgkF6mAcDEswJ4TZ8Lw"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "BancoDeDados"
+      ],
+      "desc": "SQL Server Canal: @ms_sql https://telegram.me/sqlmssql",
+      "link": "https://telegram.me/sqlmssql"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Tech"
+      ],
+      "desc": "Grupo oficial do Tecmundo https://telegram.me/nzntecmundo",
+      "link": "https://telegram.me/nzntecmundo"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Tech"
+      ],
+      "desc": "Canal JMS: grupo sobre tecnologia em geral https://telegram.me/canaljms_oficial",
+      "link": "https://telegram.me/canaljms_oficial"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Programação",
+        "Regional"
+      ],
+      "desc": "PyTche: grupo de usuários Python do RS https://telegram.me/pytche",
+      "link": "https://telegram.me/pytche"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Regional",
+        "Programação"
+      ],
+      "desc": "PHP Maranhão https://telegram.me/phpmaranhao",
+      "link": "https://telegram.me/phpmaranhao"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "Segurança",
+        "Security"
+      ],
+      "desc": " Sinergia Soluções https://t.me/SinergiaSEGINFO",
+      "link": "https://t.me/SinergiaSEGINFO"
+    },
+    {
+      "tags": [
+        "Grupo",
+        "TI"
+      ],
+      "desc": "Informações para profissionais de Infraestrutura de TI. Backup,servidores e etc https://telegram.me/IT_infra",
+      "link": "https://telegram.me/IT_infra"
+    }
+  ],
+  "canal": [
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": " Canal SharingTecBrasil https://telegram.me/SharingBrasil",
+      "link": "https://telegram.me/SharingBrasil"
+    },
+    {
+      "tags": [
+        "Office"
+      ],
+      "desc": "@tudocomexcel: Acesse dicas e vídeo-aulas de Excel, gratuitas e diárias no canal Se quiser tirar dúvidas ou interagir com os professores e outros alunos, basta entrar no telegram.me/grupodicasdeexcel",
+      "link": "telegram.me/grupodicasdeexcel"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "Partido Pirata: usando a tecnologia para hackear a política. telegram.me/gtipirata Canal: @canalgti",
+      "link": "telegram.me/gtipirata"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Programação"
+      ],
+      "desc": ":us: The Art of Programming :us: Um canal com notícias, dicas e truques de programação para programadores iniciantes e experientes. telegram.me/theprogrammingart",
+      "link": "telegram.me/theprogrammingart"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Geral"
+      ],
+      "desc": "Roadsec Oficial https://telegram.me/roadsec",
+      "link": "https://telegram.me/roadsec"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Humor"
+      ],
+      "desc": "🇬🇧 Um Canal que lhe oferece uma dose diária humor para programadores ... fique a vontade para sorrir :) https://telegram.me/programmerjokes",
+      "link": "https://telegram.me/programmerjokes"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Geral",
+        "Notícias"
+      ],
+      "desc": "Um agregador de noticias sobre tecnologia e afins. telegram.me/techconectados",
+      "link": "telegram.me/techconectados"
+    },
+    {
+      "tags": [
+        "Design"
+      ],
+      "desc": "Um canal com várias dicas e links sobre design telegram.me/designdadepressao",
+      "link": "telegram.me/designdadepressao"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Programação"
+      ],
+      "desc": "Canal sobre tudo que envolve javascript. telegram.me/mundojs",
+      "link": "telegram.me/mundojs"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Programação"
+      ],
+      "desc": ":us::us: Canal gringo com dicas sobre C/C++ :us::us: telegram.me/dailycpp",
+      "link": "telegram.me/dailycpp"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Web"
+      ],
+      "desc": "Guia do Desenvolvedor Web: canal com dicas, notícias, tutoriais e materiais sobre Desenvolvimento Web. telegram.me/guiadodevweb",
+      "link": "telegram.me/guiadodevweb"
+    },
+    {
+      "tags": [
+        "Linux",
+        "Canal"
+      ],
+      "desc": "DioLinux https://telegram.me/DiolinuxOficial",
+      "link": "https://telegram.me/DiolinuxOficial"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Linux"
+      ],
+      "desc": "Canal sobre Linux e software livre. https://telegram.me/coisasdogeek",
+      "link": "https://telegram.me/coisasdogeek"
+    },
+    {
+      "tags": [
+        "TIC",
+        "Canal",
+        "Empregos"
+      ],
+      "desc": "Canal com vagas de TI telegram.me/vagasdetic",
+      "link": "telegram.me/vagasdetic"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Geral",
+        "Noticias"
+      ],
+      "desc": " Info Line https://telegram.me/infoline",
+      "link": "https://telegram.me/infoline"
+    },
+    {
+      "tags": [
+        "Hacking",
+        "Canal",
+        "Programação"
+      ],
+      "desc": "Um canal com materiais e conteúdo sobre Hacking e Programação telegram.me/hackinginf0",
+      "link": "telegram.me/hackinginf0"
+    },
+    {
+      "tags": [
+        "Hacking",
+        "Canal",
+        "Linux"
+      ],
+      "desc": "Canal com materiais sobre Hacking, programação e Linux telegram.me/ChannelKooLApse",
+      "link": "telegram.me/ChannelKooLApse"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Geral"
+      ],
+      "desc": "O Melhor Canal de Informações sobre o assunto mais falado T.I, dicas e downloads, divulgações e muito mais. https://telegram.me/tudosobreti",
+      "link": "https://telegram.me/tudosobreti"
+    },
+    {
+      "tags": [
+        "Hacking",
+        "Canal",
+        "Programação"
+      ],
+      "desc": "Canal sobre Hacking e programação telegram.me/culturahacker",
+      "link": "telegram.me/culturahacker"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Geral"
+      ],
+      "desc": "MonkeyNights https://telegram.me/MonkeyNights",
+      "link": "https://telegram.me/MonkeyNights"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Canal com posts voltados para programação: Algoritmos, Projetos, IDE's telegram.me/codprog",
+      "link": "telegram.me/codprog"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Hacking",
+        "Geral"
+      ],
+      "desc": ":es::es: Canal em espanhol com materiais sobre programação, hacking e TI em geral :es::es: https://telegram.me/joinchat/AJrJMz_9iJ7jBFeTvlfCrw",
+      "link": "https://telegram.me/joinchat/AJrJMz_9iJ7jBFeTvlfCrw"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Canal de programação C e C++ Brasil. telegram.me/cppbrazilchannel",
+      "link": "telegram.me/cppbrazilchannel"
+    },
+    {
+      "tags": [
+        "Linux",
+        "Gaming"
+      ],
+      "desc": ":us::us: Canal gringo sobre games em Linux :us::us: telegram.me/linuxgaming",
+      "link": "telegram.me/linuxgaming"
+    },
+    {
+      "tags": [
+        "Telegram",
+        "Programação",
+        "Hacking"
+      ],
+      "desc": "Canal com grupos e posts sobre hacking e programação telegram.me/gruposprogramacao",
+      "link": "telegram.me/gruposprogramacao"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": ":us::us: Canal em inglês com notícias da distribuição Linux Solus OS :us::us: telegram.me/solusnews",
+      "link": "telegram.me/solusnews"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Canal com posts voltados para programação: Algoritmos, Projetos, IDE's telegram.me/codprog",
+      "link": "telegram.me/codprog"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Gaming"
+      ],
+      "desc": "Canal com dicas sobre a ferramenta Game Maker, utilizada para criação de jogos telegram.me/planetagmaker",
+      "link": "telegram.me/planetagmaker"
+    },
+    {
+      "tags": [
+        "Hacking",
+        "Programação"
+      ],
+      "desc": "Canal com conteúdo sobre hacking e pentest https://telegram.me/hackinginf0 Grupo: https://telegram.me/hackinginfo",
+      "link": "https://telegram.me/hackinginf0https://telegram.me/hackinginfo"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "BR Linux: Canal sobre Linux telegram.me/brlinux",
+      "link": "telegram.me/brlinux"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Geral"
+      ],
+      "desc": "Canal com livros sobre programação e tecnologia telegram.me/bibliotecadovini",
+      "link": "telegram.me/bibliotecadovini"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Canal com conteúdo sobre várias linguagens de programação. telegram.me/programais",
+      "link": "telegram.me/programais"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Canal com conteúdo sobre várias linguagens de programação. telegram.me/programais",
+      "link": "telegram.me/programais"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Office"
+      ],
+      "desc": "LibreOffice Oficial https://telegram.me/libreoffice",
+      "link": "https://telegram.me/libreoffice"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": ":us::us: Canal em inglês que publica, em .pdf, .epub e outros formatos, os livros de TI que são disponibilizados gratuitamente todo dia pela editora Packt Pub :us::us: telegram.me/freepacktpubdaily",
+      "link": "telegram.me/freepacktpubdaily"
+    },
+    {
+      "tags": [
+        "Hacking",
+        "Programação"
+      ],
+      "desc": "Canal com conteúdo sobre hacking e pentest https://telegram.me/hackinginfo",
+      "link": "https://telegram.me/hackinginfo"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Hacking"
+      ],
+      "desc": "Canal oficial do grupo @TheCybersTeam para compartilhamento de apostilas, livros, tutoriais e noticias! telegram.me/TheCyberChannel",
+      "link": "telegram.me/TheCyberChannel"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Canal oficial para compartilhamento de links, vagas, arquivos e divulgação de eventos da comunidade Python telegram.me/pythonbrasil",
+      "link": "telegram.me/pythonbrasil"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": ":us::us: Canal em inglês com notícias sobre computação em geral :us::us: telegram.me/CWNews",
+      "link": "telegram.me/CWNews"
+    },
+    {
+      "tags": [
+        "Web"
+      ],
+      "desc": "Canal Index.html: Postagens diárias sobre HTML. telegram.me/htmlindex",
+      "link": "telegram.me/htmlindex"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Canal com dicas, wallpapers, materiais, livros e tutoriais sobre Linux https://telegram.me/Linuxbr712",
+      "link": "https://telegram.me/Linuxbr712"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Mobile"
+      ],
+      "desc": "Canal para divulgação de notícias relacionadas ao uso do Qt para desenvolvimento de aplicativos móveis telegram.me/qtmobile",
+      "link": "telegram.me/qtmobile"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Diolinux Oficial: Canal oficial do blog/canal Diolinux telegram.me/DiolinuxOficial",
+      "link": "telegram.me/DiolinuxOficial"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "O Melhor Canal de Informações sobre o assunto mais falado T.I, dicas e downloads, divulgações e muito mais. https://telegram.me/tudosobreti",
+      "link": "https://telegram.me/tudosobreti"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Geral"
+      ],
+      "desc": "Canal com cursos grátis de tecnologia em geral. telegram.me/telecursos",
+      "link": "telegram.me/telecursos"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Canal com conteúdo sobre várias linguagens de programação. telegram.me/programais",
+      "link": "telegram.me/programais"
+    },
+    {
+      "tags": [
+        "Gaming"
+      ],
+      "desc": "Canal Games+ - As notícias mais relevantes do mundo dos games em um só canal. telegram.me/gameess",
+      "link": "telegram.me/gameess"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "Canal temporário de suporte do CODECASTS telegram.me/codecasters",
+      "link": "telegram.me/codecasters"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Linux"
+      ],
+      "desc": "Blog do Edivaldo https://telegram.me/blogdoedivaldo",
+      "link": "https://telegram.me/blogdoedivaldo"
+    },
+    {
+      "tags": [
+        "Hacking",
+        "Programação"
+      ],
+      "desc": "PR1V8 Canal sobre: :black_small_square:Hacking :black_small_square:Hacktivismo :black_small_square:Programação telegram.me/pr1v8",
+      "link": "telegram.me/pr1v8"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Linux"
+      ],
+      "desc": "Linux Mania https://telegram.me/linux_mania",
+      "link": "https://telegram.me/linux_mania"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Geral"
+      ],
+      "desc": "Canal com cursos grátis de tecnologia em geral. telegram.me/telecursos",
+      "link": "telegram.me/telecursos"
+    },
+    {
+      "tags": [
+        "Linux",
+        "KDE",
+        "Canal"
+      ],
+      "desc": ":us::us: Planet KDE: notícias e dicas sobre KDE, em inglês :us::us: telegram.me/PlanetKDE",
+      "link": "telegram.me/PlanetKDE"
+    },
+    {
+      "tags": [
+        "Android",
+        "Mobile"
+      ],
+      "desc": ":us::us: Daily Android: Canal, em inglês, com notícias diárias para desenvolvedores e entusiastas Android :us::us: telegram.me/DailyAndroid",
+      "link": "telegram.me/DailyAndroid"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Linux"
+      ],
+      "desc": "Blog do Edivaldo https://telegram.me/blogdoedivaldo",
+      "link": "https://telegram.me/blogdoedivaldo"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Linux"
+      ],
+      "desc": " Linuxgram https://telegram.me/linuxgram",
+      "link": "https://telegram.me/linuxgram"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Cisco"
+      ],
+      "desc": ":us::us: Canal destinado a postar dicas e noticias sobre Cisco :us::us: telegram.me/Cisco_news",
+      "link": "telegram.me/Cisco_news"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Hacking",
+        "Segurança"
+      ],
+      "desc": ":us:🇧🇷 Notícias, novos exploits/vulnerabilidades e artigos sobre segurança e hacking 🇧:ru:🇸 telegram.me/hack_news",
+      "link": "telegram.me/hack_news"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Mobile"
+      ],
+      "desc": "Canal com dicas sobre tecnologia móvel https://telegram.me/garotasemfio",
+      "link": "https://telegram.me/garotasemfio"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Hacking",
+        "Linux"
+      ],
+      "desc": "Canal com materiais sobre Hacking, programação e Linux telegram.me/CanalKooLapse",
+      "link": "telegram.me/CanalKooLapse"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Wallpalpers"
+      ],
+      "desc": "Academy of Wallpapers: Temos tudo o que é preciso para personalizar ainda mais a tela do seu smartphone :iphone: telegram.me/AcademyOfWallpapers",
+      "link": "telegram.me/AcademyOfWallpapers"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Linux"
+      ],
+      "desc": "Linux Brazuca: Compartilhando conhecimento sobre Linux telegram.me/LinuxBRAZUCA",
+      "link": "telegram.me/LinuxBRAZUCA"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Bitcoin"
+      ],
+      "desc": ":us::us: Canal sobre noticias e atualizações Bitcoin :us::us: telegram.me/BitcoinChannel",
+      "link": "telegram.me/BitcoinChannel"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Tecnologia",
+        "Notícias"
+      ],
+      "desc": "Informação TECH: Notícias, tecnologia, tutoriais, mobile, IOT, tendências tecnológica. telegram.me/InformacaoTech",
+      "link": "telegram.me/InformacaoTech"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Programação",
+        "Geral"
+      ],
+      "desc": "Canal com cursos grátis de tecnologia em geral. telegram.me/telecursos",
+      "link": "telegram.me/telecursos"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Segurança",
+        "Redes",
+        "Windows",
+        "Linux",
+        "TI"
+      ],
+      "desc": "Canal do grupo @tecnicos_informatica, criado para compartilhar dicas, artigos, tutoriais e soluções sobre TI telegram.me/DicasDeTI",
+      "link": "telegram.me/DicasDeTI"
+    },
+    {
+      "tags": [
+        "Canal",
+        "TI"
+      ],
+      "desc": "Dicas dos Técnicos em Informática https://telegram.me/DicasDeTI",
+      "link": "https://telegram.me/DicasDeTI"
+    },
+    {
+      "tags": [
+        "Canal",
+        "TI"
+      ],
+      "desc": "Trocando informações com diversas pessoas e aprendendo passo a passo, sobre TI. telegram.me/TIcanal",
+      "link": "telegram.me/TIcanal"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Programação"
+      ],
+      "desc": "Canal criado para publicação de materiais para estudo sobre Python telegram.me/FullPythonAlchemist",
+      "link": "telegram.me/FullPythonAlchemist"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Vagas"
+      ],
+      "desc": "Vagas de TI para programadores https:// telegram.me/vagaumdev",
+      "link": "telegram.me/vagaumdev"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Geral"
+      ],
+      "desc": "Tableless telegram.me/tableless",
+      "link": "telegram.me/tableless"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Segurança",
+        "Privacidade"
+      ],
+      "desc": "Canais relacionados a segurança da informação e criptografia :us::us: @digitalrights (em inglês) :es::es: @ciberseguridad (espanhol) telegram.me/direitosdigitais",
+      "link": "telegram.me/direitosdigitais"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Segurança"
+      ],
+      "desc": "Ciência Hacker https://t.me/cienciahacker",
+      "link": "https://t.me/cienciahacker"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Linux"
+      ],
+      "desc": "Linux Mania https://t.me/linuxmania",
+      "link": "https://t.me/linuxmania"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Gaming"
+      ],
+      "desc": "TecnoGame telegram.me/tecnogame",
+      "link": "telegram.me/tecnogame"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Programação"
+      ],
+      "desc": "Guia para Desenvolvedores FrontEnd e Backend. Dicas, downloads, tutoriais, vagas e muito mais. telegram.me/devfullstack",
+      "link": "telegram.me/devfullstack"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Bitcoin"
+      ],
+      "desc": "Bitcoin News (oficial) https://t.me/www_Bitcoin_com",
+      "link": "https://t.me/www_Bitcoin_com"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Programação"
+      ],
+      "desc": ":us::us: The Devs telegram.me/TheDevs",
+      "link": "telegram.me/TheDevs"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Geral"
+      ],
+      "desc": ":us::us: Canal com vários grupos e Bots sobre Crypto telegram.me/CryptoGroups",
+      "link": "telegram.me/CryptoGroups"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Geral",
+        "TI"
+      ],
+      "desc": "Conceitos de TI em geral, ajudando você a lembrar-se de algumas definições. telegram.me/Glossario_TI",
+      "link": "telegram.me/Glossario_TI"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Geral",
+        "TI"
+      ],
+      "desc": "Canal secundário do blog @andersbateva onde são divulgados apenas posts sobre informática. Além de notícias sobre torrents e compartilhamento de arquivos, há artigos sobre privacidade e vigilância online. Blog: https://andersbateva.xyz Canal (no Telegram): telegram.me/andersbateva_informatica https://andersbateva.xyz/2016/12/09/perigos-da-mentalidade-do-quem-nao-deve-nao-teme/",
+      "link": "telegram.me/andersbateva_informatica"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Hacking"
+      ],
+      "desc": "Pentest Brazil Channel http://telegram.me/pentestbrazilchannel",
+      "link": "http://telegram.me/pentestbrazilchannel"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Hacking"
+      ],
+      "desc": "Ferramentas e materiais pra estudo, com foco em Pentests telegram.me/Phantasm_Lab",
+      "link": "telegram.me/Phantasm_Lab"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Hacking",
+        "Linux"
+      ],
+      "desc": "Canal com materiais e conteúdo sobre Hacking e Linux telegram.me/terminalroot404",
+      "link": "telegram.me/terminalroot404"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Linux"
+      ],
+      "desc": "LinuxRoot https://t.me/linuxroot1",
+      "link": "https://t.me/linuxroot1"
+    },
+    {
+      "tags": [
+        "Canal",
+        "TI",
+        "Geral"
+      ],
+      "desc": "Canal GM Formata: ISOS Linux, Wallpapers, Notícias Tecnologia, Downloads Diversos... telegram.me/gmformata",
+      "link": "telegram.me/gmformata"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Hacking",
+        "Programação"
+      ],
+      "desc": "PR1V8: canal sobre Hacking, Hacktivismo e Programação telegram.me/pr1v8",
+      "link": "telegram.me/pr1v8"
+    },
+    {
+      "tags": [
+        "Canal",
+        "TI"
+      ],
+      "desc": "Canal oficial do portal www.nuvemdebits.com.br : Tecnologia, inovação, conhecimento e um bate papo descontraído. telegram.me/nuvemdebits",
+      "link": "telegram.me/nuvemdebits"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Web",
+        "Programação"
+      ],
+      "desc": "CodeWeb: melhor conteúdo em tecnologia de informação das redes sociais. Tudo sobre programação e informática telegram.me/CodeWeb",
+      "link": "telegram.me/CodeWeb"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Tech"
+      ],
+      "desc": "TechDigital o canal da tecnologia, sua fonte primária de informação sobre celulares, TV, jogos, eletrônicos, software, hardware, internet e downloads para você. telegram.me/TechDigital",
+      "link": "telegram.me/TechDigital"
+    },
+    {
+      "tags": [
+        "Canal",
+        "TI"
+      ],
+      "desc": "Dicas dos Técnicos em Informática https://telegram.me/DicasDeTI",
+      "link": "https://telegram.me/DicasDeTI"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Segurança",
+        "Hacking"
+      ],
+      "desc": "Materiais gratuitos e organizados sobre a área de segurança. https://telegram.me/black_n_green",
+      "link": "https://telegram.me/black_n_green"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Tech",
+        "Notícias"
+      ],
+      "desc": "Techfly, notícias sobre tecnologia: a informação voando até você. https://telegram.me/Techfly",
+      "link": "https://telegram.me/Techfly"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Tech"
+      ],
+      "desc": "Notícias sobre smartphones, PCs, aplicativos, empresas e muito mais. https://t.me/TeCNewsbr",
+      "link": "https://t.me/TeCNewsbr"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Linux"
+      ],
+      "desc": "Linux Mania https://t.me/linuxmania",
+      "link": "https://t.me/linuxmania"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Cripto"
+      ],
+      "desc": ":us::us: Canal com vários grupos e Bots sobre Crypto telegram.me/CryptoGroups",
+      "link": "telegram.me/CryptoGroups"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Programação",
+        "Hardware",
+        "Geral"
+      ],
+      "desc": "Canal sobre programação, hardware e outras coisas. https://telegram.me/coisadurachannel",
+      "link": "https://telegram.me/coisadurachannel"
+    },
+    {
+      "tags": [
+        "Canal",
+        "TI"
+      ],
+      "desc": "Dicas dos Técnicos em Informática https://telegram.me/DicasDeTI",
+      "link": "https://telegram.me/DicasDeTI"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Tecnologia"
+      ],
+      "desc": "Tech Conectados http://telegram.me/techconectados",
+      "link": "http://telegram.me/techconectados"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Criptomoedas"
+      ],
+      "desc": " StudioBitcoin https://t.me/studiobitcoin",
+      "link": "https://t.me/studiobitcoin"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Humor",
+        "Programação"
+      ],
+      "desc": "Canal de comédia em TI https://telegram.me/TI_em_Depressao",
+      "link": "https://telegram.me/TI_em_Depressao"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Geral"
+      ],
+      "desc": "Canal com conteúdo relacionado à Informática em geral telegram.me/daluzinformatica",
+      "link": "telegram.me/daluzinformatica"
+    },
+    {
+      "tags": [
+        "Canal",
+        "TI"
+      ],
+      "desc": "Informática Total: dicas e posts sobre Informática https://telegram.me/joinchat/A6uPqj4i2dSPYDLd-fdZ_Q",
+      "link": "https://telegram.me/joinchat/A6uPqj4i2dSPYDLd-fdZ_Q"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Android"
+      ],
+      "desc": "Android Total: canal com aplicativos e jogos p/ Android https://telegram.me/joinchat/A6uPqjvCYtlZda8BlThMiw",
+      "link": "https://telegram.me/joinchat/A6uPqjvCYtlZda8BlThMiw"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Humor"
+      ],
+      "desc": "InfoComedy: canal com posts de humor sobre TI telegram.me/InfoComedy",
+      "link": "telegram.me/InfoComedy"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Tech",
+        "Geral"
+      ],
+      "desc": "DarkTech: notícias e tutorias em geral sobre tecnologia https://telegram.me/joinchat/AAAAAEHkzFMjcfZYs3kD2g",
+      "link": "https://telegram.me/joinchat/AAAAAEHkzFMjcfZYs3kD2g"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Android"
+      ],
+      "desc": "Custom - ROMs - Android https://telegram.me/joinchat/AAAAAEOnVdudGj5OV46DIA",
+      "link": "https://telegram.me/joinchat/AAAAAEOnVdudGj5OV46DIA"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Android",
+        "Tech"
+      ],
+      "desc": "Academy Android https://t.me/AcademyAndroid",
+      "link": "https://t.me/AcademyAndroid"
+    },
+    {
+      "tags": [
+        "Canal",
+        "SoftwareLivre",
+        "Grupo"
+      ],
+      "desc": "Notícias GNU https://telegram.me/noticiasgnu @gruponoticiasgnu",
+      "link": "https://telegram.me/noticiasgnu"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Humor",
+        "Programação"
+      ],
+      "desc": "Canal de comédia em TI https://telegram.me/TI_em_Depressao",
+      "link": "https://telegram.me/TI_em_Depressao"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Hacktivismo",
+        "Geral"
+      ],
+      "desc": "Canal destinado a compartilhar conteúdo livre, e conhecimento em geral telegram.me/ThinkLeft",
+      "link": "telegram.me/ThinkLeft"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Linux"
+      ],
+      "desc": "System76 https://telegram.me/system76_news",
+      "link": "https://telegram.me/system76_news"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Geral"
+      ],
+      "desc": "Canal com conteúdos em geral sobre TI, do canal @phantasm_lab https://telegram.me/warez_lab",
+      "link": "https://telegram.me/warez_lab"
+    },
+    {
+      "tags": [
+        "Canal",
+        "PlayStore",
+        "Android"
+      ],
+      "desc": "PromoPlay https://t.me/PromoPlay",
+      "link": "https://t.me/PromoPlay"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Programação",
+        "Hacking"
+      ],
+      "desc": "Canal sobre programação e segurança da informação @AcervoTerminalRoot404 telegram.me/TerminalRoot404",
+      "link": "telegram.me/TerminalRoot404"
+    },
+    {
+      "tags": [
+        "Canal",
+        "Hacking",
+        "Segurança"
+      ],
+      "desc": "Tranqueiras hackers, oldschool e etc. Nostalgia e aprendizado para Criptoanarquista e Cypherpunks de plantão https://telegram.me/oldschool_br",
+      "link": "https://telegram.me/oldschool_br"
+    }
+  ],
+  "desconhecido": [
+    {
+      "tags": [
+        "Profissional"
+      ],
+      "desc": "⚙ em TI Excepcional | Para falar sobre Desenvolvimento pessoal/profissional - Rafael Bernardes https://telegram.me/joinchat/CeNhBT9CyTXoXXN-pT7Z_A",
+      "link": "https://telegram.me/joinchat/CeNhBT9CyTXoXXN-pT7Z_A"
+    },
+    {
+      "tags": [
+        "Cloud"
+      ],
+      "desc": ":cloud: Computing | Computação em nuvem em geral - Rafael Bernardes https://telegram.me/joinchat/CeNhBT3WS0QUTbHnJpWRuw",
+      "link": "https://telegram.me/joinchat/CeNhBT3WS0QUTbHnJpWRuw"
+    },
+    {
+      "tags": [
+        "Servers"
+      ],
+      "desc": "🖥 | Para falar sobre servidores em geral- Rafael Bernardes https://telegram.me/joinchat/CeNhBT877jqnu_Yx8SBjjg",
+      "link": "https://telegram.me/joinchat/CeNhBT877jqnu_Yx8SBjjg"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Fique por dentro de tudo que acontece no mundo Linux telegram.me/planetalinux",
+      "link": "telegram.me/planetalinux"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Comunidade em inglês sobre Java https://telegram.me/javaofficial",
+      "link": "https://telegram.me/javaofficial"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Café com Menta https://telegram.me/lmbrasil",
+      "link": "https://telegram.me/lmbrasil"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Tudo sobre GNU/LINUX e o amor :heart: https://telegram.me/familialinux",
+      "link": "https://telegram.me/familialinux"
+    },
+    {
+      "tags": [
+        "Personalização"
+      ],
+      "desc": "Os melhores wallpapers para personalizar sua área de trabalho. https://telegram.me/bestwallpapers",
+      "link": "https://telegram.me/bestwallpapers"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Elementary OS Brasil: https://telegram.me/elementaryosbrasil",
+      "link": "https://telegram.me/elementaryosbrasil"
+    },
+    {
+      "tags": [
+        "TI"
+      ],
+      "desc": "Tudo Sobre T.I https://telegram.me/joinchat/CXHl-z4LYSudnpayRkC5tA",
+      "link": "https://telegram.me/joinchat/CXHl-z4LYSudnpayRkC5tA"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Arch Linux Brasil https://telegram.me/archlinuxbr",
+      "link": "https://telegram.me/archlinuxbr"
+    },
+    {
+      "tags": [
+        "Gestão"
+      ],
+      "desc": "em TI | Assuntos sobre a gestão de ambientes, monitoramento, técnicas de gerenciamento, etc https://telegram.me/joinchat/CeNhBT7tZl77rX4-D-RirQ",
+      "link": "https://telegram.me/joinchat/CeNhBT7tZl77rX4-D-RirQ"
+    },
+    {
+      "tags": [
+        "Windows"
+      ],
+      "desc": "SHARING WINDOWS SERVER https://telegram.me/joinchat/AxEOfT5E5t06SGdBedKMZA",
+      "link": "https://telegram.me/joinchat/AxEOfT5E5t06SGdBedKMZA"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "SHARING JAVA https://telegram.me/joinchat/AxEOfT56RU56jGQRad_70g",
+      "link": "https://telegram.me/joinchat/AxEOfT56RU56jGQRad_70g"
+    },
+    {
+      "tags": [
+        "Windows"
+      ],
+      "desc": "Windev Mobile você cria seu aplicativo uma única vez e gera as versões para Android, iOS, Windows Phone e outras plataformas. https://telegram.me/joinchat/CEMxwAJzhmrKTJ3XwsEILw",
+      "link": "https://telegram.me/joinchat/CEMxwAJzhmrKTJ3XwsEILw"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "SHARING VISUAL STUDIO https://telegram.me/joinchat/CThg0Ac3tO-gyc2mFITqSw",
+      "link": "https://telegram.me/joinchat/CThg0Ac3tO-gyc2mFITqSw"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "SHARING PYTHON https://telegram.me/joinchat/BAFqXT5JCJUK_IfEUZLfrA",
+      "link": "https://telegram.me/joinchat/BAFqXT5JCJUK_IfEUZLfrA"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Ruby on Rails é um framework livre que promete aumentar velocidade e facilidade no desenvolvimento de sites orientados a banco de dados https://telegram.me/joinchat/CBODLD63Rruhu1zhR3Jlcg",
+      "link": "https://telegram.me/joinchat/CBODLD63Rruhu1zhR3Jlcg"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "SHARING LINUX https://telegram.me/joinchat/AxEOfT6MIstvsEMma2ulnw",
+      "link": "https://telegram.me/joinchat/AxEOfT6MIstvsEMma2ulnw"
+    },
+    {
+      "tags": [
+        "Suporte"
+      ],
+      "desc": "PARCEIROS DA TRIBUTAÇÃO https://telegram.me/joinchat/CEMxwD-FM8_ELsBqePkHyA",
+      "link": "https://telegram.me/joinchat/CEMxwD-FM8_ELsBqePkHyA"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "PARCEIROS DE CÓDIGO https://telegram.me/joinchat/CEMxwD8XcJOhxYgSeAlZ3A",
+      "link": "https://telegram.me/joinchat/CEMxwD8XcJOhxYgSeAlZ3A"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "SHARING UNIGUI https://telegram.me/joinchat/Ck4ULD8TQnJiR9TXamHp1w",
+      "link": "https://telegram.me/joinchat/Ck4ULD8TQnJiR9TXamHp1w"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "SHARING DESIGN https://telegram.me/joinchat/AxEOfT-YFJGN5hxS54R3Zw",
+      "link": "https://telegram.me/joinchat/AxEOfT-YFJGN5hxS54R3Zw"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": " SHARING iOS Developer https://telegram.me/joinchat/AxEOfT6vr6Tj94PRVoqmqg",
+      "link": "https://telegram.me/joinchat/AxEOfT6vr6Tj94PRVoqmqg"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "SHARING C# https://telegram.me/joinchat/AxEOfT1wfbycEu7Ez5Px7Q",
+      "link": "https://telegram.me/joinchat/AxEOfT1wfbycEu7Ez5Px7Q"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "SHARING HTML, CSS, JAVASCRIPT https://telegram.me/joinchat/AxEOfT4LTB0Rg4klrpIECw",
+      "link": "https://telegram.me/joinchat/AxEOfT4LTB0Rg4klrpIECw"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "SHARING DATABASES https://telegram.me/joinchat/AxEOfT3KlkSh3s6KbYNIbA",
+      "link": "https://telegram.me/joinchat/AxEOfT3KlkSh3s6KbYNIbA"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "SHARING INTRAWEB https://telegram.me/joinchat/AxEOfT3ZCAXn8zJM6q5O4A",
+      "link": "https://telegram.me/joinchat/AxEOfT3ZCAXn8zJM6q5O4A"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "SHARING WORDPRESS https://telegram.me/joinchat/AxEOfT2taCam-uC8WPbLxQ",
+      "link": "https://telegram.me/joinchat/AxEOfT2taCam-uC8WPbLxQ"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "SHARING C++ https://telegram.me/joinchat/AxEOfT2XLu4BOeNTTKPfZQ",
+      "link": "https://telegram.me/joinchat/AxEOfT2XLu4BOeNTTKPfZQ"
+    },
+    {
+      "tags": [
+        "Android"
+      ],
+      "desc": "SHARING ANDROID https://telegram.me/joinchat/AxEOfT4_iFEZbnySdCndKA",
+      "link": "https://telegram.me/joinchat/AxEOfT4_iFEZbnySdCndKA"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "SHARING PHP https://telegram.me/joinchat/AxEOfT3_GamkGxVcqd53XQ",
+      "link": "https://telegram.me/joinchat/AxEOfT3_GamkGxVcqd53XQ"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "SHARING AUTOMAÇÃO https://telegram.me/joinchat/AxEOfT5zjHM78kV41hKv_A",
+      "link": "https://telegram.me/joinchat/AxEOfT5zjHM78kV41hKv_A"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "SHARING DATASNAP, JSON, REST https://telegram.me/joinchat/AxEOfT8oW9i5tSxthpdTMg",
+      "link": "https://telegram.me/joinchat/AxEOfT8oW9i5tSxthpdTMg"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "SHARING DELPHI MOBILE https://telegram.me/joinchat/AxEOfT4yBZG1WrRL6vcaqw",
+      "link": "https://telegram.me/joinchat/AxEOfT4yBZG1WrRL6vcaqw"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "SHARING DELPHI https://telegram.me/joinchat/CBODLDxOQ58JOdNfHIRzBA",
+      "link": "https://telegram.me/joinchat/CBODLDxOQ58JOdNfHIRzBA"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Códigos Fontes em Delphi https://telegram.me/joinchat/CEMxwEE3xUz1QYhZ5fOY4w",
+      "link": "https://telegram.me/joinchat/CEMxwEE3xUz1QYhZ5fOY4w"
+    },
+    {
+      "tags": [
+        "Profissional"
+      ],
+      "desc": "IT Networking Brazil https://telegram.me/itnetworkingbrazil",
+      "link": "https://telegram.me/itnetworkingbrazil"
+    },
+    {
+      "tags": [
+        "Robótica"
+      ],
+      "desc": "Invenções Caseiras Aquí você irá encontrar Invenções caseiras mesmo! Vamos dar aulas sobre robótica,eletrônica,mecatrônica e etcétera... telegram.me/invencoescaseiras",
+      "link": "telegram.me/invencoescaseiras"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Ruby https://telegram.me/rubybrasil",
+      "link": "https://telegram.me/rubybrasil"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Debian https://telegram.me/debianbr",
+      "link": "https://telegram.me/debianbr"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Webschool.io: Curso de especialização em JavaScript https://telegram.me/joinchat/BJ_gtz49o2OSzTU90SKp-A",
+      "link": "https://telegram.me/joinchat/BJ_gtz49o2OSzTU90SKp-A"
+    },
+    {
+      "tags": [
+        "Hacking"
+      ],
+      "desc": " https://telegram.me/newshacking",
+      "link": "https://telegram.me/newshacking"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "CoffeeScript https://telegram.me/Coffeedeveloper",
+      "link": "https://telegram.me/Coffeedeveloper"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Fique por dentro de tudo que rola no maior portal para desenvolvedores do Brasil telegram.me/imasters",
+      "link": "telegram.me/imasters"
+    },
+    {
+      "tags": [
+        "Gestão",
+        "Geral"
+      ],
+      "desc": "Odoo é uma solução de gestão empresarial ERP completo, com um sistema CRM. É baseado na arquitetura MVC e implementa um cliente e um servidor, sendo a comunicação entre o cliente e o servidor por interface XML-RPC. telegram.me/odoobr",
+      "link": "telegram.me/odoobr"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Ubuntu Linux Brasil (oficial) - Um chat destinado a usuários do Ubuntu e software livre. https://telegram.me/ulboficial",
+      "link": "https://telegram.me/ulboficial"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "Samba4BR https://telegram.me/Samba4BR",
+      "link": "https://telegram.me/Samba4BR"
+    },
+    {
+      "tags": [
+        "Virtualização"
+      ],
+      "desc": "Tudo sobre produtos da Vmware, incluindo ESXi, VMs, Vcenter, VDP, SRM, DR, etc... https://telegram.me/Vmware2016",
+      "link": "https://telegram.me/Vmware2016"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "ElectronJS Brasil https://telegram.me/electronJs_BR",
+      "link": "https://telegram.me/electronJs_BR"
+    },
+    {
+      "tags": [
+        "Bitcoin",
+        "MoedaVirtual"
+      ],
+      "desc": "Bitcoin Investimentos Mineração https://telegram.me/joinchat/C5hv7T-uiWUV3JtODFhvoQ",
+      "link": "https://telegram.me/joinchat/C5hv7T-uiWUV3JtODFhvoQ"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Web"
+      ],
+      "desc": "MongoDB é um banco de dados NoSQL, de código aberto e orientado a documentos. Fornece excelente desempenho, alta disponibilidade e escalonamento automático. https://telegram.me/mongodbbrasil",
+      "link": "https://telegram.me/mongodbbrasil"
+    },
+    {
+      "tags": [
+        "TI"
+      ],
+      "desc": "Coach TI https://telegram.me/joinchat/CY7PLQge5RZ3kUi_6-AT1g",
+      "link": "https://telegram.me/joinchat/CY7PLQge5RZ3kUi_6-AT1g"
+    },
+    {
+      "tags": [
+        "Hardware",
+        "Eletrônica"
+      ],
+      "desc": "Troca e venda de equipamentos relacionados à informática, eletrônica, robótica e automação. https://telegram.me/joinchat/ByDyUj9mvad6_9do-6QRWw",
+      "link": "https://telegram.me/joinchat/ByDyUj9mvad6_9do-6QRWw"
+    },
+    {
+      "tags": [
+        "Segurança"
+      ],
+      "desc": "RootSec https://telegram.me/RootSecTreinamentos",
+      "link": "https://telegram.me/RootSecTreinamentos"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "Xamarin Brasil telegram.me/xamarinbrasil",
+      "link": "telegram.me/xamarinbrasil"
+    },
+    {
+      "tags": [
+        "BancoDeDados"
+      ],
+      "desc": "DBA Brasil telegram.me/dbabrasil",
+      "link": "telegram.me/dbabrasil"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Linux Mania https://telegram.me/linux_mania",
+      "link": "https://telegram.me/linux_mania"
+    },
+    {
+      "tags": [
+        "Linux",
+        "Gaming"
+      ],
+      "desc": ":us::us: Linux Gaming :us::us: https://telegram.me/linux_gaming",
+      "link": "https://telegram.me/linux_gaming"
+    },
+    {
+      "tags": [
+        "Telegram",
+        "Bots"
+      ],
+      "desc": ":us::us: BotsDevs :us::us: https://telegram.me/botsChat",
+      "link": "https://telegram.me/botsChat"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "OpenSUSE Brasil telegram.me/opensusebr",
+      "link": "telegram.me/opensusebr"
+    },
+    {
+      "tags": [
+        "Geral",
+        "Empregos"
+      ],
+      "desc": "Tudo sobre Home Office no Brasil, desde vagas as dicas sobre o assunto e como podemos melhorar isso em nosso maravilhoso pais. telegram.me/homeofficebr",
+      "link": "telegram.me/homeofficebr"
+    },
+    {
+      "tags": [
+        "Hacking"
+      ],
+      "desc": "Raul Hacker Club - O mensageiro instantâneo oficial do Raul Hacker Club! https://telegram.me/raulhackerclub",
+      "link": "https://telegram.me/raulhackerclub"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "EDuzerando https://telegram.me/eduzeru",
+      "link": "https://telegram.me/eduzeru"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "https://telegram.me/Beinglinux",
+      "link": "https://telegram.me/Beinglinux"
+    },
+    {
+      "tags": [
+        "Microsoft"
+      ],
+      "desc": "Família Microsoft Oficial https://telegram.me/familiamicrosoftoficial",
+      "link": "https://telegram.me/familiamicrosoftoficial"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Linux Mania https://telegram.me/linux_mania",
+      "link": "https://telegram.me/linux_mania"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "ITIL Expert Brasil telegram.me/itilexpertbr",
+      "link": "telegram.me/itilexpertbr"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Javascript Brasil telegram.me/javascriptbrasil",
+      "link": "telegram.me/javascriptbrasil"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Laravel Brasil telegram.me/laravelbr",
+      "link": "telegram.me/laravelbr"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Cordova Developers telegram.me/devcordova",
+      "link": "telegram.me/devcordova"
+    },
+    {
+      "tags": [
+        "GNU",
+        "Linux"
+      ],
+      "desc": "GNU Mindset telegram.me/GNUMindset",
+      "link": "telegram.me/GNUMindset"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Linux Tech telegram.me/linuxtechpt",
+      "link": "telegram.me/linuxtechpt"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "OctoberCMS https://telegram.me/octobercms",
+      "link": "https://telegram.me/octobercms"
+    },
+    {
+      "tags": [
+        "Linux",
+        "Regional"
+      ],
+      "desc": "Comunidade Linux do Ceará https://telegram.me/joinchat/AxhHLD_mI-ISXXNdeqjNEg",
+      "link": "https://telegram.me/joinchat/AxhHLD_mI-ISXXNdeqjNEg"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Regional"
+      ],
+      "desc": "SciPy Sampa telegram.me/scipysp",
+      "link": "telegram.me/scipysp"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "ElementaryOS Brasil telegram.me/elementaryosbrasil",
+      "link": "telegram.me/elementaryosbrasil"
+    },
+    {
+      "tags": [
+        "Geral",
+        "Programação",
+        "Hacking"
+      ],
+      "desc": "Central de Redes Vault :closed_lock_with_key: Na nossa rede tem tudo o que você precisa! Não ficamos focado a um tipo de conteúdo, isso é ser Vault! https://telegram.me/joinchat/BOyjCz64xIyAPLMveDQtjw",
+      "link": "https://telegram.me/joinchat/BOyjCz64xIyAPLMveDQtjw"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "https://telegram.me/BrasilLinux",
+      "link": "https://telegram.me/BrasilLinux"
+    },
+    {
+      "tags": [
+        "SEO"
+      ],
+      "desc": "SEO Brasil https://telegram.me/seobrasil",
+      "link": "https://telegram.me/seobrasil"
+    },
+    {
+      "tags": [
+        "Wallpalpers"
+      ],
+      "desc": "Wallpaper Desktop Full Quality: Os Melhores Wallpapers para Desktop em Alta Qualidade. https://telegram.me/joinchat/AjNUZT8IjbI0N4vZrU-g7g",
+      "link": "https://telegram.me/joinchat/AjNUZT8IjbI0N4vZrU-g7g"
+    },
+    {
+      "tags": [
+        "Impressão3D"
+      ],
+      "desc": "Impressão 3D Brasil https://telegram.me/joinchat/CZPDXwNDmZrP11690C4P5A",
+      "link": "https://telegram.me/joinchat/CZPDXwNDmZrP11690C4P5A"
+    },
+    {
+      "tags": [
+        "Robótica"
+      ],
+      "desc": "Invenções Caseiras Aqui você irá encontrar Invenções caseiras mesmo! Vamos dar aulas sobre robótica,eletrônica,mecatrônica e etecétera... telegram.me/invencoescaseiras",
+      "link": "telegram.me/invencoescaseiras"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Manjaro Brasil https://telegram.me/manjarobrasiloficial",
+      "link": "https://telegram.me/manjarobrasiloficial"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "VeltOS https://telegram.me/veltos",
+      "link": "https://telegram.me/veltos"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "DevCodeBr Android e Java https://telegram.me/devcodebr_android",
+      "link": "https://telegram.me/devcodebr_android"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Linux Mania :penguin: https://telegram.me/linux_mania",
+      "link": "https://telegram.me/linux_mania"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "MonkeyNights https://telegram.me/joinchat/CgKqxQnyAWLJPwmzDg2kHg",
+      "link": "https://telegram.me/joinchat/CgKqxQnyAWLJPwmzDg2kHg"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Debian Brasil telegram.me/debianbrasil",
+      "link": "telegram.me/debianbrasil"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Ubuntu Brasil Oficial telegram.me/ulboficial",
+      "link": "telegram.me/ulboficial"
+    },
+    {
+      "tags": [
+        "MoedaVirtual",
+        "Bitcoin"
+      ],
+      "desc": "Bitcoin Investimentos Mineração https://telegram.me/joinchat/C5hv7T-uiWUV3JtODFhvoQ",
+      "link": "https://telegram.me/joinchat/C5hv7T-uiWUV3JtODFhvoQ"
+    },
+    {
+      "tags": [
+        "Hacking",
+        "Programação",
+        "Geral"
+      ],
+      "desc": "Hats Society: >Hacking >News >Infomação Livre >Coding >InfoSec >PenTest https://telegram.me/HatsSociety",
+      "link": "https://telegram.me/HatsSociety"
+    },
+    {
+      "tags": [
+        "Design"
+      ],
+      "desc": "Designers Br telegram.me/designersbr",
+      "link": "telegram.me/designersbr"
+    },
+    {
+      "tags": [
+        "Web"
+      ],
+      "desc": "SUMO Brasil telegram.me/sumobrasil",
+      "link": "telegram.me/sumobrasil"
+    },
+    {
+      "tags": [
+        "Wallpalpers"
+      ],
+      "desc": "Wallpaper Desktop Full Quality: Os Melhores Wallpapers para Desktop em Alta Qualidade. https://telegram.me/joinchat/AjNUZT8IjbI0N4vZrU-g7g",
+      "link": "https://telegram.me/joinchat/AjNUZT8IjbI0N4vZrU-g7g"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Haskell Brasil telegram.me/haskellbr",
+      "link": "telegram.me/haskellbr"
+    },
+    {
+      "tags": [
+        "Hacking",
+        "Segurança",
+        "Programação"
+      ],
+      "desc": "The Cybers TM telegram.me/TheCybersTeam",
+      "link": "telegram.me/TheCybersTeam"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Estragou o GRUB? Deu pau na impressora? Não desista do pequeno Tux, apenas aprenda a controla-lo! * TUTORIAIS * DICAS * CURIOSIDADES * MATERIAL DE ESTUDO Aqui!! Linux - Seja Livre! telegram.me/beinglinux",
+      "link": "telegram.me/beinglinux"
+    },
+    {
+      "tags": [
+        "MoedaVirtual"
+      ],
+      "desc": "ZCash Brasil telegram.me/zcashbrazil",
+      "link": "telegram.me/zcashbrazil"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "Internet das Coisas telegram.me/internetdascoisas",
+      "link": "telegram.me/internetdascoisas"
+    },
+    {
+      "tags": [
+        "Gestão",
+        "Geral"
+      ],
+      "desc": "Odoo Brasil Experts telegram.me/odoobrazil",
+      "link": "telegram.me/odoobrazil"
+    },
+    {
+      "tags": [
+        "Geral",
+        "Programação",
+        "Hacking"
+      ],
+      "desc": "Central de Redes Vault :closed_lock_with_key: Na nossa rede tem tudo o que você precisa! Não ficamos focado a um tipo de conteúdo, isso é ser Vault! https://telegram.me/joinchat/BOyjCz64xIyAPLMveDQtjw",
+      "link": "https://telegram.me/joinchat/BOyjCz64xIyAPLMveDQtjw"
+    },
+    {
+      "tags": [
+        "Mobile"
+      ],
+      "desc": "iOS Brasil https://telegram.me/IOSBRASIl",
+      "link": "https://telegram.me/IOSBRASIl"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Estragou o GRUB? Deu pau na impressora? Não desista do pequeno Tux, apenas aprenda a controla-lo! * TUTORIAIS * DICAS * CURIOSIDADES * MATERIAL DE ESTUDO Aqui!! Linux - Seja Livre! telegram.me/beinglinux",
+      "link": "telegram.me/beinglinux"
+    },
+    {
+      "tags": [
+        "Android"
+      ],
+      "desc": ":us:🇧🇷 Tuga Power ROM 🇧:ru:🇸 telegram.me/tugapowerrom",
+      "link": "telegram.me/tugapowerrom"
+    },
+    {
+      "tags": [
+        "UX"
+      ],
+      "desc": "UX Brasil telegram.me/uxbrasil",
+      "link": "telegram.me/uxbrasil"
+    },
+    {
+      "tags": [
+        "TI"
+      ],
+      "desc": "CongressoDeTI.com.br https://telegram.me/joinchat/DTpuo0A0nyBEAi1zG66lfA",
+      "link": "https://telegram.me/joinchat/DTpuo0A0nyBEAi1zG66lfA"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Ruby Brasil https://telegram.me/rubybrasil",
+      "link": "https://telegram.me/rubybrasil"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "F1 de TI: Gostamos de ajudar e aprender sobre tecnologia, e um bom bate papo de amizade. telegram.me/F1deTI",
+      "link": "F1 de TItelegram.me/F1deTI"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "SciPy Latin America telegram.me/scipyla",
+      "link": "telegram.me/scipyla"
+    },
+    {
+      "tags": [
+        "Linux"
+      ],
+      "desc": "Linux Povão https://telegram.me/joinchat/CjXLhEExtf0EWHaYH5fqZw",
+      "link": "https://telegram.me/joinchat/CjXLhEExtf0EWHaYH5fqZw"
+    },
+    {
+      "tags": [
+        "FreeBSD"
+      ],
+      "desc": "FreeBSD telegram.me/joinchat/CYyDAQdfCM7eViX0q56zfw",
+      "link": "telegram.me/joinchat/CYyDAQdfCM7eViX0q56zfw"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Regional"
+      ],
+      "desc": "Ruby DF telegram.me/rubydf",
+      "link": "telegram.me/rubydf"
+    },
+    {
+      "tags": [
+        "Mobile",
+        "Programação"
+      ],
+      "desc": "Sharing Android https://telegram.me/joinchat/AxEOfT4_iFEZbnySdCndKA",
+      "link": "https://telegram.me/joinchat/AxEOfT4_iFEZbnySdCndKA"
+    },
+    {
+      "tags": [
+        "Automação",
+        "Software"
+      ],
+      "desc": " Schneider Softwares https://telegram.me/joinchat/B0W8PAgOoB_5tA3vwpXotw",
+      "link": "https://telegram.me/joinchat/B0W8PAgOoB_5tA3vwpXotw"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "JBug Brasil http://telegram.me/jbug_brasil",
+      "link": "http://telegram.me/jbug_brasil"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Yii Brasil telegram.me/YiiBrasil",
+      "link": "telegram.me/YiiBrasil"
+    },
+    {
+      "tags": [
+        "Redes"
+      ],
+      "desc": "CCNA Brasil telegram.me/CCNAbrasil",
+      "link": "telegram.me/CCNAbrasil"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Elm Brasil telegram.me/ElmBrasil",
+      "link": "telegram.me/ElmBrasil"
+    },
+    {
+      "tags": [
+        "Hacktivismo"
+      ],
+      "desc": "Lounge Pirata Leia o programa do partido pirata em http://partidopirata.org/documentos/programa Dúvidas? Pergunte! telegram.me/LoungePirata",
+      "link": "telegram.me/LoungePirata"
+    },
+    {
+      "tags": [
+        "Cloud"
+      ],
+      "desc": "Azure Brasil telegram.me/AzureBrasil",
+      "link": "telegram.me/AzureBrasil"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Regional"
+      ],
+      "desc": "Dojo Brasília telegram.me/DojoBrasilia",
+      "link": "telegram.me/DojoBrasilia"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": "Coding Dojo UNB telegram.me/CodingDojoUNB",
+      "link": "telegram.me/CodingDojoUNB"
+    },
+    {
+      "tags": [
+        "MachineLearning",
+        "Programação"
+      ],
+      "desc": "Machine Learning com Python https://telegram.me/PyMachineLearningBR",
+      "link": "https://telegram.me/PyMachineLearningBR"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Geral"
+      ],
+      "desc": "Todos os Livros da Casa do Código e conteúdos relacionados do mesmo. telegram.me/CasadoCodigo",
+      "link": "telegram.me/CasadoCodigo"
+    },
+    {
+      "tags": [
+        "Programação",
+        "Web"
+      ],
+      "desc": "Twitter Bootstrap https://telegram.me/joinchat/CMresEDWbDJcODkTxd9RgQ",
+      "link": "https://telegram.me/joinchat/CMresEDWbDJcODkTxd9RgQ"
+    },
+    {
+      "tags": [
+        "Humor",
+        "Hacking"
+      ],
+      "desc": "Dicas Hackers telegram.me/DicasHackers",
+      "link": "telegram.me/DicasHackers"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": ":us::us: Elixir news and status updates from the community for Elixir and Phoenix. :us::us: telegram.me/ElixirStatus",
+      "link": "telegram.me/ElixirStatus"
+    },
+    {
+      "tags": [
+        "WordPress",
+        "Regional"
+      ],
+      "desc": " Comunidade WordPress de Natal https://telegram.me/joinchat/AH6qmUDMmIfyLXoa1kz2zQ",
+      "link": "https://telegram.me/joinchat/AH6qmUDMmIfyLXoa1kz2zQ"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "Storage NAS telegram.me/StorageNAS",
+      "link": "telegram.me/StorageNAS"
+    },
+    {
+      "tags": [
+        "Vagas"
+      ],
+      "desc": "Procurando emprego em TI? telegram.me/yjob_br",
+      "link": "telegram.me/yjob_br"
+    },
+    {
+      "tags": [
+        "Programação"
+      ],
+      "desc": " CodeIgniter Brasil telegram.me/CodeIgniterBr",
+      "link": "telegram.me/CodeIgniterBr"
+    },
+    {
+      "tags": [
+        "Geral"
+      ],
+      "desc": "GitLab Users Brasil telegram.me/gitlabbr",
+      "link": "telegram.me/gitlabbr"
+    },
+    {
+      "tags": [
+        "Redes"
+      ],
+      "desc": "Zabbix Brasil telegram.me/zabbixbrasil",
+      "link": "telegram.me/zabbixbrasil"
+    }
+  ]
+}

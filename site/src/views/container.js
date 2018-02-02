@@ -63,7 +63,7 @@ class Container extends React.Component {
               <MenuIcon />
             </IconButton>
             <Typography type="title" color="inherit" className={classes.flex}>
-              Title
+              tg-list
             </Typography>
             {auth && (
               <div>

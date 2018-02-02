@@ -1,23 +1,27 @@
-// import React, { Component } from 'react';
-// import logo from './logo.svg';
-// import './App.css';
-// import entries from './entries.json'
-//
-// class App extends Component {
-//   render() {
-//     console.log(entries);
-//     return (
-//       <div className="App">
-//         {entries.grupo.map(entry => <span>{entry.desc}</span>)}
-//       </div>
-//     );
-//   }
-// }
-//
-// export default App;
-
 import React, { Component } from 'react';
+import Container from './views/container'
 import firebase from 'api/firebase';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+import {createMuiTheme} from 'material-ui/styles'
+import createPalette from 'material-ui/styles/createPalette'
+import {blue, red} from 'material-ui/colors'
+
+const theme = createMuiTheme({
+  palette: createPalette({
+    primary: blue,
+    accent: red,
+    type: 'light',
+  }),
+  linkColor: '#2969b0',
+  navbar: {
+    title: {
+      fontFamily: 'Helvetica, Arial, sans-serif',
+    },
+  },
+  bible: {
+    fontFamily: 'Lora, serif',
+  },
+})
 
 class App extends Component {
   constructor(props) {
@@ -25,10 +29,8 @@ class App extends Component {
     this.state = { messages: [] }; // <- set up react state
   }
   componentWillMount(){
-    /* Create reference to messages in Firebase Database */
-    let messagesRef = firebase.database().ref('messages').orderByKey().limitToLast(100);
+    let messagesRef = firebase.database().ref('grupo').orderByKey().limitToLast(100);
     messagesRef.on('child_added', snapshot => {
-      /* Update React state when message is added at Firebase Database */
       let message = { text: snapshot.val(), id: snapshot.key };
       this.setState({ messages: [message].concat(this.state.messages) });
     })
@@ -41,15 +43,18 @@ class App extends Component {
   }
   render() {
     return (
-      <form onSubmit={this.addMessage.bind(this)}>
-        <input type="text" ref={ el => this.inputEl = el }/>
-        <input type="submit"/>
+      <MuiThemeProvider theme={theme}>
+        <Container />
         <ul>
           { /* Render the list of messages */
-            this.state.messages.map( message => <li key={message.id}>{message.text}</li> )
+            this.state.messages.map( message => <li key={message.id}>{JSON.stringify(message.text, null, 2)}</li> )
           }
         </ul>
-      </form>
+      </MuiThemeProvider>
+      // <form onSubmit={this.addMessage.bind(this)}>
+      //   <input type="text" ref={ el => this.inputEl = el }/>
+      //   <input type="submit"/>
+      // </form>
     );
   }
 }

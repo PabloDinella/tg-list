@@ -1,14 +1,15 @@
 "use strict";
 
-import fs from 'fs'
+const fs = require('fs');
 const path = require('path');
 const load = require('cheerio').load;
+const request = require('request-promise');
 
 const RAW_DATA = path.join(__dirname, '../raw/tg.html');
 const OUTPUT = path.join(__dirname, '../output/entries.json');
 const CATEGORIES = ["BancoDeDados", "WordPress", "Vagas", "Cloud", "Servers", "Regional", "Virtualização", "Windows", "Gestão", "Android", "Segurança", "TI", "Web", "Hacktivismo", "Design", "Robótica", "Tech", "BSD", "Redes", "Hacking", "Notícias", "Software", "Humor", "DataScience", "MachineLearning", "Linux", "MoedaVirtual", "Hardware", "Apple", "Office", "Oracle", "SoftwareLivre", "Wallpapers", "Mobile", "Telegram", "Geral", "Impressão3D", "Gaming", "Programação", "Outros"];
 
-function getEntries(html) {
+async function getEntries(html) {
   const $ = load(html);
   let entries = {
     grupo: [],
@@ -16,47 +17,79 @@ function getEntries(html) {
     desconhecido: []
   }
 
-  $('.im_message_text, .im_message_photo_caption').each((i, el) => {
-    let tags = $(el).find('[href^="tg://search_hashtag"]').text();
-    if (!tags.length || tags.match(/Evento|Palestra|Live/g)) return
+    // $('.im_message_text, .im_message_photo_caption').each(async (i, el) => {
+    const chats = $('.im_message_text, .im_message_photo_caption').map((i, el) => {
+      return el
+    }).get()
 
-    let desc = $(el).clone().children('[href^="tg://search_hashtag"]').remove().end().find('br').replaceWith(' ').end().text().trim().replace(/^-\s/, '').replace(/\s\s+/g, ' ');
-    let link = $(el).find('[href^="tg://join"],[href^="tg://resolve"],[href^="https://www.telegram.me/"]').text();
-    if (!link.length) return
+    // const chats2 = chats.slice(54, 75)
+    for (let el of chats) {
+      let tags = $(el).find('[href^="tg://search_hashtag"]').text();
+      if (!tags.length || tags.match(/Evento|Palestra|Live/g)) continue
 
-    let chatType = tags.match(/Grupo|Canal/g)
-    if (!chatType) {
-      chatType = desc.match(/Grupo|Canal/gi)
+      let desc = $(el).clone().children('[href^="tg://search_hashtag"]').remove().end().find('br').replaceWith(' ').end().text().trim().replace(/^-\s/, '').replace(/\s\s+/g, ' ');
+      let link = $(el).find('[href^="tg://join"],[href^="tg://resolve"],[href^="https://www.telegram.me/"]').text()
+      if (!link.length) continue
+
+      let chatType = tags.match(/Grupo|Canal/g)
+      if (!chatType) {
+        chatType = desc.match(/Grupo|Canal/gi)
+      }
+      chatType = chatType ? chatType[0].toLowerCase() : 'desconhecido'
+
+      try {
+        const webogramHtml = await request(link.search(/^http/) === -1 ? `https://${link}` : link)
+        const j = load(webogramHtml)
+
+        const image = j('.tgme_page_photo a img').first().attr('src')
+        const title = j('.tgme_page_title').text().trim()
+        console.log('--->', title);
+        if (!title) {
+          continue
+        }
+        const participants = parseInt(j('.tgme_page_extra').text())
+        const description = j('.tgme_page_description').text().trim()
+        const join = j('.tgme_page_photo a').first().attr('href')
+
+        entries[chatType].push({
+          tags: tags.replace(/^#/, '').split('#'),
+          desc: description ? description : desc,
+          title,
+          image,
+          participants,
+          join,
+          link: link
+        })
+      } catch (e) {
+        console.warn('erro', e);
+      }
     }
-    chatType = chatType ? chatType[0].toLowerCase() : 'desconhecido'
+    // })
 
-    entries[chatType].push({
-      tags: tags.replace(/^#/, '').split('#'),
-      desc: desc,
-      link: link
+    // const filtered = entries.filter(item => {
+    //   return (item.tags.length && item.link.length && !item.tags.match(/Evento|Palestra/g))
+    // })
+    // const jeyzon = {
+    //   grupos: filtered.
+    // }
+    // console.log(`${filtered.length} grupos/canais encontrados`);
+    console.log('final');
+    Object.keys(entries).forEach(key => {
+      console.log(`${key}: ${entries[key].length}`);
     })
-  })
-
-  // const filtered = entries.filter(item => {
-  //   return (item.tags.length && item.link.length && !item.tags.match(/Evento|Palestra/g))
-  // })
-  // const jeyzon = {
-  //   grupos: filtered.
-  // }
-  // console.log(`${filtered.length} grupos/canais encontrados`);
-  Object.keys(entries).forEach(key => {
-    console.log(`${key}: ${entries[key].length}`);
-  })
-  return JSON.stringify(entries, null, '  ');
+    return JSON.stringify(entries, null, '  ');
 }
 
 function parse(path) {
   fs.readFile(path, 'utf-8', (err, data) => {
     if (err) return console.log(err);
-    fs.writeFile(OUTPUT, getEntries(data), (err) => {
-      if (err) return console.log(err);
-      console.log('Salvo em:', OUTPUT);
-    });
+    getEntries(data)
+      .then(result => {
+        fs.writeFile(OUTPUT, result, (err) => {
+          if (err) return console.log(err);
+          console.log('Salvo em:', OUTPUT, result);
+        });
+      })
   })
 }
 

@@ -15,6 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "now --public -e NODE_ENV=production --token $NOW_TOKEN --npm && now alias --token=$NOW_TOKEN && now remove tg-list --safe --token=$NOW_TOKEN"
+    "deploy": "now --public -e NODE_ENV=production --npm && now alias",
+    "deploy:ci": "now --public -e NODE_ENV=production --token $NOW_TOKEN --npm && now alias --token=$NOW_TOKEN"
   }
 }

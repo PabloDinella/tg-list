@@ -2,17 +2,20 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
 import Avatar from 'material-ui/Avatar';
-import Card, { CardHeader, CardContent, CardMedia } from 'material-ui/Card';
+import Card, { CardHeader, CardContent, CardActions, CardMedia } from 'material-ui/Card';
+import Button from 'material-ui/Button';
 import IconButton from 'material-ui/IconButton';
 import Typography from 'material-ui/Typography';
+import PeopleIcon from 'material-ui-icons/People';
 import SkipPreviousIcon from 'material-ui-icons/SkipPrevious';
 import PlayArrowIcon from 'material-ui-icons/PlayArrow';
 import SkipNextIcon from 'material-ui-icons/SkipNext';
 import Grid from 'material-ui/Grid'
+import imagePlaceholder from '../static/placeholder.jpg'
 
 const styles = theme => ({
   card: {
-    // display: 'flex',
+    height: '100%',
   },
   details: {
     display: 'flex',
@@ -46,8 +49,9 @@ function MediaControlCard(props) {
         <CardHeader
           avatar={
            <Avatar
-             src="https://tgram.io/media/group_images/Bjk6jKHjc2HKSIpDMxVTutxYj0w1Qc5vAnl-SZO38sCr9s_okKBT5sDCiemojZqRhOxh0Qv7amJ_CQ1PxNa.jpg.120x120_q85_crop.jpg"
-             aria-label="Recipe"
+             // src={data.image}
+             src={imagePlaceholder}
+             aria-label="Avatar do grupo"
            />
           }
           // action={
@@ -55,14 +59,24 @@ function MediaControlCard(props) {
           //    <MoreVertIcon />
           //  </IconButton>
           // }
-          title="Shrimp and Chorizo Paella"
-          subheader="September 14, 2016"
+          title={data.title}
+          subheader={data.tags.join(', ')}
         />
         <CardContent className={classes.content}>
+          <Typography>
+            <PeopleIcon />
+            {data.participants}
+          </Typography>
           <Typography>
             {data.desc.split(' ').filter(word => word.length <= 30).join(' ')}
           </Typography>
         </CardContent>
+        <CardActions>
+
+          <Button color="primary">
+           Entrar no grupo
+          </Button>
+       </CardActions>
       </Card>
     </Grid>
   );

@@ -10,6 +10,9 @@ const styles = {
   root: {
     width: '100%',
   },
+  container: {
+    padding: 20,
+  },
   flex: {
     flex: 1,
   },
@@ -33,7 +36,7 @@ class Container extends React.Component {
             <Tab label="Bots" href="#basic-tabs" />
           </Tabs>
         </AppBar>
-        <div>
+        <div className={classes.container}>
           {children}
         </div>
       </div>

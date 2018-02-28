@@ -15,6 +15,8 @@ import imagePlaceholder from '../static/placeholder.jpg'
 
 const styles = theme => ({
   card: {
+    display: 'flex',
+    flexFlow: 'column',
     height: '100%',
   },
   details: {
@@ -63,17 +65,22 @@ function MediaControlCard(props) {
           subheader={data.tags.join(', ')}
         />
         <CardContent className={classes.content}>
-          <Typography>
+          {/* <Typography>
             <PeopleIcon />
             {data.participants}
-          </Typography>
-          <Typography>
+          </Typography> */}
+          <Typography color="secondary">
             {data.desc.split(' ').filter(word => word.length <= 30).join(' ')}
           </Typography>
         </CardContent>
         <CardActions>
 
-          <Button color="primary">
+          <Button
+            color="primary"
+            href={data.link}
+            target="_blank"
+            // component={props => <a href={data.link}>{props.children}</a>}
+          >
            Entrar no grupo
           </Button>
        </CardActions>

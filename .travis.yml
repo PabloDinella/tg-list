@@ -4,6 +4,7 @@ node_js:
 cache: npm
 before_script: cd site
 script:
+- npm install
 - npm run test
 - npm run codecov
 - npm i -g now

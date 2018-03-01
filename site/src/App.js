@@ -39,12 +39,12 @@ class App extends Component {
     // })
     this.setState({ messages: all.grupo.slice(0, 10) });
   }
-  addMessage(e){
+  // addMessage(e){
     // e.preventDefault(); // <- prevent form submit from reloading the page
     // /* Send the message to Firebase */
     // firebase.database().ref('messages').push( this.inputEl.value );
     // this.inputEl.value = ''; // <- clear the input
-  }
+  // }
   render() {
     return (
       <MuiThemeProvider theme={theme}>

@@ -13,10 +13,29 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test --env=jsdom --coverage",
     "eject": "react-scripts eject",
+    "codecov": "codecov -t $CODECOV_TOKEN",
     "deploy": "now --public -e NODE_ENV=production --npm && now alias",
     "deploy:ci": "now --public -e NODE_ENV=production --token $NOW_TOKEN --npm",
     "deploy:alias": "now alias --token=$NOW_TOKEN"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js}",
+      "!src/index.js",
+      "!src/registerServiceWorker.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  },
+  "devDependencies": {
+    "codecov": "^3.0.0"
   }
 }

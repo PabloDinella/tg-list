@@ -9,6 +9,7 @@ script:
 - npm run codecov
 - npm i -g now
 - npm run deploy:ci
+- npm run deploy:alias
 after_script:
 - npm run alias
 env:

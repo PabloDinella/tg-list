@@ -22,8 +22,8 @@ async function getEntries(html) {
       return el
     }).get()
 
-    // const chats2 = chats.slice(54, 75)
-    for (let el of chats) {
+    const chats2 = chats.slice(54, 68)
+    for (let el of chats2) {
       let tags = $(el).find('[href^="tg://search_hashtag"]').text();
       if (!tags.length || tags.match(/Evento|Palestra|Live/g)) continue
 

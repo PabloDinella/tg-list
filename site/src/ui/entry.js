@@ -14,6 +14,10 @@ import Grid from 'material-ui/Grid'
 import imagePlaceholder from '../static/placeholder.jpg'
 
 const styles = theme => ({
+  button: {
+    margin: 7,
+    textTransform: 'none',
+  },
   card: {
     display: 'flex',
     flexFlow: 'column',
@@ -45,47 +49,54 @@ const styles = theme => ({
 function MediaControlCard(props) {
   const { classes, theme, data } = props;
 
-  return (
-    <Grid item xs={12} md={6} zeroMinWidth>
-      <Card className={classes.card}>
-        <CardHeader
-          avatar={
-           <Avatar
-             // src={data.image}
-             src={imagePlaceholder}
-             aria-label="Avatar do grupo"
-           />
-          }
-          // action={
-          //  <IconButton>
-          //    <MoreVertIcon />
-          //  </IconButton>
-          // }
-          title={data.title}
-          subheader={data.tags.join(', ')}
-        />
-        <CardContent className={classes.content}>
-          {/* <Typography>
-            <PeopleIcon />
-            {data.participants}
-          </Typography> */}
-          <Typography color="secondary">
-            {data.desc.split(' ').filter(word => word.length <= 30).join(' ')}
-          </Typography>
-        </CardContent>
-        <CardActions>
+  const label = data.join && data.join.includes('resolve')
+    ? `@${data.join.split('=')[1]}`
+    : data.title
 
-          <Button
-            color="primary"
-            href={data.link}
-            target="_blank"
-            // component={props => <a href={data.link}>{props.children}</a>}
-          >
-           Entrar no grupo
-          </Button>
-       </CardActions>
-      </Card>
-    </Grid>
+  return (
+    <Button className={classes.button} raised color="primary" href={data.link}>
+      {label}
+    </Button>
+    // <Grid item xs={12} md={6} zeroMinWidth>
+    //   <Card className={classes.card}>
+    //     <CardHeader
+    //       avatar={
+    //        <Avatar
+    //          // src={data.image}
+    //          src={imagePlaceholder}
+    //          aria-label="Avatar do grupo"
+    //        />
+    //       }
+    //       // action={
+    //       //  <IconButton>
+    //       //    <MoreVertIcon />
+    //       //  </IconButton>
+    //       // }
+    //       title={data.title}
+    //       subheader={data.tags.join(', ')}
+    //     />
+    //     <CardContent className={classes.content}>
+    //       {/* <Typography>
+    //         <PeopleIcon />
+    //         {data.participants}
+    //       </Typography> */}
+    //       <Typography color="secondary">
+    //         {data.desc.split(' ').filter(word => word.length <= 30).join(' ')}
+    //       </Typography>
+    //     </CardContent>
+    //     <CardActions>
+    //
+    //       <Button
+    //         color="primary"
+    //         href={data.link}
+    //         target="_blank"
+    //         // component={props => <a href={data.link}>{props.children}</a>}
+    //       >
+    //        Entrar no grupo
+    //       </Button>
+    //    </CardActions>
+    //   </Card>
+    // </Grid>
   );
 }
 

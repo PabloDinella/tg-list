@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import { Set } from 'immutable'
 import Container from './views/container'
 import Entry from './ui/entry'
 import firebase from 'api/firebase';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import {createMuiTheme} from 'material-ui/styles'
 import createPalette from 'material-ui/styles/createPalette'
+import Typography from 'material-ui/Typography'
 import {blue, red} from 'material-ui/colors'
 import Grid from 'material-ui/Grid'
 import all from './entries.json'
@@ -37,7 +39,19 @@ class App extends Component {
     //   let message = { text: snapshot.val(), id: snapshot.key };
     //   this.setState({ messages: [message].concat(this.state.messages) });
     // })
-    this.setState({ messages: all.grupo.slice(0, 10) });
+    this.setState({ messages: all.grupo });
+    // this.setState({
+    //   messages: List(all.grupo.map(i => {
+    //     const rm = i.tags.indexOf('Grupo')
+    //     if (rm !== -1) {
+    //       return {
+    //         ...i,
+    //         tags: i.tags.splice(rm, rm)
+    //       }
+    //     }
+    //     return i
+    //   })).groupBy(item => item.tags)
+    // });
   }
   // addMessage(e){
     // e.preventDefault(); // <- prevent form submit from reloading the page
@@ -49,9 +63,27 @@ class App extends Component {
     return (
       <MuiThemeProvider theme={theme}>
         <Container>
-          <Grid container>
-            {this.state.messages.map(message => <Entry data={message} />)}
-          </Grid>
+          {Set(this.state.messages.reduce((
+            initial,
+            curr,
+          ) => {
+            return [
+              ...initial,
+              ...curr.tags,
+            ]
+          }, [])).map(tag => {
+            if (tag === 'Grupo') return
+            return (
+              <div>
+                <Typography type="body2" gutterBottom>{tag}</Typography>
+                <Grid style={{margin: '10px 0 30px'}} container>
+                  {this.state.messages.filter(message => {
+                    return message.tags.includes(tag)
+                  }).map(i => <Entry data={i} />)}
+                </Grid>
+              </div>
+            )
+          })}
         </Container>
       </MuiThemeProvider>
       // <form onSubmit={this.addMessage.bind(this)}>

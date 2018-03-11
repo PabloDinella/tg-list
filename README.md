@@ -21,3 +21,4 @@ This is my main pet project right now. I will use it to practice my coding skill
 
 ## Other projects with same goal
 - https://airtable.com/universe/expuyyrRuN27mFPRB/bot-stack-compendium?explore=true
+- http://telegramcryptogroups.com

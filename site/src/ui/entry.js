@@ -1,9 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
+import normalizeUrl from 'normalize-url'
+
 import Avatar from 'material-ui/Avatar';
 import Card, { CardHeader, CardContent, CardActions, CardMedia } from 'material-ui/Card';
 import Button from 'material-ui/Button';
+import Tooltip from 'material-ui/Tooltip';
 import IconButton from 'material-ui/IconButton';
 import Typography from 'material-ui/Typography';
 import PeopleIcon from 'material-ui-icons/People';
@@ -53,10 +56,16 @@ function MediaControlCard(props) {
     ? `@${data.join.split('=')[1]}`
     : data.title
 
+  const info = <div>
+    <p>{data.desc.slice(0, 50)}... <span style={{paddingLeft: 20}}>Clique para ver mais</span></p>
+  </div>
+
   return (
-    <Button className={classes.button} raised color="primary" href={data.link}>
-      {label}
-    </Button>
+    <Tooltip title={info}>
+      <Button className={classes.button} raised color="primary" href={normalizeUrl(data.link)} target="_blank">
+        {label}
+      </Button>
+    </Tooltip>
     // <Grid item xs={12} md={6} zeroMinWidth>
     //   <Card className={classes.card}>
     //     <CardHeader

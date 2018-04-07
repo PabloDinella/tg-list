@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
-import normalizeUrl from 'normalize-url'
 
 import Avatar from 'material-ui/Avatar';
 import Card, { CardHeader, CardContent, CardActions, CardMedia } from 'material-ui/Card';
@@ -62,7 +61,7 @@ function MediaControlCard(props) {
 
   return (
     <Tooltip title={info}>
-      <Button className={classes.button} raised color="primary" href={normalizeUrl(data.link)} target="_blank">
+      <Button className={classes.button} raised color="primary" href={data.link} target="_blank">
         {label}
       </Button>
     </Tooltip>

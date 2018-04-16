@@ -1,7 +1,13 @@
 {
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
+    "escape-string-regexp": "^1.0.5",
+    "firebase": "^4.12.1",
+    "firebase-admin": "^5.12.0",
+    "normalize-url": "^2.0.1",
     "request": "^2.83.0",
-    "request-promise": "^4.2.2"
+    "request-promise": "^4.2.2",
+    "slug": "^0.9.1",
+    "slugify": "^1.2.9"
   }
 }

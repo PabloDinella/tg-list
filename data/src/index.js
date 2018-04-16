@@ -4,6 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const load = require('cheerio').load;
 const request = require('request-promise');
+const normalizeUrl = require('normalize-url');
 
 const RAW_DATA = path.join(__dirname, '../raw/tg.html');
 const OUTPUT = path.join(__dirname, '../output/entries.json');
@@ -12,9 +13,8 @@ const CATEGORIES = ["BancoDeDados", "WordPress", "Vagas", "Cloud", "Servers", "R
 async function getEntries(html) {
   const $ = load(html);
   let entries = {
-    grupo: [],
-    canal: [],
-    desconhecido: []
+    group: [],
+    channel: [],
   }
 
     // $('.im_message_text, .im_message_photo_caption').each(async (i, el) => {
@@ -23,19 +23,14 @@ async function getEntries(html) {
     }).get()
 
     const chats2 = chats.slice(54, 68)
-    for (let el of chats2) {
+    for (let el of chats) {
       let tags = $(el).find('[href^="tg://search_hashtag"]').text();
       if (!tags.length || tags.match(/Evento|Palestra|Live/g)) continue
 
       let desc = $(el).clone().children('[href^="tg://search_hashtag"]').remove().end().find('br').replaceWith(' ').end().text().trim().replace(/^-\s/, '').replace(/\s\s+/g, ' ');
       let link = $(el).find('[href^="tg://join"],[href^="tg://resolve"],[href^="https://www.telegram.me/"]').text()
       if (!link.length) continue
-
-      let chatType = tags.match(/Grupo|Canal/g)
-      if (!chatType) {
-        chatType = desc.match(/Grupo|Canal/gi)
-      }
-      chatType = chatType ? chatType[0].toLowerCase() : 'desconhecido'
+      link = normalizeUrl(link)
 
       try {
         const webogramHtml = await request(link.search(/^http/) === -1 ? `https://${link}` : link)
@@ -43,13 +38,14 @@ async function getEntries(html) {
 
         const image = j('.tgme_page_photo a img').first().attr('src')
         const title = j('.tgme_page_title').text().trim()
-        console.log('--->', title);
         if (!title) {
           continue
         }
-        const participants = parseInt(j('.tgme_page_extra').text())
+        const participants = parseInt(j('.tgme_page_extra').text().replace(' ', ''))
         const description = j('.tgme_page_description').text().trim()
         const join = j('.tgme_page_photo a').first().attr('href')
+        const chatType = j('.tgme_action_button_new').text().toLowerCase().match(/channel|group/)[0]
+        console.log('--->', JSON.stringify([title, link, chatType, participants], ' '));
 
         entries[chatType].push({
           tags: tags.replace(/^#/, '').split('#'),

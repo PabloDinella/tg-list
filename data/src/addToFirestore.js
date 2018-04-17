@@ -22,38 +22,34 @@ function decode(encoded) {
   return decodeURIComponent(encoded.replace('%2E', '.'))
 }
 
-db.collection('tags').get()
-  .then(snapshot => {
-      snapshot.forEach(doc => {
-          console.log(doc.id, '=>', doc.data());
-      });
-  })
-  .catch(err => {
-      console.log('Error getting documents', err);
-  });
-
+// db.collection('tags').get()
+//   .then(snapshot => {
+//       snapshot.forEach(doc => {
+//           console.log(doc.id, '=>', doc.data());
 //
-// data && Object.keys(data).forEach((key, i) => {
-//   if (i > 0) {
-//     return
-//   }
-//
-//   const nestedContent = data[key];
-//
-//   if (typeof nestedContent === "object") {
-//     Object.keys(nestedContent).forEach(docTitle => {
-//       db
-//       .collection('tags')
-//       .doc(encode(key))
-//       .collection('chats')
-//       .doc(encode(docTitle))
-//       .set(nestedContent[docTitle])
-//       .then((res) => {
-//         console.log("Document successfully written!");
-//       })
-//       .catch((error) => {
-//         console.error("Error writing document: ", error);
 //       });
-//     });
-//   }
-// });
+//   })
+//   .catch(err => {
+//       console.log('Error getting documents', err);
+//   });
+
+
+data && Object.keys(data).forEach((key, i) => {
+  // if (i > 1) {
+  //   return
+  // }
+
+  const nestedContent = data[key];
+
+  if (typeof nestedContent === "object") {
+    Object.keys(nestedContent).forEach(docTitle => {
+      const tagRef = db.collection('tags').doc(encode(key))
+      tagRef.set({})
+      tagRef.collection('chats').doc(encode(docTitle)).set(nestedContent[docTitle]).then((res) => {
+        console.log("Document successfully written!");
+      }).catch((error) => {
+        console.error("Error writing document: ", error);
+      });
+    });
+  }
+});

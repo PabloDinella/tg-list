@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Set } from 'immutable'
 import Container from './views/container'
 import Entry from './ui/entry'
-import firebase from 'api/firebase';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import {createMuiTheme} from 'material-ui/styles'
 import createPalette from 'material-ui/styles/createPalette'
@@ -10,6 +9,9 @@ import Typography from 'material-ui/Typography'
 import {blue, red} from 'material-ui/colors'
 import Grid from 'material-ui/Grid'
 import all from './entries.json'
+const firebase = require("firebase");
+// Required for side-effects
+require("firebase/firestore");
 
 const theme = createMuiTheme({
   palette: createPalette({
@@ -34,12 +36,32 @@ class App extends Component {
     this.state = { messages: [] }; // <- set up react state
   }
   componentWillMount(){
-    // let messagesRef = firebase.database().ref('grupo').orderByKey().limitToLast(100);
+    firebase.initializeApp({
+      apiKey: "AIzaSyAi1KlX6q2P3Be3M1gvwt-fLlwg0G7e53A",
+      authDomain: "tg-list.firebaseapp.com",
+      databaseURL: "https://tg-list.firebaseio.com",
+      projectId: "tg-list",
+      storageBucket: "tg-list.appspot.com",
+      messagingSenderId: "983638119768"
+    });
+
+    // Initialize Cloud Firestore through Firebase
+    var db = firebase.firestore();
+    db.collection('tags').limit(10).get().then(snapshot => {
+      // snapshot.forEach(doc => {
+      // })
+      this.setState({ messages: snapshot.docs.map(doc => doc.id)})
+    })
+    // let messagesRef = firebase.database().ref('grupo').orderByKey().limitToLast(30);
     // messagesRef.on('child_added', snapshot => {
     //   let message = { text: snapshot.val(), id: snapshot.key };
-    //   this.setState({ messages: [message].concat(this.state.messages) });
+    //   // this.setState({ messages: [message].concat(this.state.messages) });
+    //   this.setState({ messages: [
+    //     message.text,
+    //     ...this.state.messages,
+    //   ]});
     // })
-    this.setState({ messages: all.grupo });
+    // this.setState({ messages: all.grupo });
     // this.setState({
     //   messages: List(all.grupo.map(i => {
     //     const rm = i.tags.indexOf('Grupo')
@@ -60,27 +82,23 @@ class App extends Component {
     // this.inputEl.value = ''; // <- clear the input
   // }
   render() {
+    if (!this.state.messages) {
+      return (<div>loading...</div>);
+    }
+    console.log(this.state.messages);
     return (
       <MuiThemeProvider theme={theme}>
         <Container>
-          {Set(this.state.messages.reduce((
-            initial,
-            curr,
-          ) => {
-            return [
-              ...initial,
-              ...curr.tags,
-            ]
-          }, [])).map(tag => {
-            if (tag === 'Grupo') return
+          {this.state.messages.map(tag => {
+            // if (tag === 'Grupo') return
             return (
               <div>
                 <Typography type="body2" gutterBottom>{tag}</Typography>
-                <Grid style={{margin: '10px 0 30px'}} container>
+                {/* <Grid style={{margin: '10px 0 30px'}} container>
                   {this.state.messages.filter(message => {
                     return message.tags.includes(tag)
                   }).map(i => <Entry data={i} />)}
-                </Grid>
+                </Grid> */}
               </div>
             )
           })}

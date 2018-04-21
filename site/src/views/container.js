@@ -18,9 +18,12 @@ const styles = {
   },
 };
 
+
 class Container extends React.Component {
   render() {
     const { classes, children } = this.props;
+
+    const alphabet = Array.apply(null, {length: 26}).map((x, i) => String.fromCharCode(65 + i))
 
     return (
       <div className={classes.root}>
@@ -30,11 +33,19 @@ class Container extends React.Component {
               tg-list
             </Typography>
           </Toolbar>
-          <Tabs value={1} onChange={this.handleChange} fullWidth>
-            <Tab label="Grupos" />
-            <Tab label="Canais" />
-            <Tab label="Bots" href="#basic-tabs" />
-          </Tabs>
+          <div style={{backgroundColor: 'white', color: 'black'}}>
+            <Tabs
+              value={1}
+              onChange={this.handleChange}
+              fullWidth
+              indicatorColor="primary"
+              textColor="primary"
+              scrollable
+            >
+              {alphabet
+                .map(letter => <Tab label={letter} />)}
+            </Tabs>
+          </div>
         </AppBar>
         <div className={classes.container}>
           {children}

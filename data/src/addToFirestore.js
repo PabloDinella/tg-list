@@ -25,8 +25,9 @@ function decode(encoded) {
 // db.collection('tags').get()
 //   .then(snapshot => {
 //       snapshot.forEach(doc => {
-//           console.log(doc.id, '=>', doc.data());
-//
+//           // console.log(doc.id, '=>', doc.data());
+//           // console.log(doc.collection('tags').get().then(sn => { console.log(sn.length);}));
+//           console.log(db.collection('tags').doc(doc.id).collection('chats').get().then(sn => { console.log(doc.id, '=>', sn.size); }));
 //       });
 //   })
 //   .catch(err => {
@@ -44,7 +45,9 @@ data && Object.keys(data).forEach((key, i) => {
   if (typeof nestedContent === "object") {
     Object.keys(nestedContent).forEach(docTitle => {
       const tagRef = db.collection('tags').doc(encode(key))
-      tagRef.set({})
+      tagRef.set({
+        label: key
+      })
       tagRef.collection('chats').doc(encode(docTitle)).set(nestedContent[docTitle]).then((res) => {
         console.log("Document successfully written!");
       }).catch((error) => {

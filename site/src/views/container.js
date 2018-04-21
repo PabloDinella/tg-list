@@ -5,6 +5,13 @@ import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
 import Tabs, { Tab } from 'material-ui/Tabs';
+import {connect} from 'react-redux'
+import {changeTab} from '../actions'
+import SwipeableViews from 'react-swipeable-views'
+import TagGroup from './tagGroup'
+const firebase = require("firebase");
+// Required for side-effects
+require("firebase/firestore");
 
 const styles = {
   root: {
@@ -18,10 +25,20 @@ const styles = {
   },
 };
 
+const db = firebase.initializeApp({
+  apiKey: "AIzaSyAi1KlX6q2P3Be3M1gvwt-fLlwg0G7e53A",
+  authDomain: "tg-list.firebaseapp.com",
+  databaseURL: "https://tg-list.firebaseio.com",
+  projectId: "tg-list",
+  storageBucket: "tg-list.appspot.com",
+  messagingSenderId: "983638119768"
+});
 
 class Container extends React.Component {
   render() {
-    const { classes, children } = this.props;
+    const { classes, children, selectedTab, changeTab } = this.props;
+
+    console.log(this.props);
 
     const alphabet = Array.apply(null, {length: 26}).map((x, i) => String.fromCharCode(65 + i))
 
@@ -35,12 +52,13 @@ class Container extends React.Component {
           </Toolbar>
           <div style={{backgroundColor: 'white', color: 'black'}}>
             <Tabs
-              value={1}
+              value={selectedTab}
               onChange={this.handleChange}
               fullWidth
               indicatorColor="primary"
               textColor="primary"
               scrollable
+              onChange={(ev, val) => {changeTab(val)}}
             >
               {alphabet
                 .map(letter => <Tab label={letter} />)}
@@ -48,7 +66,13 @@ class Container extends React.Component {
           </div>
         </AppBar>
         <div className={classes.container}>
-          {children}
+          <SwipeableViews
+            index={selectedTab}
+            onChangeIndex={(index) => {changeTab(index)}}
+          >
+            {alphabet
+              .map((letter, i) => <TagGroup index={i} load={i === selectedTab} db={db.firestore()} />)}
+          </SwipeableViews>
         </div>
       </div>
     );
@@ -59,4 +83,13 @@ Container.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Container);
+const mapStateToProps = (state) => ({
+  messages: state.messages,
+  selectedTab: state.ui.selectedTab
+})
+
+const mapDispatchToProps = {
+  changeTab
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(withStyles(styles)(Container));

@@ -32,7 +32,7 @@ class TagGroup extends React.Component {
     if (!this.props.load) {
       return
     }
-    this.loadTags()
+    // this.loadTags()
   }
 
   loadTags() {

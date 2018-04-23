@@ -1,4 +1,5 @@
 import googleFirebase from 'firebase'
+require("firebase/firestore") // Required for side-effects
 
 const config = {
   apiKey: "AIzaSyAi1KlX6q2P3Be3M1gvwt-fLlwg0G7e53A",
@@ -7,8 +8,10 @@ const config = {
   projectId: "tg-list",
   storageBucket: "tg-list.appspot.com",
   messagingSenderId: "983638119768"
-};
+}
 
-const firebase = googleFirebase.initializeApp(config);
+const firebase = googleFirebase.initializeApp(config)
+
+export const firestore = firebase.firestore()
 
 export default firebase

@@ -10,7 +10,10 @@ import {blue, red} from 'material-ui/colors'
 import Grid from 'material-ui/Grid'
 import all from './entries.json'
 import { Provider } from 'react-redux'
-import { createStore } from 'redux'
+import { createStore, applyMiddleware, compose } from 'redux'
+import createSagaMiddleware from 'redux-saga'
+import mySaga from 'sagas'
+
 import rootReducer from './reducer'
 // const firebase = require("firebase");
 // Required for side-effects
@@ -33,10 +36,15 @@ const theme = createMuiTheme({
   },
 })
 
+const sagaMiddleware = createSagaMiddleware()
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
 const store = createStore(
   rootReducer,
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  composeEnhancers(applyMiddleware(sagaMiddleware))
 )
+
+sagaMiddleware.run(mySaga)
 
 class App extends Component {
   constructor(props) {

@@ -4,6 +4,7 @@ import { withStyles } from 'material-ui/styles';
 import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
+import {CircularProgress} from 'material-ui/Progress';
 import Tabs, { Tab } from 'material-ui/Tabs';
 import {connect} from 'react-redux'
 import {changeTab} from '../actions'
@@ -23,42 +24,43 @@ const styles = {
 
 
 class TagGroup extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      messages: []
-    }
+  componentDidMount() {
+    this.loadTags()
   }
 
-  componentWillUpdate() {
-    const {db, load} = this.props
+  componentDidUpdate() {
+    if (!this.props.load) {
+      return
+    }
+    this.loadTags()
+  }
+
+  loadTags() {
+    const {data, load} = this.props
+    console.log('mmmm', load, data);
     if (!load) {
       return
     }
-    if (this.state.messages.length) {
-      return
-    }
-    const letter = String.fromCharCode(65 + this.props.index)
-    const letterEnd = String.fromCharCode(65 + this.props.index + 1)
-    db.collection('tags').orderBy('label').startAt(letter).endAt(letterEnd).get().then(snapshot => {
-      this.setState({ messages: snapshot.docs.map(doc => doc.id)})
-    })
+    // if (data && data.length > 0) {
+    //   return
+    // }
+    this.props.loadTags();
   }
 
   render() {
-    const {classes, index, load, db} = this.props;
+    const {classes, load, data} = this.props;
 
-    if (!load) {
-      return <div>no</div>
+    if (!data || data.loading) {
+      return <div>
+        <CircularProgress />
+      </div>
     }
-    console.log(this.state);
-
-    const letter = String.fromCharCode(65 + index)
 
     return (
       <div className={classes.root}>
-        {letter}
-        {this.state.messages}
+        {data.map(tag => <div>
+          <Typography type="body2" gutterBottom>{tag}</Typography>
+        </div>)}
       </div>
     );
   }

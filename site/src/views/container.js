@@ -6,37 +6,32 @@ import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
 import Tabs, { Tab } from 'material-ui/Tabs';
 import {connect} from 'react-redux'
-import {changeTab} from '../actions'
+import {changeTab, loadTags} from '../actions'
 import SwipeableViews from 'react-swipeable-views'
 import TagGroup from './tagGroup'
-const firebase = require("firebase");
-// Required for side-effects
-require("firebase/firestore");
 
 const styles = {
   root: {
     width: '100%',
+    height: '100vh',
+    display: 'flex',
+    flexDirection: 'column',
   },
   container: {
     padding: 20,
+    flex: '1',
+  },
+  swipeableViews: {
+    height: '100%',
   },
   flex: {
     flex: 1,
   },
 };
 
-const db = firebase.initializeApp({
-  apiKey: "AIzaSyAi1KlX6q2P3Be3M1gvwt-fLlwg0G7e53A",
-  authDomain: "tg-list.firebaseapp.com",
-  databaseURL: "https://tg-list.firebaseio.com",
-  projectId: "tg-list",
-  storageBucket: "tg-list.appspot.com",
-  messagingSenderId: "983638119768"
-});
-
 class Container extends React.Component {
   render() {
-    const { classes, children, selectedTab, changeTab } = this.props;
+    const { classes, children, selectedTab, tags, changeTab, loadTags } = this.props;
 
     console.log(this.props);
 
@@ -67,11 +62,20 @@ class Container extends React.Component {
         </AppBar>
         <div className={classes.container}>
           <SwipeableViews
+            className={classes.swipeableViews}
             index={selectedTab}
             onChangeIndex={(index) => {changeTab(index)}}
           >
             {alphabet
-              .map((letter, i) => <TagGroup index={i} load={i === selectedTab} db={db.firestore()} />)}
+              .slice(0, 3)
+              .map((letter, i) => {
+                const nextLetter = alphabet[i+1] || 'Z'
+                return <TagGroup
+                  load={i === selectedTab && !tags[letter]}
+                  loadTags={() => {loadTags(letter, nextLetter)}}
+                  data={tags[letter]}
+                />
+              })}
           </SwipeableViews>
         </div>
       </div>
@@ -85,11 +89,13 @@ Container.propTypes = {
 
 const mapStateToProps = (state) => ({
   messages: state.messages,
-  selectedTab: state.ui.selectedTab
+  selectedTab: state.ui.selectedTab,
+  tags: state.tags,
 })
 
 const mapDispatchToProps = {
-  changeTab
+  changeTab,
+  loadTags
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(withStyles(styles)(Container));

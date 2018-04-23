@@ -34,11 +34,10 @@ class TagGroup extends React.Component {
 
   componentDidUpdate() {
     const { data } = this.props
-    if (!this.props.load || (data && data.length)) {
+    if (!this.props.load || !!(data && data.length)) {
       return
     }
-    console.log('didupdate', (!this.props.load));
-    // this.loadTags()
+    this.loadTags()
   }
 
   loadTags() {
@@ -56,7 +55,7 @@ class TagGroup extends React.Component {
   render() {
     const {classes, load, data, chats} = this.props;
 
-    if (!data || data.loading) {
+    if (!data || data === 'loading') {
       return <div>
         <CircularProgress />
       </div>

@@ -7,5 +7,11 @@ export default (state = {}, action) => {
       ...action.payload
     };
   }
+  if (action.type === types.FIRESTORE_FETCH_TAGS) {
+    return {
+      ...state,
+      [action.payload.startAt]: 'loading',
+    };
+  }
   return state
 }

@@ -33,8 +33,6 @@ class Container extends React.Component {
   render() {
     const { classes, children, selectedTab, tags, chats, changeTab, loadTags } = this.props;
 
-    console.log(this.props);
-
     const alphabet = Array.apply(null, {length: 26}).map((x, i) => String.fromCharCode(65 + i))
 
     return (
@@ -71,7 +69,7 @@ class Container extends React.Component {
               .map((letter, i) => {
                 const nextLetter = alphabet[i+1] || 'Z'
                 return <TagGroup
-                  load={i === selectedTab && !tags[letter]}
+                  load={i === selectedTab && tags[letter] !== 'loading'}
                   loadTags={() => {loadTags(letter, nextLetter)}}
                   data={tags[letter]}
                   chats={chats}

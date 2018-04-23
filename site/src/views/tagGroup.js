@@ -9,6 +9,7 @@ import Tabs, { Tab } from 'material-ui/Tabs';
 import {connect} from 'react-redux'
 import {changeTab} from '../actions'
 import SwipeableViews from 'react-swipeable-views'
+import Entry from 'ui/entry'
 
 const styles = {
   root: {
@@ -20,6 +21,9 @@ const styles = {
   flex: {
     flex: 1,
   },
+  tagLabel: {
+    marginTop: 15,
+  },
 };
 
 
@@ -29,9 +33,11 @@ class TagGroup extends React.Component {
   }
 
   componentDidUpdate() {
-    if (!this.props.load) {
+    const { data } = this.props
+    if (!this.props.load || (data && data.length)) {
       return
     }
+    console.log('didupdate', (!this.props.load));
     // this.loadTags()
   }
 
@@ -48,7 +54,7 @@ class TagGroup extends React.Component {
   }
 
   render() {
-    const {classes, load, data} = this.props;
+    const {classes, load, data, chats} = this.props;
 
     if (!data || data.loading) {
       return <div>
@@ -59,7 +65,8 @@ class TagGroup extends React.Component {
     return (
       <div className={classes.root}>
         {data.map(tag => <div>
-          <Typography type="body2" gutterBottom>{tag}</Typography>
+          <Typography className={classes.tagLabel} type="body2" gutterBottom>{tag}</Typography>
+          {chats[tag].map(c => <Entry data={c} />)}
         </div>)}
       </div>
     );

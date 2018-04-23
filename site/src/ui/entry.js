@@ -49,68 +49,33 @@ const styles = theme => ({
 });
 
 function MediaControlCard(props) {
-  const { classes, theme, data } = props;
+  const { classes, data } = props;
 
   const label = data.join && data.join.includes('resolve')
     ? `@${data.join.split('=')[1]}`
     : data.title
 
   const info = <div>
-    <p>{data.desc.slice(0, 50)}... <span style={{paddingLeft: 20}}>Clique para ver mais</span></p>
+    <p>{data.desc.slice(0, 50)}... <span style={{paddingLeft: 20}}>Clique para ver</span></p>
   </div>
 
   return (
     <Tooltip title={info}>
-      <Button className={classes.button} raised color="primary" href={data.link} target="_blank">
+      <Button
+        className={classes.button}
+        color="primary"
+        href={data.link}
+        target="_blank"
+        variant="raised"
+      >
         {label}
       </Button>
     </Tooltip>
-    // <Grid item xs={12} md={6} zeroMinWidth>
-    //   <Card className={classes.card}>
-    //     <CardHeader
-    //       avatar={
-    //        <Avatar
-    //          // src={data.image}
-    //          src={imagePlaceholder}
-    //          aria-label="Avatar do grupo"
-    //        />
-    //       }
-    //       // action={
-    //       //  <IconButton>
-    //       //    <MoreVertIcon />
-    //       //  </IconButton>
-    //       // }
-    //       title={data.title}
-    //       subheader={data.tags.join(', ')}
-    //     />
-    //     <CardContent className={classes.content}>
-    //       {/* <Typography>
-    //         <PeopleIcon />
-    //         {data.participants}
-    //       </Typography> */}
-    //       <Typography color="secondary">
-    //         {data.desc.split(' ').filter(word => word.length <= 30).join(' ')}
-    //       </Typography>
-    //     </CardContent>
-    //     <CardActions>
-    //
-    //       <Button
-    //         color="primary"
-    //         href={data.link}
-    //         target="_blank"
-    //         // component={props => <a href={data.link}>{props.children}</a>}
-    //       >
-    //        Entrar no grupo
-    //       </Button>
-    //    </CardActions>
-    //   </Card>
-    // </Grid>
   );
 }
 
 MediaControlCard.propTypes = {
   classes: PropTypes.object.isRequired,
-  theme: PropTypes.object.isRequired,
 };
 
 export default withStyles(styles, { withTheme: true })(MediaControlCard);

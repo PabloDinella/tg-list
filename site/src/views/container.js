@@ -31,7 +31,7 @@ const styles = {
 
 class Container extends React.Component {
   render() {
-    const { classes, children, selectedTab, tags, changeTab, loadTags } = this.props;
+    const { classes, children, selectedTab, tags, chats, changeTab, loadTags } = this.props;
 
     console.log(this.props);
 
@@ -74,6 +74,7 @@ class Container extends React.Component {
                   load={i === selectedTab && !tags[letter]}
                   loadTags={() => {loadTags(letter, nextLetter)}}
                   data={tags[letter]}
+                  chats={chats}
                 />
               })}
           </SwipeableViews>
@@ -91,6 +92,7 @@ const mapStateToProps = (state) => ({
   messages: state.messages,
   selectedTab: state.ui.selectedTab,
   tags: state.tags,
+  chats: state.chats,
 })
 
 const mapDispatchToProps = {

@@ -24,7 +24,7 @@
     "codecov": "codecov -t $CODECOV_TOKEN",
     "deploy": "now --public -e NODE_ENV=production --npm && now alias",
     "deploy:ci": "now --public -e NODE_ENV=production --token $NOW_TOKEN --npm",
-    "deploy:alias": "now alias --token=$NOW_TOKEN"
+    "deploy:alias": "now alias --token=$NOW_TOKEN && now scale tg-list.now.sh 1"
   },
   "jest": {
     "collectCoverageFrom": [

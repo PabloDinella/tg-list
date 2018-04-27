@@ -9,6 +9,9 @@ import {connect} from 'react-redux'
 import {changeTab, loadTags} from '../actions'
 import SwipeableViews from 'react-swipeable-views'
 import TagGroup from './tagGroup'
+import SearchBar from 'material-ui-search-bar'
+import IconButton from 'material-ui/IconButton';
+import MenuIcon from 'material-ui-icons/Menu';
 
 const styles = {
   root: {
@@ -20,6 +23,10 @@ const styles = {
   container: {
     padding: 20,
     flex: '1',
+  },
+  menuButton: {
+    marginLeft: -12,
+    marginRight: 20,
   },
   swipeableViews: {
     height: '100%',
@@ -39,9 +46,22 @@ class Container extends React.Component {
       <div className={classes.root}>
         <AppBar position="static">
           <Toolbar>
-            <Typography type="title" color="inherit" className={classes.flex}>
+            <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
+              <MenuIcon />
+            </IconButton>
+            <Typography variant="title" color="inherit" className={classes.flex}>
               tg-list
             </Typography>
+          </Toolbar>
+          <Toolbar>
+            <SearchBar
+              onChange={() => console.log('onChange')}
+              onRequestSearch={() => console.log('onRequestSearch')}
+              style={{
+                margin: 0,
+                width: '100%'
+              }}
+            />
           </Toolbar>
           <div style={{backgroundColor: 'white', color: 'black'}}>
             <Tabs

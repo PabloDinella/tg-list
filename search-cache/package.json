@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "firebase": "^4.13.1",
+    "nodemon": "^1.17.3"
+  }
+}

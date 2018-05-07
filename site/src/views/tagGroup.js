@@ -29,7 +29,7 @@ const styles = {
 
 class TagGroup extends React.Component {
   componentDidMount() {
-    this.loadTags()
+    this.loadTags(this.props.loadAllTags)
   }
 
   componentDidUpdate() {
@@ -40,7 +40,7 @@ class TagGroup extends React.Component {
     this.loadTags()
   }
 
-  loadTags() {
+  loadTags(cb) {
     const {data, load} = this.props
     console.log('mmmm', load, data);
     if (!load) {
@@ -50,6 +50,7 @@ class TagGroup extends React.Component {
     //   return
     // }
     this.props.loadTags();
+    if (cb) cb()
   }
 
   render() {

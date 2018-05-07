@@ -6,14 +6,16 @@ import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
 import Tabs, { Tab } from 'material-ui/Tabs';
 import {connect} from 'react-redux'
-import {changeTab, loadTags} from '../actions'
+import {changeTab, loadTags, loadAllTags} from '../actions'
 import SwipeableViews from 'react-swipeable-views'
 import TagGroup from './tagGroup'
 import SearchBar from 'material-ui-search-bar'
 import IconButton from 'material-ui/IconButton';
+import Paper from 'material-ui/Paper';
+import {MenuItem} from 'material-ui/Menu';
 import MenuIcon from 'material-ui-icons/Menu';
 
-const styles = {
+const styles = (theme) => ({
   root: {
     width: '100%',
     height: '100vh',
@@ -34,11 +36,109 @@ const styles = {
   flex: {
     flex: 1,
   },
+
+  autocompleteContainer: {
+    position: 'relative',
+  },
+  paper: {
+    position: 'absolute',
+    zIndex: 1,
+    marginTop: theme.spacing.unit,
+    left: 0,
+    right: 0,
+  },
+  chip: {
+    margin: `${theme.spacing.unit / 2}px ${theme.spacing.unit / 4}px`,
+  },
+  inputRoot: {
+    flexWrap: 'wrap',
+  },
+
+});
+
+const suggestions = [
+  { label: 'Afghanistan' },
+  { label: 'Aland Islands' },
+  { label: 'Albania' },
+  { label: 'Algeria' },
+  { label: 'American Samoa' },
+  { label: 'Andorra' },
+  { label: 'Angola' },
+  { label: 'Anguilla' },
+  { label: 'Antarctica' },
+  { label: 'Antigua and Barbuda' },
+  { label: 'Argentina' },
+  { label: 'Armenia' },
+  { label: 'Aruba' },
+  { label: 'Australia' },
+  { label: 'Austria' },
+  { label: 'Azerbaijan' },
+  { label: 'Bahamas' },
+  { label: 'Bahrain' },
+  { label: 'Bangladesh' },
+  { label: 'Barbados' },
+  { label: 'Belarus' },
+  { label: 'Belgium' },
+  { label: 'Belize' },
+  { label: 'Benin' },
+  { label: 'Bermuda' },
+  { label: 'Bhutan' },
+  { label: 'Bolivia, Plurinational State of' },
+  { label: 'Bonaire, Sint Eustatius and Saba' },
+  { label: 'Bosnia and Herzegovina' },
+  { label: 'Botswana' },
+  { label: 'Bouvet Island' },
+  { label: 'Brazil' },
+  { label: 'British Indian Ocean Territory' },
+  { label: 'Brunei Darussalam' },
+];
+
+
+function renderSuggestion({ suggestion, index, itemProps, highlightedIndex, selectedItem }) {
+  const isHighlighted = highlightedIndex === index;
+  const isSelected = (selectedItem || '').indexOf(suggestion.label) > -1;
+
+  return (
+    <MenuItem
+      {...itemProps}
+      key={suggestion.label}
+      selected={isHighlighted}
+      component="div"
+      style={{
+        fontWeight: isSelected ? 500 : 400,
+      }}
+    >
+      {suggestion.label}
+    </MenuItem>
+  );
+}
+renderSuggestion.propTypes = {
+  highlightedIndex: PropTypes.number,
+  index: PropTypes.number,
+  itemProps: PropTypes.object,
+  selectedItem: PropTypes.string,
+  suggestion: PropTypes.shape({ label: PropTypes.string }).isRequired,
 };
+
+function getSuggestions(inputValue) {
+  let count = 0;
+
+  return suggestions.filter(suggestion => {
+    const keep =
+      (!inputValue || suggestion.label.toLowerCase().indexOf(inputValue.toLowerCase()) !== -1) &&
+      count < 5;
+
+    if (keep) {
+      count += 1;
+    }
+
+    return keep;
+  });
+}
 
 class Container extends React.Component {
   render() {
-    const { classes, children, selectedTab, tags, chats, changeTab, loadTags } = this.props;
+    const { classes, children, selectedTab, tags, chats, changeTab, loadTags, loadAllTags } = this.props;
 
     const alphabet = Array.apply(null, {length: 26}).map((x, i) => String.fromCharCode(65 + i))
 
@@ -54,14 +154,29 @@ class Container extends React.Component {
             </Typography>
           </Toolbar>
           <Toolbar>
-            <SearchBar
-              onChange={() => console.log('onChange')}
-              onRequestSearch={() => console.log('onRequestSearch')}
-              style={{
-                margin: 0,
-                width: '100%'
-              }}
-            />
+            <div className={classes.autocompleteContainer}>
+              <SearchBar
+                onChange={() => console.log('onChange')}
+                onRequestSearch={() => console.log('onRequestSearch')}
+                style={{
+                  margin: 0,
+                  width: '100%'
+                }}
+              />
+              {true ? (
+                <Paper className={classes.paper} square>
+                  {getSuggestions('a').map((suggestion, index) =>
+                    renderSuggestion({
+                      suggestion,
+                      index,
+                      // itemProps: getItemProps({ item: suggestion.label }),
+                      // highlightedIndex,
+                      // selectedItem: selectedItem2,
+                    }),
+                  )}
+                </Paper>
+              ) : null}
+            </div>
           </Toolbar>
           <div style={{backgroundColor: 'white', color: 'black'}}>
             <Tabs
@@ -91,6 +206,7 @@ class Container extends React.Component {
                 return <TagGroup
                   load={i === selectedTab && tags[letter] !== 'loading'}
                   loadTags={() => {loadTags(letter, nextLetter)}}
+                  loadAllTags={loadAllTags}
                   data={tags[letter]}
                   chats={chats}
                 />
@@ -115,7 +231,8 @@ const mapStateToProps = (state) => ({
 
 const mapDispatchToProps = {
   changeTab,
-  loadTags
+  loadTags,
+  loadAllTags,
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(withStyles(styles)(Container));

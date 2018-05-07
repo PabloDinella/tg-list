@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "lunr": "^2.2.0"
+  }
+}

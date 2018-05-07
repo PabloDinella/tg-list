@@ -5,6 +5,13 @@ export const changeTab = (value) => ({
   payload: value,
 })
 
+export const changeAutocompleteVisibility = (visibility) => ({
+  type: types.UI_TOGGLE_AUTOCOMPLETE,
+  payload: {
+    visibility,
+  },
+})
+
 export const loadTags = (startAt, endAt) => ({
   type: types.FIRESTORE_FETCH_CHATS_BY_TAGS,
   payload: {startAt, endAt},

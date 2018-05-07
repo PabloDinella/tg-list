@@ -4376,13 +4376,6 @@ material-ui-icons@^1.0.0-beta.17:
   dependencies:
     recompose "^0.26.0"
 
-material-ui-search-bar@^1.0.0-beta.4:
-  version "1.0.0-beta.4"
-  resolved "https://registry.yarnpkg.com/material-ui-search-bar/-/material-ui-search-bar-1.0.0-beta.4.tgz#4a951c3fef7fe5b5be796f1d7b6dc97ebace6720"
-  dependencies:
-    material-ui-icons "^1.0.0-beta.17"
-    prop-types "^15.5.8"
-
 material-ui@^1.0.0-beta.43:
   version "1.0.0-beta.43"
   resolved "https://registry.yarnpkg.com/material-ui/-/material-ui-1.0.0-beta.43.tgz#21074fd0ef5f1735a54060dbfd060e6d46fd5ef5"

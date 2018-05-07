@@ -9,7 +9,7 @@ import {connect} from 'react-redux'
 import {changeTab, loadTags, loadAllTags} from '../actions'
 import SwipeableViews from 'react-swipeable-views'
 import TagGroup from './tagGroup'
-import SearchBar from 'material-ui-search-bar'
+import SearchBar from 'ui/searchBar'
 import IconButton from 'material-ui/IconButton';
 import Paper from 'material-ui/Paper';
 import {MenuItem} from 'material-ui/Menu';
@@ -39,11 +39,12 @@ const styles = (theme) => ({
 
   autocompleteContainer: {
     position: 'relative',
+    width: '100%',
   },
   paper: {
     position: 'absolute',
     zIndex: 1,
-    marginTop: theme.spacing.unit,
+    marginTop: 1,
     left: 0,
     right: 0,
   },
@@ -158,6 +159,7 @@ class Container extends React.Component {
               <SearchBar
                 onChange={() => console.log('onChange')}
                 onRequestSearch={() => console.log('onRequestSearch')}
+                onBlur={(ev, tg) => { console.log('blurzão', ev, tg); }}
                 style={{
                   margin: 0,
                   width: '100%'

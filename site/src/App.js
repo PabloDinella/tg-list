@@ -70,7 +70,6 @@ class App extends Component {
     if (!this.state.messages) {
       return (<div>loading...</div>);
     }
-    console.log(this.state.messages);
     return (
       <Provider store={store}>
         <MuiThemeProvider theme={theme}>

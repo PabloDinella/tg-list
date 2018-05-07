@@ -4,7 +4,6 @@ import {firestore} from 'api/firebase'
 
 function* fetchChatsByTags(action) {
   try {
-    console.log('saga chats');
     const {startAt, endAt} = action.payload
     const ref = firestore.collection('tags').orderBy('label').startAt(startAt).endAt(endAt)
     const tags = yield call([ref, ref.get]);
@@ -28,7 +27,6 @@ function* fetchChatsByTags(action) {
 
 function* fetchTags() {
   try {
-    console.log('saga all tags');
     const ref = firestore.collection('tags')
     const tags = yield call([ref, ref.get])
     // for (let doc of tags.docs) {

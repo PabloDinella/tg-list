@@ -42,7 +42,6 @@ class TagGroup extends React.Component {
 
   loadTags(cb) {
     const {data, load} = this.props
-    console.log('mmmm', load, data);
     if (!load) {
       return
     }

@@ -141,8 +141,6 @@ class Container extends React.Component {
   render() {
     const { classes, children, selectedTab, showAutocomplete, tags, chats, changeTab, loadTags, loadAllTags, changeAutocompleteVisibility } = this.props;
 
-    console.log('showwwwww', showAutocomplete);
-
     const alphabet = Array.apply(null, {length: 26}).map((x, i) => String.fromCharCode(65 + i))
 
     return (
@@ -161,8 +159,8 @@ class Container extends React.Component {
               <SearchBar
                 onChange={() => console.log('onChange')}
                 onRequestSearch={() => console.log('onRequestSearch')}
-                onFocus={() => {console.log('focus');changeAutocompleteVisibility(true)}}
-                onBlur={() => {console.log('blur');changeAutocompleteVisibility(false)}}
+                onFocus={() => {changeAutocompleteVisibility(true)}}
+                onBlur={() => {changeAutocompleteVisibility(false)}}
                 style={{
                   margin: 0,
                   width: '100%'

@@ -71,12 +71,12 @@ export default class SearchBar extends Component {
     }
   }
 
-  handleFocus = () => {
+  handleFocus() {
     this.setState({focus: true})
     this.props.onFocus && this.props.onFocus()
   }
 
-  handleBlur = () => {
+  handleBlur() {
     this.setState({focus: false})
     if (this.state.value.trim().length === 0) {
       this.setState({value: ''})
@@ -84,17 +84,17 @@ export default class SearchBar extends Component {
     this.props.onBlur && this.props.onBlur()
   }
 
-  handleInput = (e) => {
+  handleInput(e) {
     this.setState({value: e.target.value})
     this.props.onChange && this.props.onChange(e.target.value)
   }
 
-  handleCancel = () => {
+  handleCancel() {
     this.setState({active: false, value: ''})
     this.props.onChange && this.props.onChange('')
   }
 
-  handleKeyPressed = (e) => {
+  handleKeyPressed(e) {
     if (e.charCode === 13 || e.key === 'Enter') {
       this.props.onRequestSearch(this.state.value)
     }

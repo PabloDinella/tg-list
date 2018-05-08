@@ -1,19 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+import SwipeableViews from 'react-swipeable-views';
 import { withStyles } from 'material-ui/styles';
 import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
 import Tabs, { Tab } from 'material-ui/Tabs';
-import { connect } from 'react-redux';
-import { changeTab, changeAutocompleteVisibility, updateSearchTerm, loadTags, loadAllTags } from '../actions';
-import SwipeableViews from 'react-swipeable-views';
-import TagGroup from './tagGroup';
-import SearchBar from 'ui/searchBar';
 import IconButton from 'material-ui/IconButton';
 import Paper from 'material-ui/Paper';
 import { MenuItem } from 'material-ui/Menu';
 import MenuIcon from 'material-ui-icons/Menu';
+import TagGroup from './tagGroup';
+import SearchBar from '../ui/searchBar';
+import { changeTab, changeAutocompleteVisibility, updateSearchTerm, loadTags, loadAllTags } from '../actions';
 
 const styles = theme => ({
   root: {

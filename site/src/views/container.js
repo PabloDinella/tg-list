@@ -6,7 +6,7 @@ import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
 import Tabs, { Tab } from 'material-ui/Tabs';
 import {connect} from 'react-redux'
-import {changeTab, changeAutocompleteVisibility, loadTags, loadAllTags} from '../actions'
+import {changeTab, changeAutocompleteVisibility, updateSearchTerm, loadTags, loadAllTags} from '../actions'
 import SwipeableViews from 'react-swipeable-views'
 import TagGroup from './tagGroup'
 import SearchBar from 'ui/searchBar'
@@ -139,7 +139,7 @@ function getSuggestions(inputValue) {
 
 class Container extends React.Component {
   render() {
-    const { classes, children, selectedTab, showAutocomplete, tags, chats, changeTab, loadTags, loadAllTags, changeAutocompleteVisibility } = this.props;
+    const { classes, children, selectedTab, showAutocomplete, searchTerm, tags, chats, changeTab, loadTags, loadAllTags, changeAutocompleteVisibility, updateSearchTerm } = this.props;
 
     const alphabet = Array.apply(null, {length: 26}).map((x, i) => String.fromCharCode(65 + i))
 
@@ -157,7 +157,7 @@ class Container extends React.Component {
           <Toolbar>
             <div className={classes.autocompleteContainer}>
               <SearchBar
-                onChange={() => console.log('onChange')}
+                onChange={(term) => {updateSearchTerm(term)}}
                 onRequestSearch={() => console.log('onRequestSearch')}
                 onFocus={() => {changeAutocompleteVisibility(true)}}
                 onBlur={() => {changeAutocompleteVisibility(false)}}
@@ -166,9 +166,9 @@ class Container extends React.Component {
                   width: '100%'
                 }}
               />
-              {showAutocomplete ? (
+              {showAutocomplete && searchTerm ? (
                 <Paper className={classes.paper} square>
-                  {getSuggestions('a').map((suggestion, index) =>
+                  {getSuggestions(searchTerm).map((suggestion, index) =>
                     renderSuggestion({
                       suggestion,
                       index,
@@ -231,6 +231,7 @@ const mapStateToProps = (state) => ({
   tags: state.tags,
   chats: state.chats,
   showAutocomplete: state.ui.showAutocomplete,
+  searchTerm: state.search.term,
 })
 
 const mapDispatchToProps = {
@@ -238,6 +239,7 @@ const mapDispatchToProps = {
   loadTags,
   loadAllTags,
   changeAutocompleteVisibility,
+  updateSearchTerm,
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(withStyles(styles)(Container));

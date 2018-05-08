@@ -1,4 +1,4 @@
-import types from '../actions/types'
+import {types} from '../actions'
 
 export default (state = {}, action) => {
   if (action.type === types.FIRESTORE_FETCH_CHATS_BY_TAGS_SUCCEEDED) {

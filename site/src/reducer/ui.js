@@ -1,4 +1,4 @@
-import types from '../actions/types'
+import {types} from '../actions'
 
 export default (state = {
   selectedTab: 0,
@@ -11,7 +11,6 @@ export default (state = {
     };
   }
   if (action.type === types.UI_TOGGLE_AUTOCOMPLETE) {
-    console.log('reducer');
     return {
       ...state,
       showAutocomplete: action.payload.visibility,

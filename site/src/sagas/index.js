@@ -1,5 +1,5 @@
 import { call, put, takeEvery, takeLatest } from 'redux-saga/effects'
-import types from 'actions/types'
+import {types} from 'actions'
 import {firestore} from 'api/firebase'
 
 function* fetchChatsByTags(action) {

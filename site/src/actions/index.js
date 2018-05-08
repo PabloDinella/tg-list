@@ -1,4 +1,16 @@
-import types from './types'
+export const types = {
+  FIRESTORE_FETCH_TAGS: 'FIRESTORE_FETCH_TAGS',
+  FIRESTORE_FETCH_TAGS_SUCCEEDED: 'FIRESTORE_FETCH_TAGS_SUCCEEDED',
+  FIRESTORE_FETCH_CHATS_BY_TAGS: 'FIRESTORE_FETCH_CHATS_BY_TAGS',
+  FIRESTORE_FETCH_CHATS_BY_TAGS_SUCCEEDED: 'FIRESTORE_FETCH_CHATS_BY_TAGS_SUCCEEDED',
+  FIRESTORE_FETCH_CHATS_SUCCEEDED: 'FIRESTORE_FETCH_CHATS_SUCCEEDED',
+
+  UI_CHANGE_TAB: 'UI_CHANGE_TAB',
+  UI_TOGGLE_AUTOCOMPLETE: 'UI_TOGGLE_AUTOCOMPLETE',
+
+  SEARCH_UPDATE_TERM: 'SEARCH_UPDATE_TERM',
+  SEARCH_CLEAN: 'SEARCH_CLEAN',
+}
 
 export const changeTab = (value) => ({
   type: types.UI_CHANGE_TAB,
@@ -10,6 +22,17 @@ export const changeAutocompleteVisibility = (visibility) => ({
   payload: {
     visibility,
   },
+})
+
+export const updateSearchTerm = (term) => ({
+  type: types.SEARCH_UPDATE_TERM,
+  payload: {
+    term,
+  },
+})
+
+export const cleanSearchTerm = () => ({
+  type: types.SEARCH_CLEAN,
 })
 
 export const loadTags = (startAt, endAt) => ({

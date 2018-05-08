@@ -8,46 +8,46 @@ import SearchIcon from 'material-ui-icons/Search'
 import { grey } from 'material-ui/colors'
 
 const getStyles = (props, state) => {
-  const {disabled} = props
-  const {value} = state
+  const { disabled } = props
+  const { value } = state
   const nonEmpty = value.length > 0
 
   return {
     root: {
       height: 48,
       display: 'flex',
-      justifyContent: 'space-between'
+      justifyContent: 'space-between',
     },
     iconButtonClose: {
       style: {
         opacity: !disabled ? 0.54 : 0.38,
         transform: nonEmpty ? 'scale(1, 1)' : 'scale(0, 0)',
-        transition: 'transform 200ms cubic-bezier(0.4, 0.0, 0.2, 1)'
+        transition: 'transform 200ms cubic-bezier(0.4, 0.0, 0.2, 1)',
       },
       iconStyle: {
         opacity: nonEmpty ? 1 : 0,
-        transition: 'opacity 200ms cubic-bezier(0.4, 0.0, 0.2, 1)'
-      }
+        transition: 'opacity 200ms cubic-bezier(0.4, 0.0, 0.2, 1)',
+      },
     },
     iconButtonSearch: {
       style: {
         opacity: !disabled ? 0.54 : 0.38,
         transform: nonEmpty ? 'scale(0, 0)' : 'scale(1, 1)',
         transition: 'transform 200ms cubic-bezier(0.4, 0.0, 0.2, 1)',
-        marginRight: -48
+        marginRight: -48,
       },
       iconStyle: {
         opacity: nonEmpty ? 0 : 1,
-        transition: 'opacity 200ms cubic-bezier(0.4, 0.0, 0.2, 1)'
-      }
+        transition: 'opacity 200ms cubic-bezier(0.4, 0.0, 0.2, 1)',
+      },
     },
     input: {
-      width: '100%'
+      width: '100%',
     },
     searchContainer: {
       margin: 'auto 16px',
-      width: '100%'
-    }
+      width: '100%',
+    },
   }
 }
 
@@ -56,41 +56,41 @@ const getStyles = (props, state) => {
  * @see [Search patterns](https://material.io/guidelines/patterns/search.html)
  */
 export default class SearchBar extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
     this.state = {
       focus: false,
       value: this.props.value,
-      active: false
+      active: false,
     }
   }
 
-  componentWillReceiveProps (nextProps) {
+  componentWillReceiveProps(nextProps) {
     if (this.props.value !== nextProps.value) {
-      this.setState({...this.state, value: nextProps.value})
+      this.setState({ ...this.state, value: nextProps.value })
     }
   }
 
   handleFocus() {
-    this.setState({focus: true})
+    this.setState({ focus: true })
     this.props.onFocus && this.props.onFocus()
   }
 
   handleBlur() {
-    this.setState({focus: false})
+    this.setState({ focus: false })
     if (this.state.value.trim().length === 0) {
-      this.setState({value: ''})
+      this.setState({ value: '' })
     }
     this.props.onBlur && this.props.onBlur()
   }
 
   handleInput(e) {
-    this.setState({value: e.target.value})
+    this.setState({ value: e.target.value })
     this.props.onChange && this.props.onChange(e.target.value)
   }
 
   handleCancel() {
-    this.setState({active: false, value: ''})
+    this.setState({ active: false, value: '' })
     this.props.onChange && this.props.onChange('')
   }
 
@@ -100,7 +100,7 @@ export default class SearchBar extends Component {
     }
   }
 
-  render () {
+  render() {
     const styles = getStyles(this.props, this.state)
     const { value } = this.state
     const {
@@ -116,7 +116,7 @@ export default class SearchBar extends Component {
       <Paper
         style={{
           ...styles.root,
-          ...style
+          ...style,
         }}
       >
         <div style={styles.searchContainer}>
@@ -157,7 +157,10 @@ SearchBar.defaultProps = {
   placeholder: 'Search',
   searchIcon: <SearchIcon style={{ color: grey[500] }} />,
   style: null,
-  value: ''
+  value: '',
+  onChange: null,
+  onFocus: null,
+  onBlur: null,
 }
 
 SearchBar.propTypes = {
@@ -170,11 +173,15 @@ SearchBar.propTypes = {
   /** Fired when the text value changes. */
   onChange: PropTypes.func,
   /** Fired when the search icon is clicked. */
+  onFocus: PropTypes.func,
+  /** Fired when the search input is focused. */
+  onBlur: PropTypes.func,
+  /** Fired when the search input is unfocused. */
   onRequestSearch: PropTypes.func.isRequired,
   /** Override the search icon. */
   searchIcon: PropTypes.node,
   /** Override the inline-styles of the root element. */
-  style: PropTypes.object,
+  style: PropTypes.shape({}),
   /** The value of the text field. */
-  value: PropTypes.string
+  value: PropTypes.string,
 }

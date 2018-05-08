@@ -1,19 +1,19 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { connect } from 'react-redux';
-import SwipeableViews from 'react-swipeable-views';
-import { withStyles } from 'material-ui/styles';
-import AppBar from 'material-ui/AppBar';
-import Toolbar from 'material-ui/Toolbar';
-import Typography from 'material-ui/Typography';
-import Tabs, { Tab } from 'material-ui/Tabs';
-import IconButton from 'material-ui/IconButton';
-import Paper from 'material-ui/Paper';
-import { MenuItem } from 'material-ui/Menu';
-import MenuIcon from 'material-ui-icons/Menu';
-import TagGroup from './tagGroup';
-import SearchBar from '../ui/searchBar';
-import { changeTab, changeAutocompleteVisibility, updateSearchTerm, loadTags, loadAllTags } from '../actions';
+import React from 'react'
+import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
+import SwipeableViews from 'react-swipeable-views'
+import { withStyles } from 'material-ui/styles'
+import AppBar from 'material-ui/AppBar'
+import Toolbar from 'material-ui/Toolbar'
+import Typography from 'material-ui/Typography'
+import Tabs, { Tab } from 'material-ui/Tabs'
+import IconButton from 'material-ui/IconButton'
+import Paper from 'material-ui/Paper'
+import { MenuItem } from 'material-ui/Menu'
+import MenuIcon from 'material-ui-icons/Menu'
+import TagGroup from './tagGroup'
+import SearchBar from '../ui/searchBar'
+import { changeTab, changeAutocompleteVisibility, updateSearchTerm, loadTags, loadAllTags } from '../actions'
 
 const styles = theme => ({
   root: {
@@ -55,7 +55,7 @@ const styles = theme => ({
     flexWrap: 'wrap',
   },
 
-});
+})
 
 const suggestions = [
   { label: 'Afghanistan' },
@@ -92,14 +92,14 @@ const suggestions = [
   { label: 'Brazil' },
   { label: 'British Indian Ocean Territory' },
   { label: 'Brunei Darussalam' },
-];
+]
 
 
 function renderSuggestion({
   suggestion, index, itemProps, highlightedIndex, selectedItem,
 }) {
-  const isHighlighted = highlightedIndex === index;
-  const isSelected = (selectedItem || '').indexOf(suggestion.label) > -1;
+  const isHighlighted = highlightedIndex === index
+  const isSelected = (selectedItem || '').indexOf(suggestion.label) > -1
 
   return (
     <MenuItem
@@ -113,7 +113,7 @@ function renderSuggestion({
     >
       {suggestion.label}
     </MenuItem>
-  );
+  )
 }
 renderSuggestion.propTypes = {
   highlightedIndex: PropTypes.number,
@@ -121,31 +121,31 @@ renderSuggestion.propTypes = {
   itemProps: PropTypes.object,
   selectedItem: PropTypes.string,
   suggestion: PropTypes.shape({ label: PropTypes.string }).isRequired,
-};
+}
 
 function getSuggestions(inputValue) {
-  let count = 0;
+  let count = 0
 
   return suggestions.filter((suggestion) => {
     const keep =
       (!inputValue || suggestion.label.toLowerCase().indexOf(inputValue.toLowerCase()) !== -1) &&
-      count < 5;
+      count < 5
 
     if (keep) {
-      count += 1;
+      count += 1
     }
 
-    return keep;
-  });
+    return keep
+  })
 }
 
 class Container extends React.Component {
   render() {
     const {
       classes, children, selectedTab, showAutocomplete, searchTerm, tags, chats, changeTab, loadTags, loadAllTags, changeAutocompleteVisibility, updateSearchTerm,
-    } = this.props;
+    } = this.props
 
-    const alphabet = Array(...{ length: 26 }).map((x, i) => String.fromCharCode(65 + i));
+    const alphabet = Array(...{ length: 26 }).map((x, i) => String.fromCharCode(65 + i))
 
     return (
       <div className={classes.root}>
@@ -161,10 +161,10 @@ class Container extends React.Component {
           <Toolbar>
             <div className={classes.autocompleteContainer}>
               <SearchBar
-                onChange={(term) => { updateSearchTerm(term); }}
+                onChange={(term) => { updateSearchTerm(term) }}
                 onRequestSearch={() => console.log('onRequestSearch')}
-                onFocus={() => { changeAutocompleteVisibility(true); }}
-                onBlur={() => { changeAutocompleteVisibility(false); }}
+                onFocus={() => { changeAutocompleteVisibility(true) }}
+                onBlur={() => { changeAutocompleteVisibility(false) }}
                 style={{
                   margin: 0,
                   width: '100%',
@@ -192,7 +192,7 @@ class Container extends React.Component {
               indicatorColor="primary"
               textColor="primary"
               scrollable
-              onChange={(ev, val) => { changeTab(val); }}
+              onChange={(ev, val) => { changeTab(val) }}
             >
               {alphabet
                 .map(letter => <Tab label={letter} />)}
@@ -203,30 +203,30 @@ class Container extends React.Component {
           <SwipeableViews
             className={classes.swipeableViews}
             index={selectedTab}
-            onChangeIndex={(index) => { changeTab(index); }}
+            onChangeIndex={(index) => { changeTab(index) }}
           >
             {alphabet
               .slice(0, 3)
               .map((letter, i) => {
-                const nextLetter = alphabet[i + 1] || 'Z';
+                const nextLetter = alphabet[i + 1] || 'Z'
                 return (<TagGroup
                   load={i === selectedTab && tags[letter] !== 'loading'}
-                  loadTags={() => { loadTags(letter, nextLetter); }}
+                  loadTags={() => { loadTags(letter, nextLetter) }}
                   loadAllTags={loadAllTags}
                   data={tags[letter]}
                   chats={chats}
-                />);
+                />)
               })}
           </SwipeableViews>
         </div>
       </div>
-    );
+    )
   }
 }
 
 Container.propTypes = {
   classes: PropTypes.object.isRequired,
-};
+}
 
 const mapStateToProps = state => ({
   messages: state.messages,
@@ -235,7 +235,7 @@ const mapStateToProps = state => ({
   chats: state.chats,
   showAutocomplete: state.ui.showAutocomplete,
   searchTerm: state.search.term,
-});
+})
 
 const mapDispatchToProps = {
   changeTab,
@@ -243,6 +243,6 @@ const mapDispatchToProps = {
   loadAllTags,
   changeAutocompleteVisibility,
   updateSearchTerm,
-};
+}
 
-export default connect(mapStateToProps, mapDispatchToProps)(withStyles(styles)(Container));
+export default connect(mapStateToProps, mapDispatchToProps)(withStyles(styles)(Container))

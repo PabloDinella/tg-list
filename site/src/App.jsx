@@ -1,20 +1,15 @@
-import React, { Component } from 'react';
-import { Set } from 'immutable';
-import Container from './views/container';
-import Entry from './ui/entry';
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import { createMuiTheme } from 'material-ui/styles';
-import createPalette from 'material-ui/styles/createPalette';
-import Typography from 'material-ui/Typography';
-import { blue, red } from 'material-ui/colors';
-import Grid from 'material-ui/Grid';
-import all from './entries.json';
-import { Provider } from 'react-redux';
-import { createStore, applyMiddleware, compose } from 'redux';
-import createSagaMiddleware from 'redux-saga';
-import mySaga from 'sagas';
-
-import rootReducer from './reducer';
+import React, { Component } from 'react'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
+import { createMuiTheme } from 'material-ui/styles'
+import createPalette from 'material-ui/styles/createPalette'
+import Typography from 'material-ui/Typography'
+import { blue, red } from 'material-ui/colors'
+import { Provider } from 'react-redux'
+import { createStore, applyMiddleware, compose } from 'redux'
+import createSagaMiddleware from 'redux-saga'
+import mySaga from './sagas'
+import Container from './views/container'
+import rootReducer from './reducer'
 // const firebase = require("firebase");
 // Required for side-effects
 // require("firebase/firestore");
@@ -34,22 +29,22 @@ const theme = createMuiTheme({
   bible: {
     fontFamily: 'Lora, serif',
   },
-});
+})
 
-const sagaMiddleware = createSagaMiddleware();
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const sagaMiddleware = createSagaMiddleware()
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 
 const store = createStore(
   rootReducer,
   composeEnhancers(applyMiddleware(sagaMiddleware)),
-);
+)
 
-sagaMiddleware.run(mySaga);
+sagaMiddleware.run(mySaga)
 
 class App extends Component {
   constructor(props) {
-    super(props);
-    this.state = { messages: ['um', 'dois'] };
+    super(props)
+    this.state = { messages: ['um', 'dois'] }
   }
   // componentWillMount(){
   //   firebase.initializeApp({
@@ -68,7 +63,7 @@ class App extends Component {
   // }
   render() {
     if (!this.state.messages) {
-      return (<div>loading...</div>);
+      return (<div>loading...</div>)
     }
     return (
       <Provider store={store}>
@@ -89,8 +84,8 @@ class App extends Component {
           </Container>
         </MuiThemeProvider>
       </Provider>
-    );
+    )
   }
 }
 
-export default App;
+export default App

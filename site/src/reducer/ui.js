@@ -1,4 +1,4 @@
-import {types} from '../actions'
+import { types } from '../actions';
 
 export default (state = {
   selectedTab: 0,
@@ -7,7 +7,7 @@ export default (state = {
   if (action.type === types.UI_CHANGE_TAB) {
     return {
       ...state,
-      selectedTab: action.payload
+      selectedTab: action.payload,
     };
   }
   if (action.type === types.UI_TOGGLE_AUTOCOMPLETE) {
@@ -16,5 +16,5 @@ export default (state = {
       showAutocomplete: action.payload.visibility,
     };
   }
-  return state
-}
+  return state;
+};

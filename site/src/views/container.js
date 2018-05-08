@@ -5,17 +5,17 @@ import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
 import Tabs, { Tab } from 'material-ui/Tabs';
-import {connect} from 'react-redux'
-import {changeTab, changeAutocompleteVisibility, updateSearchTerm, loadTags, loadAllTags} from '../actions'
-import SwipeableViews from 'react-swipeable-views'
-import TagGroup from './tagGroup'
-import SearchBar from 'ui/searchBar'
+import { connect } from 'react-redux';
+import { changeTab, changeAutocompleteVisibility, updateSearchTerm, loadTags, loadAllTags } from '../actions';
+import SwipeableViews from 'react-swipeable-views';
+import TagGroup from './tagGroup';
+import SearchBar from 'ui/searchBar';
 import IconButton from 'material-ui/IconButton';
 import Paper from 'material-ui/Paper';
-import {MenuItem} from 'material-ui/Menu';
+import { MenuItem } from 'material-ui/Menu';
 import MenuIcon from 'material-ui-icons/Menu';
 
-const styles = (theme) => ({
+const styles = theme => ({
   root: {
     width: '100%',
     height: '100vh',
@@ -95,7 +95,9 @@ const suggestions = [
 ];
 
 
-function renderSuggestion({ suggestion, index, itemProps, highlightedIndex, selectedItem }) {
+function renderSuggestion({
+  suggestion, index, itemProps, highlightedIndex, selectedItem,
+}) {
   const isHighlighted = highlightedIndex === index;
   const isSelected = (selectedItem || '').indexOf(suggestion.label) > -1;
 
@@ -124,7 +126,7 @@ renderSuggestion.propTypes = {
 function getSuggestions(inputValue) {
   let count = 0;
 
-  return suggestions.filter(suggestion => {
+  return suggestions.filter((suggestion) => {
     const keep =
       (!inputValue || suggestion.label.toLowerCase().indexOf(inputValue.toLowerCase()) !== -1) &&
       count < 5;
@@ -139,9 +141,11 @@ function getSuggestions(inputValue) {
 
 class Container extends React.Component {
   render() {
-    const { classes, children, selectedTab, showAutocomplete, searchTerm, tags, chats, changeTab, loadTags, loadAllTags, changeAutocompleteVisibility, updateSearchTerm } = this.props;
+    const {
+      classes, children, selectedTab, showAutocomplete, searchTerm, tags, chats, changeTab, loadTags, loadAllTags, changeAutocompleteVisibility, updateSearchTerm,
+    } = this.props;
 
-    const alphabet = Array.apply(null, {length: 26}).map((x, i) => String.fromCharCode(65 + i))
+    const alphabet = Array(...{ length: 26 }).map((x, i) => String.fromCharCode(65 + i));
 
     return (
       <div className={classes.root}>
@@ -157,13 +161,13 @@ class Container extends React.Component {
           <Toolbar>
             <div className={classes.autocompleteContainer}>
               <SearchBar
-                onChange={(term) => {updateSearchTerm(term)}}
+                onChange={(term) => { updateSearchTerm(term); }}
                 onRequestSearch={() => console.log('onRequestSearch')}
-                onFocus={() => {changeAutocompleteVisibility(true)}}
-                onBlur={() => {changeAutocompleteVisibility(false)}}
+                onFocus={() => { changeAutocompleteVisibility(true); }}
+                onBlur={() => { changeAutocompleteVisibility(false); }}
                 style={{
                   margin: 0,
-                  width: '100%'
+                  width: '100%',
                 }}
               />
               {showAutocomplete && searchTerm ? (
@@ -175,13 +179,12 @@ class Container extends React.Component {
                       // itemProps: getItemProps({ item: suggestion.label }),
                       // highlightedIndex,
                       // selectedItem: selectedItem2,
-                    }),
-                  )}
+                    }))}
                 </Paper>
               ) : null}
             </div>
           </Toolbar>
-          <div style={{backgroundColor: 'white', color: 'black'}}>
+          <div style={{ backgroundColor: 'white', color: 'black' }}>
             <Tabs
               value={selectedTab}
               onChange={this.handleChange}
@@ -189,7 +192,7 @@ class Container extends React.Component {
               indicatorColor="primary"
               textColor="primary"
               scrollable
-              onChange={(ev, val) => {changeTab(val)}}
+              onChange={(ev, val) => { changeTab(val); }}
             >
               {alphabet
                 .map(letter => <Tab label={letter} />)}
@@ -200,19 +203,19 @@ class Container extends React.Component {
           <SwipeableViews
             className={classes.swipeableViews}
             index={selectedTab}
-            onChangeIndex={(index) => {changeTab(index)}}
+            onChangeIndex={(index) => { changeTab(index); }}
           >
             {alphabet
               .slice(0, 3)
               .map((letter, i) => {
-                const nextLetter = alphabet[i+1] || 'Z'
-                return <TagGroup
+                const nextLetter = alphabet[i + 1] || 'Z';
+                return (<TagGroup
                   load={i === selectedTab && tags[letter] !== 'loading'}
-                  loadTags={() => {loadTags(letter, nextLetter)}}
+                  loadTags={() => { loadTags(letter, nextLetter); }}
                   loadAllTags={loadAllTags}
                   data={tags[letter]}
                   chats={chats}
-                />
+                />);
               })}
           </SwipeableViews>
         </div>
@@ -225,14 +228,14 @@ Container.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = state => ({
   messages: state.messages,
   selectedTab: state.ui.selectedTab,
   tags: state.tags,
   chats: state.chats,
   showAutocomplete: state.ui.showAutocomplete,
   searchTerm: state.search.term,
-})
+});
 
 const mapDispatchToProps = {
   changeTab,
@@ -240,6 +243,6 @@ const mapDispatchToProps = {
   loadAllTags,
   changeAutocompleteVisibility,
   updateSearchTerm,
-}
+};
 
 export default connect(mapStateToProps, mapDispatchToProps)(withStyles(styles)(Container));

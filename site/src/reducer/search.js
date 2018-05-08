@@ -1,4 +1,4 @@
-import {types} from '../actions'
+import { types } from '../actions';
 
 export default (state = {
   term: null,
@@ -15,5 +15,5 @@ export default (state = {
       term: null,
     };
   }
-  return state
-}
+  return state;
+};

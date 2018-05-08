@@ -1,23 +1,23 @@
-import { call, put, takeEvery, takeLatest } from 'redux-saga/effects'
-import {types} from 'actions'
-import {firestore} from 'api/firebase'
+import { call, put, takeEvery, takeLatest } from 'redux-saga/effects';
+import { types } from 'actions';
+import { firestore } from 'api/firebase';
 
 function* fetchChatsByTags(action) {
   try {
-    const {startAt, endAt} = action.payload
-    const ref = firestore.collection('tags').orderBy('label').startAt(startAt).endAt(endAt)
+    const { startAt, endAt } = action.payload;
+    const ref = firestore.collection('tags').orderBy('label').startAt(startAt).endAt(endAt);
     const tags = yield call([ref, ref.get]);
-    for (let doc of tags.docs) {
-      const tagRef = firestore.collection('tags').doc(doc.id).collection('chats')
-      const chats = yield call([tagRef, tagRef.get])
+    for (const doc of tags.docs) {
+      const tagRef = firestore.collection('tags').doc(doc.id).collection('chats');
+      const chats = yield call([tagRef, tagRef.get]);
       yield put({
         type: types.FIRESTORE_FETCH_CHATS_SUCCEEDED,
-        payload: {[doc.id]: chats.docs.map(doc => doc.data())},
-      })
+        payload: { [doc.id]: chats.docs.map(doc => doc.data()) },
+      });
     }
     yield put({
       type: types.FIRESTORE_FETCH_CHATS_BY_TAGS_SUCCEEDED,
-      payload: {[startAt]: tags.docs.map(doc => doc.data().label)}
+      payload: { [startAt]: tags.docs.map(doc => doc.data().label) },
     });
   } catch (e) {
     console.warn('saga erro', e);
@@ -27,8 +27,8 @@ function* fetchChatsByTags(action) {
 
 function* fetchTags() {
   try {
-    const ref = firestore.collection('tags')
-    const tags = yield call([ref, ref.get])
+    const ref = firestore.collection('tags');
+    const tags = yield call([ref, ref.get]);
     // for (let doc of tags.docs) {
     //   const tagRef = firestore.collection('tags').doc(doc.id).collection('chats')
     //   const chats = yield call([tagRef, tagRef.get])
@@ -39,7 +39,7 @@ function* fetchTags() {
     // }
     yield put({
       type: types.FIRESTORE_FETCH_TAGS_SUCCEEDED,
-      payload: {tags: tags.docs.map(doc => doc.data().label)}
+      payload: { tags: tags.docs.map(doc => doc.data().label) },
     });
   } catch (e) {
     console.warn('saga erro', e);

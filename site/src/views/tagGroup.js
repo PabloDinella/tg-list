@@ -4,12 +4,12 @@ import { withStyles } from 'material-ui/styles';
 import AppBar from 'material-ui/AppBar';
 import Toolbar from 'material-ui/Toolbar';
 import Typography from 'material-ui/Typography';
-import {CircularProgress} from 'material-ui/Progress';
+import { CircularProgress } from 'material-ui/Progress';
 import Tabs, { Tab } from 'material-ui/Tabs';
-import {connect} from 'react-redux'
-import {changeTab} from '../actions'
-import SwipeableViews from 'react-swipeable-views'
-import Entry from 'ui/entry'
+import { connect } from 'react-redux';
+import { changeTab } from '../actions';
+import SwipeableViews from 'react-swipeable-views';
+import Entry from 'ui/entry';
 
 const styles = {
   root: {
@@ -29,44 +29,46 @@ const styles = {
 
 class TagGroup extends React.Component {
   componentDidMount() {
-    this.loadTags(this.props.loadAllTags)
+    this.loadTags(this.props.loadAllTags);
   }
 
   componentDidUpdate() {
-    const { data } = this.props
+    const { data } = this.props;
     if (!this.props.load || !!(data && data.length)) {
-      return
+      return;
     }
-    this.loadTags()
+    this.loadTags();
   }
 
   loadTags(cb) {
-    const {data, load} = this.props
+    const { data, load } = this.props;
     if (!load) {
-      return
+      return;
     }
     // if (data && data.length > 0) {
     //   return
     // }
     this.props.loadTags();
-    if (cb) cb()
+    if (cb) cb();
   }
 
   render() {
-    const {classes, load, data, chats} = this.props;
+    const {
+      classes, load, data, chats,
+    } = this.props;
 
     if (!data || data === 'loading') {
-      return <div>
+      return (<div>
         <CircularProgress />
-      </div>
+              </div>);
     }
 
     return (
       <div className={classes.root}>
-        {data.map(tag => <div>
+        {data.map(tag => (<div>
           <Typography className={classes.tagLabel} type="body2" gutterBottom>{tag}</Typography>
           {chats[tag].map(c => <Entry data={c} />)}
-        </div>)}
+                          </div>))}
       </div>
     );
   }
@@ -76,13 +78,13 @@ TagGroup.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = state => ({
   messages: state.messages,
-  selectedTab: state.ui.selectedTab
-})
+  selectedTab: state.ui.selectedTab,
+});
 
 const mapDispatchToProps = {
-  changeTab
-}
+  changeTab,
+};
 
 export default connect(mapStateToProps, mapDispatchToProps)(withStyles(styles)(TagGroup));

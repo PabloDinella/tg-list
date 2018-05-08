@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
-import { Set } from 'immutable'
-import Container from './views/container'
-import Entry from './ui/entry'
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import {createMuiTheme} from 'material-ui/styles'
-import createPalette from 'material-ui/styles/createPalette'
-import Typography from 'material-ui/Typography'
-import {blue, red} from 'material-ui/colors'
-import Grid from 'material-ui/Grid'
-import all from './entries.json'
-import { Provider } from 'react-redux'
-import { createStore, applyMiddleware, compose } from 'redux'
-import createSagaMiddleware from 'redux-saga'
-import mySaga from 'sagas'
+import { Set } from 'immutable';
+import Container from './views/container';
+import Entry from './ui/entry';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import { createMuiTheme } from 'material-ui/styles';
+import createPalette from 'material-ui/styles/createPalette';
+import Typography from 'material-ui/Typography';
+import { blue, red } from 'material-ui/colors';
+import Grid from 'material-ui/Grid';
+import all from './entries.json';
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware, compose } from 'redux';
+import createSagaMiddleware from 'redux-saga';
+import mySaga from 'sagas';
 
-import rootReducer from './reducer'
+import rootReducer from './reducer';
 // const firebase = require("firebase");
 // Required for side-effects
 // require("firebase/firestore");
@@ -34,22 +34,22 @@ const theme = createMuiTheme({
   bible: {
     fontFamily: 'Lora, serif',
   },
-})
+});
 
-const sagaMiddleware = createSagaMiddleware()
+const sagaMiddleware = createSagaMiddleware();
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 const store = createStore(
   rootReducer,
-  composeEnhancers(applyMiddleware(sagaMiddleware))
-)
+  composeEnhancers(applyMiddleware(sagaMiddleware)),
+);
 
-sagaMiddleware.run(mySaga)
+sagaMiddleware.run(mySaga);
 
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { messages: ['um', 'dois'] }
+    this.state = { messages: ['um', 'dois'] };
   }
   // componentWillMount(){
   //   firebase.initializeApp({
@@ -74,19 +74,18 @@ class App extends Component {
       <Provider store={store}>
         <MuiThemeProvider theme={theme}>
           <Container>
-            {this.state.messages.map(tag => {
+            {this.state.messages.map(tag =>
               // if (tag === 'Grupo') return
-              return (
-                <div>
-                  <Typography type="body2" gutterBottom>{tag}</Typography>
-                  {/* <Grid style={{margin: '10px 0 30px'}} container>
+               (
+                 <div>
+                   <Typography type="body2" gutterBottom>{tag}</Typography>
+                   {/* <Grid style={{margin: '10px 0 30px'}} container>
                     {this.state.messages.filter(message => {
                       return message.tags.includes(tag)
                     }).map(i => <Entry data={i} />)}
                   </Grid> */}
-                </div>
-              )
-            })}
+                 </div>
+              ))}
           </Container>
         </MuiThemeProvider>
       </Provider>

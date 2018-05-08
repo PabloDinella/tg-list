@@ -12,8 +12,8 @@ import PeopleIcon from 'material-ui-icons/People';
 import SkipPreviousIcon from 'material-ui-icons/SkipPrevious';
 import PlayArrowIcon from 'material-ui-icons/PlayArrow';
 import SkipNextIcon from 'material-ui-icons/SkipNext';
-import Grid from 'material-ui/Grid'
-import imagePlaceholder from '../static/placeholder.jpg'
+import Grid from 'material-ui/Grid';
+import imagePlaceholder from '../static/placeholder.jpg';
 
 const styles = theme => ({
   button: {
@@ -53,11 +53,11 @@ function MediaControlCard(props) {
 
   const label = data.join && data.join.includes('resolve')
     ? `@${data.join.split('=')[1]}`
-    : data.title
+    : data.title;
 
-  const info = <div>
-    <p>{data.desc.slice(0, 50)}... <span style={{paddingLeft: 20}}>Clique para ver</span></p>
-  </div>
+  const info = (<div>
+    <p>{data.desc.slice(0, 50)}... <span style={{ paddingLeft: 20 }}>Clique para ver</span></p>
+                </div>);
 
   return (
     <Tooltip title={info}>

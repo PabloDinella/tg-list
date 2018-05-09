@@ -50,7 +50,7 @@ const styles = theme => ({
 class Container extends React.Component {
   render() {
     const {
-      classes, children, selectedTab, showAutocomplete, searchTerm, tags, chats, changeTab, loadTags, loadAllTags, changeAutocompleteVisibility, updateSearchTerm,
+      classes, children, selectedTab, showAutocomplete, searchTerm, suggestions, tags, chats, changeTab, loadTags, loadAllTags, changeAutocompleteVisibility, updateSearchTerm,
     } = this.props
 
     const alphabet = Array(...{ length: 26 }).map((x, i) => String.fromCharCode(65 + i))
@@ -79,7 +79,7 @@ class Container extends React.Component {
                 }}
               />
               {showAutocomplete && searchTerm ? (
-                <AutoComplete searchTerm={searchTerm} />
+                <AutoComplete searchTerm={searchTerm} suggestions={suggestions} />
               ) : null}
             </div>
           </Toolbar>
@@ -134,6 +134,7 @@ const mapStateToProps = state => ({
   chats: state.chats,
   showAutocomplete: state.ui.showAutocomplete,
   searchTerm: state.search.term,
+  suggestions: state.allTags,
 })
 
 const mapDispatchToProps = {

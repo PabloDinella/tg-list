@@ -39,7 +39,7 @@ function* fetchTags() {
     // }
     yield put({
       type: types.FIRESTORE_FETCH_TAGS_SUCCEEDED,
-      payload: { tags: tags.docs.map(doc => doc.data().label) },
+      payload: { tags: tags.docs.map(doc => ({label: doc.data().label})) },
     })
   } catch (e) {
     console.warn('saga erro', e)

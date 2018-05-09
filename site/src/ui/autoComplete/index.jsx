@@ -82,6 +82,7 @@ class AutoComplete extends Component {
     const {
       classes,
       searchTerm,
+      suggestions
     } = this.props
 
     return (

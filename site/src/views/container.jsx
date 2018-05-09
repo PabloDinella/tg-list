@@ -11,6 +11,7 @@ import IconButton from 'material-ui/IconButton'
 import Paper from 'material-ui/Paper'
 import { MenuItem } from 'material-ui/Menu'
 import MenuIcon from 'material-ui-icons/Menu'
+import { Route } from 'react-router-dom'
 import TagGroup from './tagGroup'
 import SearchBar from '../ui/searchBar'
 import AutoComplete from '../ui/autoComplete'
@@ -86,7 +87,6 @@ class Container extends React.Component {
           <div style={{ backgroundColor: 'white', color: 'black' }}>
             <Tabs
               value={selectedTab}
-              onChange={this.handleChange}
               fullWidth
               indicatorColor="primary"
               textColor="primary"

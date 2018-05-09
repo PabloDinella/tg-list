@@ -7,6 +7,7 @@ import { blue, red } from 'material-ui/colors'
 import { Provider } from 'react-redux'
 import { createStore, applyMiddleware, compose } from 'redux'
 import createSagaMiddleware from 'redux-saga'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import mySaga from './sagas'
 import Container from './views/container'
 import rootReducer from './reducer'
@@ -66,24 +67,13 @@ class App extends Component {
       return (<div>loading...</div>)
     }
     return (
-      <Provider store={store}>
-        <MuiThemeProvider theme={theme}>
-          <Container>
-            {this.state.messages.map(tag =>
-              // if (tag === 'Grupo') return
-               (
-                 <div>
-                   <Typography type="body2" gutterBottom>{tag}</Typography>
-                   {/* <Grid style={{margin: '10px 0 30px'}} container>
-                    {this.state.messages.filter(message => {
-                      return message.tags.includes(tag)
-                    }).map(i => <Entry data={i} />)}
-                  </Grid> */}
-                 </div>
-              ))}
-          </Container>
-        </MuiThemeProvider>
-      </Provider>
+      <Router>
+        <Provider store={store}>
+          <MuiThemeProvider theme={theme}>
+            <Container />
+          </MuiThemeProvider>
+        </Provider>
+      </Router>
     )
   }
 }

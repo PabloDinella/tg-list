@@ -122,11 +122,11 @@ export default class SearchBar extends Component {
         <div style={styles.searchContainer}>
           <Input
             {...inputProps}
-            onBlur={this.handleBlur}
+            onBlur={() => {this.handleBlur()}}
             value={value}
-            onChange={this.handleInput}
-            onKeyUp={this.handleKeyPressed}
-            onFocus={this.handleFocus}
+            onChange={(ev) => {this.handleInput(ev)}}
+            onKeyUp={(ev) => {this.handleKeyPressed(ev)}}
+            onFocus={() => {this.handleFocus()}}
             fullWidth
             style={styles.input}
             disableUnderline

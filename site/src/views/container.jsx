@@ -13,6 +13,7 @@ import { MenuItem } from 'material-ui/Menu'
 import MenuIcon from 'material-ui-icons/Menu'
 import TagGroup from './tagGroup'
 import SearchBar from '../ui/searchBar'
+import AutoComplete from '../ui/autoComplete'
 import { changeTab, changeAutocompleteVisibility, updateSearchTerm, loadTags, loadAllTags } from '../actions'
 
 const styles = theme => ({
@@ -41,103 +42,10 @@ const styles = theme => ({
     position: 'relative',
     width: '100%',
   },
-  paper: {
-    position: 'absolute',
-    zIndex: 1,
-    marginTop: 1,
-    left: 0,
-    right: 0,
-  },
-  chip: {
-    margin: `${theme.spacing.unit / 2}px ${theme.spacing.unit / 4}px`,
-  },
-  inputRoot: {
-    flexWrap: 'wrap',
-  },
 
 })
 
-const suggestions = [
-  { label: 'Afghanistan' },
-  { label: 'Aland Islands' },
-  { label: 'Albania' },
-  { label: 'Algeria' },
-  { label: 'American Samoa' },
-  { label: 'Andorra' },
-  { label: 'Angola' },
-  { label: 'Anguilla' },
-  { label: 'Antarctica' },
-  { label: 'Antigua and Barbuda' },
-  { label: 'Argentina' },
-  { label: 'Armenia' },
-  { label: 'Aruba' },
-  { label: 'Australia' },
-  { label: 'Austria' },
-  { label: 'Azerbaijan' },
-  { label: 'Bahamas' },
-  { label: 'Bahrain' },
-  { label: 'Bangladesh' },
-  { label: 'Barbados' },
-  { label: 'Belarus' },
-  { label: 'Belgium' },
-  { label: 'Belize' },
-  { label: 'Benin' },
-  { label: 'Bermuda' },
-  { label: 'Bhutan' },
-  { label: 'Bolivia, Plurinational State of' },
-  { label: 'Bonaire, Sint Eustatius and Saba' },
-  { label: 'Bosnia and Herzegovina' },
-  { label: 'Botswana' },
-  { label: 'Bouvet Island' },
-  { label: 'Brazil' },
-  { label: 'British Indian Ocean Territory' },
-  { label: 'Brunei Darussalam' },
-]
 
-
-function renderSuggestion({
-  suggestion, index, itemProps, highlightedIndex, selectedItem,
-}) {
-  const isHighlighted = highlightedIndex === index
-  const isSelected = (selectedItem || '').indexOf(suggestion.label) > -1
-
-  return (
-    <MenuItem
-      {...itemProps}
-      key={suggestion.label}
-      selected={isHighlighted}
-      component="div"
-      style={{
-        fontWeight: isSelected ? 500 : 400,
-      }}
-    >
-      {suggestion.label}
-    </MenuItem>
-  )
-}
-renderSuggestion.propTypes = {
-  highlightedIndex: PropTypes.number,
-  index: PropTypes.number,
-  itemProps: PropTypes.object,
-  selectedItem: PropTypes.string,
-  suggestion: PropTypes.shape({ label: PropTypes.string }).isRequired,
-}
-
-function getSuggestions(inputValue) {
-  let count = 0
-
-  return suggestions.filter((suggestion) => {
-    const keep =
-      (!inputValue || suggestion.label.toLowerCase().indexOf(inputValue.toLowerCase()) !== -1) &&
-      count < 5
-
-    if (keep) {
-      count += 1
-    }
-
-    return keep
-  })
-}
 
 class Container extends React.Component {
   render() {
@@ -171,16 +79,7 @@ class Container extends React.Component {
                 }}
               />
               {showAutocomplete && searchTerm ? (
-                <Paper className={classes.paper} square>
-                  {getSuggestions(searchTerm).map((suggestion, index) =>
-                    renderSuggestion({
-                      suggestion,
-                      index,
-                      // itemProps: getItemProps({ item: suggestion.label }),
-                      // highlightedIndex,
-                      // selectedItem: selectedItem2,
-                    }))}
-                </Paper>
+                <AutoComplete searchTerm={searchTerm} />
               ) : null}
             </div>
           </Toolbar>

@@ -20,6 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "eslint": "eslint src",
+    "build": "react-scripts build",
     "build:prod": "NODE_ENV=prod react-scripts build",
     "test": "react-scripts test --env=jsdom --coverage",
     "test:watch": "react-scripts test --env=jsdom --coverage --watch",

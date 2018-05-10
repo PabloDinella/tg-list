@@ -1,9 +1,10 @@
 import React from 'react'
 import { MenuItem } from 'material-ui/Menu'
+import { Link } from 'react-router-dom'
 
 export default function ({
   suggestion, index, itemProps, highlightedIndex, selectedItem,
-}) {
+}, context) {
   const isHighlighted = highlightedIndex === index
   const isSelected = (selectedItem || '').indexOf(suggestion.label) > -1
 
@@ -12,6 +13,10 @@ export default function ({
       {...itemProps}
       key={suggestion.label}
       selected={isHighlighted}
+      onClick={() => {
+        console.log('mmmmmmmm')
+        // context.history.push(`/${suggestion.label}`)
+      }}
       component="div"
       style={{
         fontWeight: isSelected ? 500 : 400,

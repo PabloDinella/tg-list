@@ -1,10 +1,11 @@
 import React from 'react'
+import { withRouter } from 'react-router-dom'
 import { MenuItem } from 'material-ui/Menu'
 import { Link } from 'react-router-dom'
 
-export default function ({
-  suggestion, index, itemProps, highlightedIndex, selectedItem,
-}, context) {
+export default withRouter(({
+  suggestion, index, itemProps, highlightedIndex, selectedItem, history,
+}) => {
   const isHighlighted = highlightedIndex === index
   const isSelected = (selectedItem || '').indexOf(suggestion.label) > -1
 
@@ -14,8 +15,7 @@ export default function ({
       key={suggestion.label}
       selected={isHighlighted}
       onClick={() => {
-        console.log('mmmmmmmm')
-        // context.history.push(`/${suggestion.label}`)
+        history.push(`/${suggestion.label}`)
       }}
       component="div"
       style={{
@@ -25,7 +25,7 @@ export default function ({
       {suggestion.label}
     </MenuItem>
   )
-}
+})
 
 // renderSuggestion.propTypes = {
 //   highlightedIndex: PropTypes.number,

@@ -1,9 +1,10 @@
 import React from 'react'
+import { withRouter } from 'react-router-dom'
 import { MenuItem } from 'material-ui/Menu'
 
-export default function ({
-  suggestion, index, itemProps, highlightedIndex, selectedItem,
-}) {
+export default withRouter(({
+  suggestion, index, itemProps, highlightedIndex, selectedItem, history
+}) => {
   const isHighlighted = highlightedIndex === index
   const isSelected = (selectedItem || '').indexOf(suggestion.label) > -1
 
@@ -13,6 +14,7 @@ export default function ({
       key={suggestion.label}
       selected={isHighlighted}
       component="div"
+      onMouseDown={() => { history.push(`/${suggestion.label[0]}/${suggestion.label}`)}}
       style={{
         fontWeight: isSelected ? 500 : 400,
       }}
@@ -20,7 +22,7 @@ export default function ({
       {suggestion.label}
     </MenuItem>
   )
-}
+})
 
 // renderSuggestion.propTypes = {
 //   highlightedIndex: PropTypes.number,

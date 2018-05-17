@@ -92,7 +92,7 @@ class HomeView extends React.Component {
               tg-list
             </Typography>
           </Toolbar>
-          <Toolbar>
+          <Toolbar disableGutters style={{paddingLeft: 7, paddingRight: 7, minHeight: 62}}>
             <div className={classes.autocompleteContainer}>
               <SearchBar
                 onChange={(term) => { updateSearchTerm(term) }}

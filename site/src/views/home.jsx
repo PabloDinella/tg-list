@@ -43,9 +43,40 @@ const styles = theme => ({
 
 
 class HomeView extends React.Component {
+  componentDidMount() {
+    this.fetchBasedOnParams()
+  }
+
+  componentDidUpdate(prevProps) {
+    const { match: {params: {letter}}} = this.props
+    const { match: {params: {letter: prevLetter}}} = prevProps
+    if (letter !== prevLetter) this.fetchBasedOnParams()
+  }
+
+  fetchBasedOnParams() {
+    const { match: {params: {letter}}, changeTab } = this.props
+    if (letter && letter.length === 1) {
+      console.log(letter);
+      this.props.changeTab(this.props.match.params.letter.charCodeAt(0) - 65)
+    }
+  }
+
   render() {
     const {
-      classes, children, selectedTab, showAutocomplete, searchTerm, suggestions, tags, chats, changeTab, loadTags, loadAllTags, changeAutocompleteVisibility, updateSearchTerm,
+      classes,
+      children,
+      selectedTab,
+      showAutocomplete,
+      searchTerm,
+      suggestions,
+      tags,
+      chats,
+      changeTab,
+      loadTags,
+      loadAllTags,
+      changeAutocompleteVisibility,
+      updateSearchTerm,
+      match: {params: {tag}},
     } = this.props
 
     const alphabet = Array(...{ length: 26 }).map((x, i) => String.fromCharCode(65 + i))
@@ -99,7 +130,6 @@ class HomeView extends React.Component {
             onChangeIndex={(index) => { changeTab(index) }}
           >
             {alphabet
-              .slice(0, 3)
               .map((letter, i) => {
                 const nextLetter = alphabet[i + 1] || 'Z'
                 return (<TagGroup
@@ -108,6 +138,7 @@ class HomeView extends React.Component {
                   loadAllTags={loadAllTags}
                   data={tags[letter]}
                   chats={chats}
+                  highlightTag={tag}
                 />)
               })}
           </SwipeableViews>

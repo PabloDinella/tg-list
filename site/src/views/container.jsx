@@ -60,8 +60,8 @@ class Container extends React.Component {
 
     return (
       <div className={classes.root}>
-        <Route path="/" exact component={HomeView} />
-        <Route path="/:tag" exact component={TagView} />
+        <Route path="/:letter?/:tag?" exact component={HomeView} />
+        {/* <Route path="/:tag" exact component={TagView} /> */}
       </div>
     )
   }

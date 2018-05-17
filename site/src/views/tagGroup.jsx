@@ -20,6 +20,10 @@ const styles = {
   tagLabel: {
     marginTop: 15,
   },
+  tagLabelHighlight: {
+    marginTop: 15,
+    backgroundColor: 'blanchedalmond',
+  },
 }
 
 class TagGroup extends React.Component {
@@ -44,9 +48,16 @@ class TagGroup extends React.Component {
     if (cb) cb()
   }
 
+  renderTag(tag, chats, className) {
+    return <div>
+      <Typography className={className} type="body2" gutterBottom>{tag}</Typography>
+      {chats[tag] && chats[tag].map(c => <Entry data={c} />)}
+    </div>
+  }
+
   render() {
     const {
-      classes, data, chats,
+      classes, data, chats, highlightTag,
     } = this.props
 
     if (!data || data === 'loading') {
@@ -55,12 +66,10 @@ class TagGroup extends React.Component {
 
     return (
       <div className={classes.root}>
-        {data.map(tag => (
-          <div>
-            <Typography className={classes.tagLabel} type="body2" gutterBottom>{tag}</Typography>
-            {chats[tag].map(c => <Entry data={c} />)}
-          </div>
-        ))}
+        {highlightTag && this.renderTag(highlightTag, chats, classes.tagLabelHighlight)}
+        {data
+          .filter(tag => tag !== highlightTag)
+          .map(tag => this.renderTag(tag, chats, classes.tagLabel))}
       </div>
     )
   }

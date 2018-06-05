@@ -15,11 +15,12 @@
     "react-scripts": "1.1.4",
     "react-swipeable-views": "^0.12.13",
     "redux": "^4.0.0",
-    "redux-saga": "^0.16.0"
+    "redux-saga": "^0.16.0",
+    "serve": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
-    "now-start": "cd build && serve -s ./",
+    "now-start": "serve -s ./build --single",
     "eslint": "eslint src",
     "build": "react-scripts build",
     "build:prod": "NODE_ENV=prod react-scripts build",
@@ -44,7 +45,6 @@
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.7.0",
-    "serve": "^5.0.1"
+    "eslint-plugin-react": "^7.7.0"
   }
 }

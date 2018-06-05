@@ -19,6 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "now-start": "cd build && serve -s ./",
     "eslint": "eslint src",
     "build": "react-scripts build",
     "build:prod": "NODE_ENV=prod react-scripts build",
@@ -43,6 +44,7 @@
     "eslint-config-airbnb": "^16.1.0",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-react": "^7.7.0"
+    "eslint-plugin-react": "^7.7.0",
+    "serve": "^5.0.1"
   }
 }

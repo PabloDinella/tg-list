@@ -1,23 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
-import SwipeableViews from 'react-swipeable-views'
 import { withStyles } from 'material-ui/styles'
-import AppBar from 'material-ui/AppBar'
-import Toolbar from 'material-ui/Toolbar'
-import Typography from 'material-ui/Typography'
-import Tabs, { Tab } from 'material-ui/Tabs'
-import IconButton from 'material-ui/IconButton'
-import Paper from 'material-ui/Paper'
-import { MenuItem } from 'material-ui/Menu'
-import MenuIcon from 'material-ui-icons/Menu'
 import { Route, withRouter } from 'react-router-dom'
-import TagGroup from './tagGroup'
-import SearchBar from '../ui/searchBar'
-import AutoComplete from '../ui/autoComplete'
 import { changeTab, changeAutocompleteVisibility, updateSearchTerm, loadTags, loadAllTags } from '../actions'
 import HomeView from './home'
-import TagView from './tag'
 
 const styles = theme => ({
   root: {
@@ -52,11 +39,7 @@ const styles = theme => ({
 
 class Container extends React.Component {
   render() {
-    const {
-      classes, children, selectedTab, showAutocomplete, searchTerm, suggestions, tags, chats, changeTab, loadTags, loadAllTags, changeAutocompleteVisibility, updateSearchTerm,
-    } = this.props
-
-    const alphabet = Array(...{ length: 26 }).map((x, i) => String.fromCharCode(65 + i))
+    const { classes } = this.props
 
     return (
       <div className={classes.root}>

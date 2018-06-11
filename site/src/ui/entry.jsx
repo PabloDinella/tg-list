@@ -68,7 +68,7 @@ function MediaControlCard(props) {
 
 MediaControlCard.propTypes = {
   classes: PropTypes.shape({}).isRequired,
-  data: PropTypes.arrayOf({}).isRequired,
+  data: PropTypes.shape({}).isRequired,
 }
 
 export default withStyles(styles, { withTheme: true })(MediaControlCard)

@@ -48,10 +48,10 @@ class TagGroup extends React.Component {
     if (cb) cb()
   }
 
-  renderTag(tag, chats, className) {
-    return <div>
+  renderTag(tag, chats, className, key) {
+    return <div key={key}>
       <Typography className={className} type="body2" gutterBottom>{tag}</Typography>
-      {chats[tag] && chats[tag].map(c => <Entry data={c} />)}
+      {chats[tag] && chats[tag].map(c => <Entry key={`entry_${c.link}`} data={c} />)}
     </div>
   }
 
@@ -69,7 +69,7 @@ class TagGroup extends React.Component {
         {highlightTag && this.renderTag(highlightTag, chats, classes.tagLabelHighlight)}
         {data
           .filter(tag => tag !== highlightTag)
-          .map(tag => this.renderTag(tag, chats, classes.tagLabel))}
+          .map(tag => this.renderTag(tag, chats, classes.tagLabel, `tag_${tag}`))}
       </div>
     )
   }
@@ -80,7 +80,6 @@ TagGroup.propTypes = {
   loadAllTags: PropTypes.func.isRequired,
   loadTags: PropTypes.func.isRequired,
   load: PropTypes.bool.isRequired,
-  data: PropTypes.arrayOf.isRequired,
   chats: PropTypes.shape({}).isRequired,
 }
 

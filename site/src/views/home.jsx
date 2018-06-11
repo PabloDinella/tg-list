@@ -8,10 +8,7 @@ import Toolbar from 'material-ui/Toolbar'
 import Typography from 'material-ui/Typography'
 import Tabs, { Tab } from 'material-ui/Tabs'
 import IconButton from 'material-ui/IconButton'
-import Paper from 'material-ui/Paper'
-import { MenuItem } from 'material-ui/Menu'
 import MenuIcon from 'material-ui-icons/Menu'
-import { Route } from 'react-router-dom'
 import TagGroup from './tagGroup'
 import SearchBar from '../ui/searchBar'
 import AutoComplete from '../ui/autoComplete'
@@ -54,7 +51,7 @@ class HomeView extends React.Component {
   }
 
   fetchBasedOnParams() {
-    const { match: {params: {letter}}, changeTab } = this.props
+    const { match: { params: { letter } } } = this.props
     if (letter && letter.length === 1) {
       console.log(letter);
       this.props.changeTab(this.props.match.params.letter.charCodeAt(0) - 65)
@@ -64,7 +61,6 @@ class HomeView extends React.Component {
   render() {
     const {
       classes,
-      children,
       selectedTab,
       showAutocomplete,
       searchTerm,
@@ -119,7 +115,7 @@ class HomeView extends React.Component {
               onChange={(ev, val) => { changeTab(val) }}
             >
               {alphabet
-                .map(letter => <Tab label={letter} />)}
+                .map(letter => <Tab key={`letter_${letter}`} label={letter} />)}
             </Tabs>
           </div>
         </AppBar>
@@ -133,6 +129,7 @@ class HomeView extends React.Component {
               .map((letter, i) => {
                 const nextLetter = alphabet[i + 1] || 'Z'
                 return (<TagGroup
+                  key={`tagGroup_${letter}`}
                   load={i === selectedTab && tags[letter] !== 'loading'}
                   loadTags={() => { loadTags(letter, nextLetter) }}
                   loadAllTags={loadAllTags}

@@ -25,10 +25,21 @@ const styles = (theme) => ({
  * @see [Search patterns](https://material.io/guidelines/patterns/search.html)
  */
 class AutoComplete extends Component {
+  state = {
+    filteredSuggestions: []
+  }
+
+  componentDidUpdate(prevProps) {
+    const {searchTerm} = this.props
+    if (prevProps.searchTerm !== searchTerm) {
+      this.getSuggestions(searchTerm, this.props.suggestions)
+    }
+  }
+
   getSuggestions(inputValue, suggestions) {
     let count = 0
 
-    return suggestions.filter((suggestion) => {
+    const filteredSuggestions = suggestions.filter((suggestion) => {
       const keep =
         (!inputValue || suggestion.label.toLowerCase().indexOf(inputValue.toLowerCase()) !== -1) &&
         count < 5
@@ -39,6 +50,8 @@ class AutoComplete extends Component {
 
       return keep
     })
+
+    this.setState({filteredSuggestions})
   }
 
   render() {
@@ -48,10 +61,20 @@ class AutoComplete extends Component {
       suggestions
     } = this.props
 
+    const {filteredSuggestions} = this.state
+
+    if (!filteredSuggestions.length) {
+      // this.getSuggestions(searchTerm, suggestions)
+      return (
+        <Paper className={classes.paper} square>
+          carregando
+        </Paper>
+      );
+    }
+
     return (
       <Paper className={classes.paper} square>
-        {this
-          .getSuggestions(searchTerm, suggestions)
+        {filteredSuggestions
           .map((suggestion, index) => (
             <Item
               suggestion={suggestion}

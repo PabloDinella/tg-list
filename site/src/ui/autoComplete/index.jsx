@@ -29,17 +29,21 @@ class AutoComplete extends Component {
     filteredSuggestions: []
   }
 
-  componentDidUpdate(prevProps) {
-    const {searchTerm} = this.props
-    if (prevProps.searchTerm !== searchTerm) {
-      this.getSuggestions(searchTerm, this.props.suggestions)
-    }
-  }
+  // componentDidUpdate(prevProps) {
+  //   const {searchTerm} = this.props
+  //   if (prevProps.searchTerm !== searchTerm) {
+  //     // this.getSuggestions(searchTerm, this.props.suggestions)
+  //   }
+  // }
+
+  // getDerivedStateFromProps(props, state) {
+  //
+  // }
 
   getSuggestions(inputValue, suggestions) {
     let count = 0
 
-    const filteredSuggestions = suggestions.filter((suggestion) => {
+    return suggestions.filter((suggestion) => {
       const keep =
         (!inputValue || suggestion.label.toLowerCase().indexOf(inputValue.toLowerCase()) !== -1) &&
         count < 5
@@ -50,8 +54,6 @@ class AutoComplete extends Component {
 
       return keep
     })
-
-    this.setState({filteredSuggestions})
   }
 
   render() {
@@ -61,7 +63,7 @@ class AutoComplete extends Component {
       suggestions
     } = this.props
 
-    const {filteredSuggestions} = this.state
+    const filteredSuggestions = this.getSuggestions(searchTerm, suggestions)
 
     if (!filteredSuggestions.length) {
       // this.getSuggestions(searchTerm, suggestions)

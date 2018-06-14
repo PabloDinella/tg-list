@@ -51,6 +51,17 @@ const getStyles = (props, state) => {
   }
 }
 
+  function debounce(fn, delay) {
+    var timer = null;
+    return function () {
+      var context = this, args = arguments;
+      clearTimeout(timer);
+      timer = setTimeout(function () {
+        fn.apply(context, args);
+      }, delay);
+    };
+  }
+
 /**
  * Material design search bar
  * @see [Search patterns](https://material.io/guidelines/patterns/search.html)
@@ -63,6 +74,12 @@ export default class SearchBar extends Component {
       value: this.props.value,
       active: false,
     }
+  }
+
+  componentWillMount() {
+    this.delayedCallback = debounce(function (event) {
+      this.props.onChange && this.props.onChange(event.target.value)
+     }, 300);
   }
 
   componentWillReceiveProps(nextProps) {
@@ -85,8 +102,10 @@ export default class SearchBar extends Component {
   }
 
   handleInput(e) {
+    e.persist()
     this.setState({ value: e.target.value })
-    this.props.onChange && this.props.onChange(e.target.value)
+    this.delayedCallback(e)
+    // this.props.onChange && this.props.onChange(e.target.value)
   }
 
   handleCancel() {

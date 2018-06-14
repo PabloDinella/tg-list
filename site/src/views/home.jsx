@@ -91,7 +91,7 @@ class HomeView extends React.Component {
           <Toolbar disableGutters style={{paddingLeft: 7, paddingRight: 7, minHeight: 62}}>
             <div className={classes.autocompleteContainer}>
               <SearchBar
-                onChange={(term) => { updateSearchTerm(term) }}
+                onChange={(term) => { updateSearchTerm(term); console.log('update search term'); }}
                 onRequestSearch={() => console.log('onRequestSearch')}
                 onFocus={() => { changeAutocompleteVisibility(true) }}
                 onBlur={() => { changeAutocompleteVisibility(false) }}

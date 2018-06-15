@@ -12,7 +12,7 @@ before_deploy:
   - npm install now --no-save
 deploy:
   - provider: script
-    script: now --public -e NODE_PATH="production" --token $NOW_TOKEN && now alias --token $NOW_TOKEN
+    script: now --public -e NODE_PATH="production" --token $NOW_TOKEN --no-verify && now alias --token $NOW_TOKEN
     skip_cleanup: true
     on:
       master: true

@@ -24,13 +24,14 @@
     "eslint": "eslint src",
     "build": "react-scripts build",
     "build:prod": "NODE_ENV=prod react-scripts build",
-    "test": "react-scripts test --env=jsdom --coverage",
+    "test": "echo no testing yet :P",
+    "test:temporarily": "react-scripts test --env=jsdom --coverage",
     "test:watch": "react-scripts test --env=jsdom --coverage --watch",
     "eject": "react-scripts eject",
     "codecov": "codecov -t $CODECOV_TOKEN",
     "deploy": "now --public -e NODE_ENV=production --npm && now alias",
     "deploy:ci": "now --public -e NODE_ENV=production --token $NOW_TOKEN --npm",
-    "deploy:alias": "now alias --token=$NOW_TOKEN && now scale --token=$NOW_TOKEN tg-list.now.sh 1"
+    "deploy:alias": "now alias --token=$NOW_TOKEN && now scale --token=$NOW_TOKEN tg-list.now.sh all 1 1"
   },
   "jest": {
     "collectCoverageFrom": [

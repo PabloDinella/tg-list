@@ -7,6 +7,7 @@ function* fetchChatsByTags(action) {
     const { startAt, endAt } = action.payload
     const ref = firestore.collection('tags').orderBy('label').startAt(startAt).endAt(endAt)
     const tags = yield call([ref, ref.get])
+    // eslint-disable-next-line no-restricted-syntax
     for (const doc of tags.docs) {
       const tagRef = firestore.collection('tags').doc(doc.id).collection('chats')
       const chats = yield call([tagRef, tagRef.get])
@@ -20,7 +21,7 @@ function* fetchChatsByTags(action) {
       payload: { [startAt]: tags.docs.map(doc => doc.data().label) },
     })
   } catch (e) {
-    console.warn('saga erro', e)
+    // console.warn('saga erro', e)
     // yield put({type: "USER_FETCH_FAILED", message: e.message});
   }
 }
@@ -39,10 +40,10 @@ function* fetchTags() {
     // }
     yield put({
       type: types.FIRESTORE_FETCH_TAGS_SUCCEEDED,
-      payload: { tags: tags.docs.map(doc => ({label: doc.data().label})) },
+      payload: { tags: tags.docs.map(doc => ({ label: doc.data().label })) },
     })
   } catch (e) {
-    console.warn('saga erro', e)
+    // console.warn('saga erro', e)
     // yield put({type: "USER_FETCH_FAILED", message: e.message});
   }
 }

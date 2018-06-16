@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import { createMuiTheme } from 'material-ui/styles'
 import createPalette from 'material-ui/styles/createPalette'
@@ -10,9 +10,6 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import mySaga from './sagas'
 import Container from './views/container'
 import rootReducer from './reducer'
-// const firebase = require("firebase");
-// Required for side-effects
-// require("firebase/firestore");
 
 const theme = createMuiTheme({
   palette: createPalette({
@@ -32,6 +29,7 @@ const theme = createMuiTheme({
 })
 
 const sagaMiddleware = createSagaMiddleware()
+// eslint-disable-next-line no-undef, no-underscore-dangle
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose
 
 const store = createStore(
@@ -41,40 +39,14 @@ const store = createStore(
 
 sagaMiddleware.run(mySaga)
 
-class App extends Component {
-  constructor(props) {
-    super(props)
-    this.state = { messages: ['um', 'dois'] }
-  }
-  // componentWillMount(){
-  //   firebase.initializeApp({
-  //     apiKey: "AIzaSyAi1KlX6q2P3Be3M1gvwt-fLlwg0G7e53A",
-  //     authDomain: "tg-list.firebaseapp.com",
-  //     databaseURL: "https://tg-list.firebaseio.com",
-  //     projectId: "tg-list",
-  //     storageBucket: "tg-list.appspot.com",
-  //     messagingSenderId: "983638119768"
-  //   });
-  //
-  //   var db = firebase.firestore();
-  //   db.collection('tags').limit(10).get().then(snapshot => {
-  //     this.setState({ messages: snapshot.docs.map(doc => doc.id)})
-  //   })
-  // }
-  render() {
-    if (!this.state.messages) {
-      return (<div>loading...</div>)
-    }
-    return (
-      <Router>
-        <Provider store={store}>
-          <MuiThemeProvider theme={theme}>
-            <Container />
-          </MuiThemeProvider>
-        </Provider>
-      </Router>
-    )
-  }
-}
+const App = () => (
+  <Router>
+    <Provider store={store}>
+      <MuiThemeProvider theme={theme}>
+        <Container />
+      </MuiThemeProvider>
+    </Provider>
+  </Router>
+)
 
 export default App

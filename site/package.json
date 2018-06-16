@@ -21,12 +21,11 @@
   "scripts": {
     "start": "react-scripts start",
     "now-start": "serve -s ./build",
-    "eslint": "eslint src",
+    "eslint": "eslint --ext .jsx src",
     "build": "react-scripts build",
     "build:prod": "NODE_ENV=prod react-scripts build",
-    "test": "echo no testing yet :P",
-    "test:temporarily": "react-scripts test --env=jsdom --coverage",
-    "test:watch": "react-scripts test --env=jsdom --coverage --watch",
+    "test": "react-scripts test --env=jsdom --coverage",
+    "test:watch": "yarn test --watch",
     "eject": "react-scripts eject",
     "codecov": "codecov -t $CODECOV_TOKEN",
     "deploy": "now --public -e NODE_ENV=production --npm && now alias",
@@ -35,8 +34,9 @@
   },
   "jest": {
     "collectCoverageFrom": [
-      "src/**/*.{js}",
+      "src/**/*.{(js|jsx)}",
       "!src/index.js",
+      "!src/api/firebase/*",
       "!src/registerServiceWorker.js"
     ]
   },

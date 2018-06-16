@@ -17,10 +17,17 @@ export const changeTab = value => ({
   payload: value,
 })
 
-export const changeAutocompleteVisibility = visibility => ({
+export const showAutocomplete = () => ({
   type: types.UI_TOGGLE_AUTOCOMPLETE,
   payload: {
-    visibility,
+    visibility: true,
+  },
+})
+
+export const hideAutocomplete = () => ({
+  type: types.UI_TOGGLE_AUTOCOMPLETE,
+  payload: {
+    visibility: false,
   },
 })
 

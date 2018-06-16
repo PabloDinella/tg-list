@@ -12,9 +12,9 @@ import MenuIcon from 'material-ui-icons/Menu'
 import TagGroup from './tagGroup'
 import SearchBar from '../ui/searchBar'
 import AutoComplete from '../ui/autoComplete'
-import { changeTab, changeAutocompleteVisibility, updateSearchTerm, loadTags, loadAllTags } from '../actions'
+import { changeTab, showAutocomplete, hideAutocomplete, updateSearchTerm, loadTags, loadAllTags } from '../actions'
 
-const styles = theme => ({
+const styles = () => ({
   container: {
     padding: 20,
     flex: '1',
@@ -36,8 +36,6 @@ const styles = theme => ({
   },
 
 })
-
-
 
 class HomeView extends React.Component {
   componentDidMount() {
@@ -62,7 +60,7 @@ class HomeView extends React.Component {
     const {
       classes,
       selectedTab,
-      showAutocomplete,
+      autocompleteVisible,
       searchTerm,
       suggestions,
       tags,
@@ -70,7 +68,8 @@ class HomeView extends React.Component {
       changeTab,
       loadTags,
       loadAllTags,
-      changeAutocompleteVisibility,
+      showAutocomplete,
+      hideAutocomplete,
       updateSearchTerm,
       match: {params: {tag}},
     } = this.props
@@ -93,14 +92,14 @@ class HomeView extends React.Component {
               <SearchBar
                 onChange={(term) => { updateSearchTerm(term); console.log('update search term'); }}
                 onRequestSearch={() => console.log('onRequestSearch')}
-                onFocus={() => { changeAutocompleteVisibility(true) }}
-                onBlur={() => { changeAutocompleteVisibility(false) }}
+                onFocus={() => { showAutocomplete() }}
+                onBlur={() => { hideAutocomplete() }}
                 style={{
                   margin: 0,
                   width: '100%',
                 }}
               />
-              {showAutocomplete && searchTerm ? (
+              {autocompleteVisible && searchTerm ? (
                 <AutoComplete searchTerm={searchTerm} suggestions={suggestions} />
               ) : null}
             </div>
@@ -146,7 +145,20 @@ class HomeView extends React.Component {
 }
 
 HomeView.propTypes = {
-  classes: PropTypes.object.isRequired,
+  classes: PropTypes.shape({}).isRequired,
+  selectedTab: PropTypes.number.isRequired,
+  autocompleteVisible: PropTypes.bool.isRequired,
+  searchTerm: PropTypes.string.isRequired,
+  suggestions: PropTypes.arrayOf({}).isRequired,
+  tags: PropTypes.arrayOf({}).isRequired,
+  chats: PropTypes.arrayOf({}).isRequired,
+  changeTab: PropTypes.func.isRequired,
+  loadTags: PropTypes.func.isRequired,
+  loadAllTags: PropTypes.func.isRequired,
+  showAutocomplete: PropTypes.func.isRequired,
+  hideAutocomplete: PropTypes.func.isRequired,
+  updateSearchTerm: PropTypes.func.isRequired,
+  match: PropTypes.shape().isRequired,
 }
 
 const mapStateToProps = state => ({
@@ -154,7 +166,7 @@ const mapStateToProps = state => ({
   selectedTab: state.ui.selectedTab,
   tags: state.tags,
   chats: state.chats,
-  showAutocomplete: state.ui.showAutocomplete,
+  autocompleteVisible: state.ui.showAutocomplete,
   searchTerm: state.search.term,
   suggestions: state.allTags,
 })
@@ -163,7 +175,8 @@ const mapDispatchToProps = {
   changeTab,
   loadTags,
   loadAllTags,
-  changeAutocompleteVisibility,
+  showAutocomplete,
+  hideAutocomplete,
   updateSearchTerm,
 }
 

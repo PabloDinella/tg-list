@@ -51,16 +51,15 @@ const getStyles = (props, state) => {
   }
 }
 
-  function debounce(fn, delay) {
-    var timer = null;
-    return function () {
-      var context = this, args = arguments;
-      clearTimeout(timer);
-      timer = setTimeout(function () {
-        fn.apply(context, args);
-      }, delay);
-    };
-  }
+function debounce(func, delay) {
+  let timer = 0;
+  return function debouncedFn() {
+    if (Date.now() - timer > delay) {
+      func.apply(this, arguments);
+    }
+    timer = Date.now();
+  };
+}
 
 /**
  * Material design search bar
@@ -77,8 +76,9 @@ export default class SearchBar extends Component {
   }
 
   componentWillMount() {
+    const { onChange } = this.props
     this.delayedCallback = debounce(function (event) {
-      this.props.onChange && this.props.onChange(event.target.value)
+      onChange && onChange(event.target.value)
      }, 300);
   }
 

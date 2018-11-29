@@ -10,7 +10,6 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import mySaga from './sagas'
 import Container from './views/container'
 import rootReducer from './reducer'
-import Teste from './ui/Teste'
 
 const theme = createMuiTheme({
   palette: createPalette({

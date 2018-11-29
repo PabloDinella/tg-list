@@ -1,8 +1,8 @@
 import React from 'react'
-import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
-import { createMuiTheme } from 'material-ui/styles'
-import createPalette from 'material-ui/styles/createPalette'
-import { blue, red } from 'material-ui/colors'
+import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider'
+import { createMuiTheme } from '@material-ui/core/styles'
+import createPalette from '@material-ui/core/styles/createPalette'
+import { blue, red } from '@material-ui/core/colors'
 import { Provider } from 'react-redux'
 import { createStore, applyMiddleware, compose } from 'redux'
 import createSagaMiddleware from 'redux-saga'
@@ -10,6 +10,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import mySaga from './sagas'
 import Container from './views/container'
 import rootReducer from './reducer'
+import Teste from './ui/Teste'
 
 const theme = createMuiTheme({
   palette: createPalette({
@@ -39,14 +40,17 @@ const store = createStore(
 
 sagaMiddleware.run(mySaga)
 
-const App = () => (
-  <Router>
-    <Provider store={store}>
-      <MuiThemeProvider theme={theme}>
-        <Container />
-      </MuiThemeProvider>
-    </Provider>
-  </Router>
-)
+const App = () => {
+  console.log('oi', Router)
+  return (
+    <Router>
+      <Provider store={store}>
+        <MuiThemeProvider theme={theme}>
+          <Container />
+        </MuiThemeProvider>
+      </Provider>
+    </Router>
+  )
+}
 
 export default App

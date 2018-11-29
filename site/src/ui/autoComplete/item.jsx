@@ -1,6 +1,6 @@
 import React from 'react'
 import { withRouter } from 'react-router-dom'
-import { MenuItem } from 'material-ui/Menu'
+import { MenuItem } from '@material-ui/core/Menu'
 
 export default withRouter(({
   suggestion, index, itemProps, highlightedIndex, selectedItem, history

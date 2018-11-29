@@ -1,5 +1,5 @@
 import React from 'react'
-import { createShallow } from 'material-ui/test-utils'
+import { createShallow } from '@material-ui/core/test-utils'
 import App from './App'
 
 const shallow = createShallow()
